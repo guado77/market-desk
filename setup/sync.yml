@@ -1,0 +1,87 @@
+name: Sync wrap outputs
+
+# Copia gli ultimi output (png/pdf/xlsx) dei wrap privati nel sito pubblico.
+# Token: WRAPS_READ_TOKEN (sola lettura sui repo dei wrap) e, facoltativo,
+# PRIVATE_MIRROR_TOKEN (scrittura SOLO su guado77/market-desk-private).
+on:
+  schedule:
+    - cron: "17 */2 * * *"        # ogni 2 ore
+  workflow_dispatch:
+  repository_dispatch:
+    types: [wrap-updated]          # un wrap puo' chiedere un aggiornamento immediato
+
+permissions:
+  contents: write                  # solo per committare in QUESTO repo
+
+concurrency:
+  group: market-desk-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Controllo token
+        id: tok
+        env:
+          WRAPS_READ_TOKEN: ${{ secrets.WRAPS_READ_TOKEN }}
+          PRIVATE_MIRROR_TOKEN: ${{ secrets.PRIVATE_MIRROR_TOKEN }}
+        run: |
+          if [ -z "$WRAPS_READ_TOKEN" ]; then
+            echo "::warning::Secret WRAPS_READ_TOKEN mancante: sincronizzazione saltata. Vedi README, sezione 'Token'."
+            echo "go=no" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=yes" >> "$GITHUB_OUTPUT"
+          fi
+          if [ -n "$PRIVATE_MIRROR_TOKEN" ]; then echo "mirror=yes" >> "$GITHUB_OUTPUT"; else
+            echo "PRIVATE_MIRROR_TOKEN assente: PDF Bloomberg/S&P non copiati nel repo privato (il sito mostra comunque i titoli)."
+            echo "mirror=no" >> "$GITHUB_OUTPUT"; fi
+
+      - uses: actions/checkout@v4
+        if: steps.tok.outputs.go == 'yes'
+
+      - uses: actions/checkout@v4
+        if: steps.tok.outputs.go == 'yes' && steps.tok.outputs.mirror == 'yes'
+        with:
+          repository: guado77/market-desk-private
+          token: ${{ secrets.PRIVATE_MIRROR_TOKEN }}
+          path: _private
+
+      - uses: actions/setup-python@v5
+        if: steps.tok.outputs.go == 'yes'
+        with:
+          python-version: "3.12"
+
+      - name: Sincronizza
+        if: steps.tok.outputs.go == 'yes'
+        env:
+          WRAPS_READ_TOKEN: ${{ secrets.WRAPS_READ_TOKEN }}
+          MIRROR_DIR: ${{ steps.tok.outputs.mirror == 'yes' && '_private' || '' }}
+        run: python scripts/sync_wraps.py
+
+      - name: Controllo nomi file (Windows) e segreti
+        if: steps.tok.outputs.go == 'yes'
+        run: python scripts/check_publish.py assets manifest.json
+
+      - name: Commit repo privato
+        if: steps.tok.outputs.go == 'yes' && steps.tok.outputs.mirror == 'yes'
+        working-directory: _private
+        run: |
+          git config user.name "market-desk-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "repo privato: nessuna novita'"; else
+            git commit -q -m "sync PDF $(date -u +%Y-%m-%dT%H:%MZ)" && git push; fi
+
+      - name: Commit sito pubblico
+        if: steps.tok.outputs.go == 'yes'
+        run: |
+          git config user.name "market-desk-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A assets manifest.json
+          if git diff --cached --quiet; then echo "nessuna novita'"; else
+            git commit -q -m "sync output $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase -q || true
+            git push
+          fi
