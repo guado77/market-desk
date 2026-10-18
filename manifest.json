@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T21:12:02Z",
+ "generated_at": "2026-10-18T21:37:21Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -11,6 +11,17 @@
    "desc": "Wrap cross-asset del mattino e della sera.",
    "credit": null,
    "files": [
+    {
+     "name": "wrap_evening_20261018_2329.png",
+     "name_orig": "wrap_evening_20261018_2329.png",
+     "path": "assets/market-wrap/wrap_evening_20261018_2329.png",
+     "type": "png",
+     "date": "2026-10-18T21:32:38Z",
+     "size": 241021,
+     "sha": "c8d2243ebd9d878f36c02b152ce21849009ac5c9",
+     "source": "artifact:market-wrap-evening/wrap_evening_20261018_2329.png",
+     "artifact": 12151323648
+    },
     {
      "name": "wrap_evening_20261017_0055.png",
      "name_orig": "wrap_evening_20261017_0055.png",
@@ -56,15 +67,15 @@
      "artifact": 11973798485
     },
     {
-     "name": "wrap_evening_20261015_0120.png",
-     "name_orig": "wrap_evening_20261015_0120.png",
-     "path": "assets/market-wrap/wrap_evening_20261015_0120.png",
-     "type": "png",
-     "date": "2026-10-14T23:21:29Z",
-     "size": 251746,
-     "sha": "3e3232974a8072233e6a7fe2c92f9935ab1b059d",
-     "source": "artifact:market-wrap-evening/wrap_evening_20261015_0120.png",
-     "artifact": 11936151497
+     "name": "market-wrap-2026-10-18-2329.pdf",
+     "name_orig": "market-wrap-2026-10-18-2329.pdf",
+     "path": "assets/market-wrap/market-wrap-2026-10-18-2329.pdf",
+     "type": "pdf",
+     "date": "2026-10-18T21:32:38Z",
+     "size": 1061508,
+     "sha": "4c2ea58e2e7e7d06aba17bd3033cec6dbdbaa6f5",
+     "source": "artifact:market-wrap-evening/market-wrap-2026-10-18-2329.pdf",
+     "artifact": 12151323648
     },
     {
      "name": "market-wrap-2026-10-17-0055.pdf",
@@ -109,24 +120,13 @@
      "sha": "512b1e0ede00eb1886821ae1a466af5a125b006a",
      "source": "artifact:market-wrap-morning/market-wrap-2026-10-15-1450.pdf",
      "artifact": 11973798485
-    },
-    {
-     "name": "market-wrap-2026-10-15-0120.pdf",
-     "name_orig": "market-wrap-2026-10-15-0120.pdf",
-     "path": "assets/market-wrap/market-wrap-2026-10-15-0120.pdf",
-     "type": "pdf",
-     "date": "2026-10-14T23:21:29Z",
-     "size": 1049911,
-     "sha": "dc9c330ffbf988ad45fe549078065a3d1d212d0b",
-     "source": "artifact:market-wrap-evening/market-wrap-2026-10-15-0120.pdf",
-     "artifact": 11936151497
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
-   "hero": "assets/market-wrap/wrap_evening_20261017_0055.png",
-   "updated": "2026-10-16T22:56:27Z"
+   "hero": "assets/market-wrap/wrap_evening_20261018_2329.png",
+   "updated": "2026-10-18T21:32:38Z"
   },
   {
    "id": "desk",
@@ -136,6 +136,17 @@
    "desc": "Card giornaliera del desk (canale pubblico).",
    "credit": null,
    "files": [
+    {
+     "name": "card-2026-10-18-2136Z.png",
+     "name_orig": "card-2026-10-18-2136Z.png",
+     "path": "assets/desk/card-2026-10-18-2136Z.png",
+     "type": "png",
+     "date": "2026-10-18T21:36:00Z",
+     "size": 132934,
+     "sha": "c6a1d8137a59597852963ad263a2e31343d8663b",
+     "source": "out/card-2026-10-18-2136Z.png",
+     "artifact": null
+    },
     {
      "name": "card-2026-10-16-2336Z.png",
      "name_orig": "card-2026-10-16-2336Z.png",
@@ -179,24 +190,13 @@
      "sha": "5aaffb79ea9ed0505f633cde5cf5b0873b7ce6c9",
      "source": "out/card-2026-10-14-0018Z.png",
      "artifact": null
-    },
-    {
-     "name": "card-2026-10-13-0234Z.png",
-     "name_orig": "card-2026-10-13-0234Z.png",
-     "path": "assets/desk/card-2026-10-13-0234Z.png",
-     "type": "png",
-     "date": "2026-10-13T02:34:00Z",
-     "size": 139462,
-     "sha": "0d443120ec913ceabb123ac6cdf5342a9791d3f3",
-     "source": "out/card-2026-10-13-0234Z.png",
-     "artifact": null
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
-   "hero": "assets/desk/card-2026-10-16-2336Z.png",
-   "updated": "2026-10-16T23:36:00Z"
+   "hero": "assets/desk/card-2026-10-18-2136Z.png",
+   "updated": "2026-10-18T21:36:00Z"
   },
   {
    "id": "tvol-wrap",
