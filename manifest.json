@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T21:37:21Z",
+ "generated_at": "2026-10-18T21:58:16Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -127,6 +127,20 @@
    "error": null,
    "hero": "assets/market-wrap/wrap_evening_20261018_2329.png",
    "updated": "2026-10-18T21:32:38Z"
+  },
+  {
+   "id": "headline-wrap",
+   "title": "Headline Wrap",
+   "repo": "market-wrap",
+   "kind": "wrap",
+   "desc": "Digest delle headline (08/13/18). Oggi esce come testo su Telegram: nessun file salvato.",
+   "credit": null,
+   "files": [],
+   "papers": [],
+   "headlines": [],
+   "error": null,
+   "hero": null,
+   "updated": null
   },
   {
    "id": "desk",
@@ -328,37 +342,96 @@
    "title": "Fixed Income",
    "repo": "fi-wrap",
    "kind": "wrap",
-   "desc": "Fixed income settimanale e giornaliero.",
+   "desc": "Fixed Income Wrap (workflow principale).",
    "credit": null,
    "files": [
     {
-     "name": "fixed-income-giornaliero.png",
-     "name_orig": "fixed-income-giornaliero.png",
-     "path": "assets/fi-wrap/fixed-income-giornaliero.png",
+     "name": "fixed-income-2026-10-16-1.png",
+     "name_orig": "fixed-income-2026-10-16-1.png",
+     "path": "assets/fi-wrap/fixed-income-2026-10-16-1.png",
      "type": "png",
-     "date": "2026-10-13T02:47:51Z",
-     "size": 381814,
-     "sha": "b47766f1c3134eb6a7d9e207abca38da709172d0",
-     "source": "artifact:prova-fixed-income-giornaliero/fixed-income-giornaliero.png",
-     "artifact": 11785519992
+     "date": "2026-10-16T10:00:00Z",
+     "size": 694292,
+     "sha": "aaf2aa8cb521dd26b91a5235695ee9e2d2911af4",
+     "source": "artifact:fixed-income-wrap/fixed-income-2026-10-16-1.png",
+     "artifact": 12151129087
     },
     {
-     "name": "fixed-income-giornaliero.pdf",
-     "name_orig": "fixed-income-giornaliero.pdf",
-     "path": "assets/fi-wrap/fixed-income-giornaliero.pdf",
+     "name": "fixed-income-2026-10-16-2.png",
+     "name_orig": "fixed-income-2026-10-16-2.png",
+     "path": "assets/fi-wrap/fixed-income-2026-10-16-2.png",
+     "type": "png",
+     "date": "2026-10-16T10:00:00Z",
+     "size": 248675,
+     "sha": "580d91d435976efb3c3c8f3154bf49ca106e5d9f",
+     "source": "artifact:fixed-income-wrap/fixed-income-2026-10-16-2.png",
+     "artifact": 12151129087
+    },
+    {
+     "name": "fixed-income-2026-10-16.png",
+     "name_orig": "fixed-income-2026-10-16.png",
+     "path": "assets/fi-wrap/fixed-income-2026-10-16.png",
+     "type": "png",
+     "date": "2026-10-16T10:00:00Z",
+     "size": 747580,
+     "sha": "12140b3c15119ac80311a83ffac407c83d638df8",
+     "source": "artifact:fixed-income-wrap/fixed-income-2026-10-16.png",
+     "artifact": 12151129087
+    },
+    {
+     "name": "fixed-income-2026-10-16.pdf",
+     "name_orig": "fixed-income-2026-10-16.pdf",
+     "path": "assets/fi-wrap/fixed-income-2026-10-16.pdf",
      "type": "pdf",
-     "date": "2026-10-13T02:47:51Z",
-     "size": 20060,
-     "sha": "91eb872cfb3e55683400d15f03757874fa4d172f",
-     "source": "artifact:prova-fixed-income-giornaliero/fixed-income-giornaliero.pdf",
-     "artifact": 11785519992
+     "date": "2026-10-16T10:00:00Z",
+     "size": 30952,
+     "sha": "7de17879c06e7aa2d1ad01f47a8f2ba8c88d8200",
+     "source": "artifact:fixed-income-wrap/fixed-income-2026-10-16.pdf",
+     "artifact": 12151129087
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
-   "hero": "assets/fi-wrap/fixed-income-giornaliero.png",
-   "updated": "2026-10-13T02:47:51Z"
+   "hero": "assets/fi-wrap/fixed-income-2026-10-16-1.png",
+   "updated": "2026-10-16T10:00:00Z"
+  },
+  {
+   "id": "fi-giornaliero",
+   "title": "Fixed Income · giornaliero",
+   "repo": "fi-wrap",
+   "kind": "wrap",
+   "desc": "Pagina giornaliera Fixed Income (workflow 'Fixed Income giornaliero').",
+   "credit": null,
+   "files": [
+    {
+     "name": "fixed-income-giornaliero.png",
+     "name_orig": "fixed-income-giornaliero.png",
+     "path": "assets/fi-giornaliero/fixed-income-giornaliero.png",
+     "type": "png",
+     "date": "2026-10-18T21:51:47Z",
+     "size": 688522,
+     "sha": "cfa1f05dff3cd4c89bd5945bc53889af770d5e18",
+     "source": "artifact:prova-fixed-income-giornaliero/fixed-income-giornaliero.png",
+     "artifact": 12152071173
+    },
+    {
+     "name": "fixed-income-giornaliero.pdf",
+     "name_orig": "fixed-income-giornaliero.pdf",
+     "path": "assets/fi-giornaliero/fixed-income-giornaliero.pdf",
+     "type": "pdf",
+     "date": "2026-10-18T21:51:47Z",
+     "size": 24138,
+     "sha": "9d2092fdad1c7be40136cf6e6a9831ddcf5cf4c9",
+     "source": "artifact:prova-fixed-income-giornaliero/fixed-income-giornaliero.pdf",
+     "artifact": 12152071173
+    }
+   ],
+   "papers": [],
+   "headlines": [],
+   "error": null,
+   "hero": "assets/fi-giornaliero/fixed-income-giornaliero.png",
+   "updated": "2026-10-18T21:51:47Z"
   },
   {
    "id": "ice-evening-wrap",
@@ -454,51 +527,77 @@
      "name_orig": "market_wrap_analisi.png",
      "path": "assets/pun-wrap/market_wrap_analisi.png",
      "type": "png",
-     "date": "2026-10-16T23:08:25Z",
-     "size": 554253,
-     "sha": "2ec59bc4b8d6e0f97e6ce4f6991da02e9193c0fc",
+     "date": "2026-10-18T21:45:27Z",
+     "size": 574181,
+     "sha": "b3014f80c447410862783b52436ab9c1bdcd1b82",
      "source": "artifact:pun-wrap-immagini/market_wrap_analisi.png",
-     "artifact": 12080094519
+     "artifact": 12151697786
     },
     {
      "name": "market_wrap_bolletta.png",
      "name_orig": "market_wrap_bolletta.png",
      "path": "assets/pun-wrap/market_wrap_bolletta.png",
      "type": "png",
-     "date": "2026-10-16T23:08:25Z",
-     "size": 161770,
-     "sha": "a817255aa20e474992b97b900bae883ec15c507b",
+     "date": "2026-10-18T21:45:27Z",
+     "size": 161728,
+     "sha": "f4171853eba6e76258c65ef09437570933af7f98",
      "source": "artifact:pun-wrap-immagini/market_wrap_bolletta.png",
-     "artifact": 12080094519
-    },
-    {
-     "name": "market_wrap_fondamentali.png",
-     "name_orig": "market_wrap_fondamentali.png",
-     "path": "assets/pun-wrap/market_wrap_fondamentali.png",
-     "type": "png",
-     "date": "2026-10-16T23:08:25Z",
-     "size": 84423,
-     "sha": "be7f10d23d1de61e634574f41cb21b65f60ee163",
-     "source": "artifact:pun-wrap-immagini/market_wrap_fondamentali.png",
-     "artifact": 12080094519
+     "artifact": 12151697786
     },
     {
      "name": "market_wrap_gme.png",
      "name_orig": "market_wrap_gme.png",
      "path": "assets/pun-wrap/market_wrap_gme.png",
      "type": "png",
-     "date": "2026-10-16T23:08:25Z",
-     "size": 514645,
-     "sha": "5d6a10507f92070d2c64525454b08acb8264e2d9",
+     "date": "2026-10-18T21:45:27Z",
+     "size": 511551,
+     "sha": "7787decc32e0d75e878cc2bfce5caec2f8154c0f",
      "source": "artifact:pun-wrap-immagini/market_wrap_gme.png",
-     "artifact": 12080094519
+     "artifact": 12151697786
+    },
+    {
+     "name": "market_wrap_fondamentali.png",
+     "name_orig": "market_wrap_fondamentali.png",
+     "path": "assets/pun-wrap/market_wrap_fondamentali.png",
+     "type": "png",
+     "date": "2026-10-18T21:45:27Z",
+     "size": 82574,
+     "sha": "653f6f98ec513987b09064ce827038d66b084eac",
+     "source": "artifact:pun-wrap-immagini/market_wrap_fondamentali.png",
+     "artifact": 12151697786
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": "assets/pun-wrap/market_wrap_analisi.png",
-   "updated": "2026-10-16T23:08:25Z"
+   "updated": "2026-10-18T21:45:27Z"
+  },
+  {
+   "id": "pun-diagnosi",
+   "title": "PUN · quadro MGP (diagnosi)",
+   "repo": "pun-wrap",
+   "kind": "wrap",
+   "desc": "Pannello GME del workflow 'PUN diagnosi fonti'.",
+   "credit": null,
+   "files": [
+    {
+     "name": "pannello_gme_prova.png",
+     "name_orig": "pannello_gme_prova.png",
+     "path": "assets/pun-diagnosi/pannello_gme_prova.png",
+     "type": "png",
+     "date": "2026-10-18T21:44:47Z",
+     "size": 511551,
+     "sha": "7787decc32e0d75e878cc2bfce5caec2f8154c0f",
+     "source": "artifact:pannello-gme/pannello_gme_prova.png",
+     "artifact": 12151459850
+    }
+   ],
+   "papers": [],
+   "headlines": [],
+   "error": null,
+   "hero": "assets/pun-diagnosi/pannello_gme_prova.png",
+   "updated": "2026-10-18T21:44:47Z"
   },
   {
    "id": "basis-trade-wrap",
@@ -519,7 +618,7 @@
    "title": "Macro Wrap",
    "repo": "macro-wrap-bot",
    "kind": "wrap",
-   "desc": "Wrap macro giornaliero e settimanale.",
+   "desc": "Wrap macro giornaliero.",
    "credit": null,
    "files": [
     {
@@ -585,6 +684,43 @@
    "updated": "2026-10-06T10:00:00Z"
   },
   {
+   "id": "macro-settimanale",
+   "title": "Macro Wrap Settimanale",
+   "repo": "macro-wrap-bot",
+   "kind": "wrap",
+   "desc": "Wrap macro settimanale.",
+   "credit": null,
+   "files": [
+    {
+     "name": "2026-07-26-macro-weekly.pdf",
+     "name_orig": "2026-07-26-macro-weekly.pdf",
+     "path": "assets/macro-settimanale/2026-07-26-macro-weekly.pdf",
+     "type": "pdf",
+     "date": "2026-07-26T10:00:00Z",
+     "size": 8562,
+     "sha": "a4168b84ac7c3ca87f9a8ce8be846a5e726df765",
+     "source": "reports/2026-07-26-macro-weekly.pdf",
+     "artifact": null
+    },
+    {
+     "name": "2026-07-25-macro-weekly.pdf",
+     "name_orig": "2026-07-25-macro-weekly.pdf",
+     "path": "assets/macro-settimanale/2026-07-25-macro-weekly.pdf",
+     "type": "pdf",
+     "date": "2026-07-25T10:00:00Z",
+     "size": 5825,
+     "sha": "e65f9a0e4338f4be427186763d7a292ce0e2872d",
+     "source": "reports/2026-07-25-macro-weekly.pdf",
+     "artifact": null
+    }
+   ],
+   "papers": [],
+   "headlines": [],
+   "error": null,
+   "hero": null,
+   "updated": "2026-07-26T10:00:00Z"
+  },
+  {
    "id": "oil-wrap",
    "title": "Oil Wrap",
    "repo": "oil-wrap",
@@ -592,6 +728,17 @@
    "desc": "Petrolio: prezzi, spread, card di commento.",
    "credit": null,
    "files": [
+    {
+     "name": "oil_evening_20261018_2350.png",
+     "name_orig": "oil_evening_20261018_2350.png",
+     "path": "assets/oil-wrap/oil_evening_20261018_2350.png",
+     "type": "png",
+     "date": "2026-10-18T21:50:48Z",
+     "size": 639372,
+     "sha": "6f8dfa8489735b8e9525356e1da5f95257b1aeff",
+     "source": "artifact:oil-wrap-evening/oil_evening_20261018_2350.png",
+     "artifact": 12152410226
+    },
     {
      "name": "oil_card.png",
      "name_orig": "oil_card.png",
@@ -608,11 +755,11 @@
    "headlines": [],
    "error": null,
    "hero": "assets/oil-wrap/oil_card.png",
-   "updated": "2026-09-30T14:54:11Z"
+   "updated": "2026-10-18T21:50:48Z"
   },
   {
    "id": "spr-monitor",
-   "title": "SPR & scorte EIA",
+   "title": "EIA Weekly (WPSR)",
    "repo": "spr-monitor",
    "kind": "wrap",
    "desc": "Report settimanale EIA (WPSR) e riserva strategica.",
@@ -692,11 +839,11 @@
    "updated": "2026-10-07T20:07:34Z"
   },
   {
-   "id": "hicp-wrap",
-   "title": "HICP / Inflazione",
-   "repo": "hicp-wrap",
+   "id": "spr-doe",
+   "title": "SPR DOE monitor",
+   "repo": "spr-monitor",
    "kind": "wrap",
-   "desc": "Inflazione area euro: uscita PDF e tabelle Excel.",
+   "desc": "Monitor riserva strategica DOE (oggi solo avvisi Telegram, nessun file salvato).",
    "credit": null,
    "files": [],
    "papers": [],
@@ -704,6 +851,43 @@
    "error": null,
    "hero": null,
    "updated": null
+  },
+  {
+   "id": "hicp-wrap",
+   "title": "HICP / Inflazione",
+   "repo": "hicp-wrap",
+   "kind": "wrap",
+   "desc": "Inflazione area euro: uscita PDF e tabelle Excel.",
+   "credit": null,
+   "files": [
+    {
+     "name": "inflazione-2026-09.pdf",
+     "name_orig": "inflazione-2026-09.pdf",
+     "path": "assets/hicp-wrap/inflazione-2026-09.pdf",
+     "type": "pdf",
+     "date": "2026-10-18T21:56:12Z",
+     "size": 5968715,
+     "sha": "5f67752987c821cf36f6bbd6f287f1a4d8251467",
+     "source": "artifact:uscita/uscita/inflazione-2026-09.pdf",
+     "artifact": 12151359306
+    },
+    {
+     "name": "inflazione-2026-09.xlsx",
+     "name_orig": "inflazione-2026-09.xlsx",
+     "path": "assets/hicp-wrap/inflazione-2026-09.xlsx",
+     "type": "xlsx",
+     "date": "2026-10-18T21:56:12Z",
+     "size": 538493,
+     "sha": "b60a8bf50eef585d589be8d747d2f111fb4ba0e0",
+     "source": "artifact:uscita/uscita/inflazione-2026-09.xlsx",
+     "artifact": 12151359306
+    }
+   ],
+   "papers": [],
+   "headlines": [],
+   "error": null,
+   "hero": null,
+   "updated": "2026-10-18T21:56:12Z"
   },
   {
    "id": "blas-weekly",
@@ -1090,6 +1274,440 @@
    "error": null,
    "hero": null,
    "updated": "2026-10-16T11:44:56Z"
+  },
+  {
+   "id": "analysis-corner",
+   "title": "Analysis Corner",
+   "repo": "imf-spglobal-wrap_",
+   "kind": "wrap",
+   "desc": "Analysis Corner (Commissione UE).",
+   "credit": null,
+   "files": [],
+   "papers": [],
+   "headlines": [],
+   "error": null,
+   "hero": null,
+   "updated": null
+  },
+  {
+   "id": "cbo",
+   "title": "CBO Alert",
+   "repo": "imf-spglobal-wrap_",
+   "kind": "wrap",
+   "desc": "Avvisi CBO (oggi solo testo, nessun file).",
+   "credit": null,
+   "files": [],
+   "papers": [],
+   "headlines": [],
+   "error": null,
+   "hero": null,
+   "updated": null
+  },
+  {
+   "id": "cftc",
+   "title": "CFTC Wrap",
+   "repo": "imf-spglobal-wrap_",
+   "kind": "wrap",
+   "desc": "Posizionamento CFTC (COT).",
+   "credit": null,
+   "files": [
+    {
+     "name": "cftc_1_cruscotto.png",
+     "name_orig": "cftc_1_cruscotto.png",
+     "path": "assets/cftc/cftc_1_cruscotto.png",
+     "type": "png",
+     "date": "2026-10-16T21:57:22Z",
+     "size": 552077,
+     "sha": "4432c021174199ad46c452a832c95dcdc4eb0f90",
+     "source": "artifact:cftc-wrap/cftc_1_cruscotto.png",
+     "artifact": 12076759167
+    },
+    {
+     "name": "cftc_2_tassi.png",
+     "name_orig": "cftc_2_tassi.png",
+     "path": "assets/cftc/cftc_2_tassi.png",
+     "type": "png",
+     "date": "2026-10-16T21:57:22Z",
+     "size": 294272,
+     "sha": "dea55de04e4c348e8f12b9713790f98ff65ce47b",
+     "source": "artifact:cftc-wrap/cftc_2_tassi.png",
+     "artifact": 12076759167
+    },
+    {
+     "name": "cftc_3_azionario.png",
+     "name_orig": "cftc_3_azionario.png",
+     "path": "assets/cftc/cftc_3_azionario.png",
+     "type": "png",
+     "date": "2026-10-16T21:57:22Z",
+     "size": 216392,
+     "sha": "376396048fc9736ccef580288b4eabbaf9a2586c",
+     "source": "artifact:cftc-wrap/cftc_3_azionario.png",
+     "artifact": 12076759167
+    },
+    {
+     "name": "cftc_4_materie_prime.png",
+     "name_orig": "cftc_4_materie_prime.png",
+     "path": "assets/cftc/cftc_4_materie_prime.png",
+     "type": "png",
+     "date": "2026-10-16T21:57:22Z",
+     "size": 254594,
+     "sha": "e81328fdf394e2f9c96af1c05e81b43cffd57256",
+     "source": "artifact:cftc-wrap/cftc_4_materie_prime.png",
+     "artifact": 12076759167
+    },
+    {
+     "name": "cftc_5_indice_cot.png",
+     "name_orig": "cftc_5_indice_cot.png",
+     "path": "assets/cftc/cftc_5_indice_cot.png",
+     "type": "png",
+     "date": "2026-10-16T21:57:22Z",
+     "size": 209350,
+     "sha": "ccffcd62adcb8be6ea8558d3a9488ece8353bc9c",
+     "source": "artifact:cftc-wrap/cftc_5_indice_cot.png",
+     "artifact": 12076759167
+    }
+   ],
+   "papers": [],
+   "headlines": [],
+   "error": null,
+   "hero": "assets/cftc/cftc_1_cruscotto.png",
+   "updated": "2026-10-16T21:57:22Z"
+  },
+  {
+   "id": "fiscal-flows",
+   "title": "Fiscal Flows Wrap",
+   "repo": "imf-spglobal-wrap_",
+   "kind": "wrap",
+   "desc": "Flussi fiscali Tesoro USA (Daily Treasury Statement).",
+   "credit": null,
+   "files": [
+    {
+     "name": "01_settimane.png",
+     "name_orig": "01_settimane.png",
+     "path": "assets/fiscal-flows/01_settimane.png",
+     "type": "png",
+     "date": "2026-10-18T15:48:39Z",
+     "size": 130470,
+     "sha": "8ae48f0947506889d51b1b82a1b36571eda68294",
+     "source": "artifact:fiscal-flows-wrap/01_settimane.png",
+     "artifact": 12142160935
+    },
+    {
+     "name": "02_fiscal_impulse.png",
+     "name_orig": "02_fiscal_impulse.png",
+     "path": "assets/fiscal-flows/02_fiscal_impulse.png",
+     "type": "png",
+     "date": "2026-10-18T15:48:39Z",
+     "size": 145350,
+     "sha": "58f5239fcd7660a7bec97922be347ef6721b08f7",
+     "source": "artifact:fiscal-flows-wrap/02_fiscal_impulse.png",
+     "artifact": 12142160935
+    },
+    {
+     "name": "03_total.png",
+     "name_orig": "03_total.png",
+     "path": "assets/fiscal-flows/03_total.png",
+     "type": "png",
+     "date": "2026-10-18T15:48:39Z",
+     "size": 172742,
+     "sha": "62e4256e514dbe5d4f666b167d4e7916b803d45d",
+     "source": "artifact:fiscal-flows-wrap/03_total.png",
+     "artifact": 12142160935
+    },
+    {
+     "name": "04_interest.png",
+     "name_orig": "04_interest.png",
+     "path": "assets/fiscal-flows/04_interest.png",
+     "type": "png",
+     "date": "2026-10-18T15:48:39Z",
+     "size": 319847,
+     "sha": "fa3368032e1a0a1712bbe97d084714d40d450cec",
+     "source": "artifact:fiscal-flows-wrap/04_interest.png",
+     "artifact": 12142160935
+    },
+    {
+     "name": "05_social.png",
+     "name_orig": "05_social.png",
+     "path": "assets/fiscal-flows/05_social.png",
+     "type": "png",
+     "date": "2026-10-18T15:48:39Z",
+     "size": 326986,
+     "sha": "67b93de96d9f3dfaed03299820a54df63ac755ea",
+     "source": "artifact:fiscal-flows-wrap/05_social.png",
+     "artifact": 12142160935
+    },
+    {
+     "name": "fiscal-flows-2026-10-15.pdf",
+     "name_orig": "fiscal-flows-2026-10-15.pdf",
+     "path": "assets/fiscal-flows/fiscal-flows-2026-10-15.pdf",
+     "type": "pdf",
+     "date": "2026-10-15T10:00:00Z",
+     "size": 2007932,
+     "sha": "f381f8776426f2572e5c374439c7d9bb74c56087",
+     "source": "artifact:fiscal-flows-wrap/fiscal-flows-2026-10-15.pdf",
+     "artifact": 12142160935
+    }
+   ],
+   "papers": [],
+   "headlines": [],
+   "error": null,
+   "hero": "assets/fiscal-flows/01_settimane.png",
+   "updated": "2026-10-18T15:48:39Z"
+  },
+  {
+   "id": "ecb",
+   "title": "ECB Wrap",
+   "repo": "imf-spglobal-wrap_",
+   "kind": "wrap",
+   "desc": "Discorsi, blog e comunicati BCE.",
+   "credit": null,
+   "files": [
+    {
+     "name": "ecb-2026-10-06.pdf",
+     "name_orig": "ecb-2026-10-06.pdf",
+     "path": "assets/ecb/ecb-2026-10-06.pdf",
+     "type": "pdf",
+     "date": "2026-10-06T23:03:49Z",
+     "size": 57198,
+     "sha": "2342af3716e99b36721ca47ea251c51794427490",
+     "source": "artifact:ecb-wrap/ecb-2026-10-06.pdf",
+     "artifact": 11449862920
+    },
+    {
+     "name": "ecb-2026-10-05.pdf",
+     "name_orig": "ecb-2026-10-05.pdf",
+     "path": "assets/ecb/ecb-2026-10-05.pdf",
+     "type": "pdf",
+     "date": "2026-10-06T00:49:52Z",
+     "size": 44958,
+     "sha": "d423a89148725df208dc467c43744fa66d9deb0a",
+     "source": "artifact:ecb-wrap/ecb-2026-10-05.pdf",
+     "artifact": 11383048423
+    }
+   ],
+   "papers": [],
+   "headlines": [],
+   "error": null,
+   "hero": null,
+   "updated": "2026-10-06T23:03:49Z"
+  },
+  {
+   "id": "ep-think-tank",
+   "title": "EP Think Tank Wrap",
+   "repo": "imf-spglobal-wrap_",
+   "kind": "wrap",
+   "desc": "Pubblicazioni del Think Tank del Parlamento europeo.",
+   "credit": null,
+   "files": [
+    {
+     "name": "ep-2026-10-06.pdf",
+     "name_orig": "ep-2026-10-06.pdf",
+     "path": "assets/ep-think-tank/ep-2026-10-06.pdf",
+     "type": "pdf",
+     "date": "2026-10-06T23:19:09Z",
+     "size": 72872,
+     "sha": "d63ad5a80457637fbc4bee8db0bd746a271d2c21",
+     "source": "artifact:ep-wrap/ep-2026-10-06.pdf",
+     "artifact": 11450022971
+    },
+    {
+     "name": "ep-2026-10-05.pdf",
+     "name_orig": "ep-2026-10-05.pdf",
+     "path": "assets/ep-think-tank/ep-2026-10-05.pdf",
+     "type": "pdf",
+     "date": "2026-10-06T01:00:59Z",
+     "size": 64657,
+     "sha": "05110138a56a615a6e487a7c1bddb0feee66421f",
+     "source": "artifact:ep-wrap/ep-2026-10-05.pdf",
+     "artifact": 11382334961
+    }
+   ],
+   "papers": [],
+   "headlines": [],
+   "error": null,
+   "hero": null,
+   "updated": "2026-10-06T23:19:09Z"
+  },
+  {
+   "id": "eurostat",
+   "title": "Eurostat Wrap",
+   "repo": "imf-spglobal-wrap_",
+   "kind": "wrap",
+   "desc": "Uscite Eurostat.",
+   "credit": null,
+   "files": [
+    {
+     "name": "eurostat-2026-10-06.pdf",
+     "name_orig": "eurostat-2026-10-06.pdf",
+     "path": "assets/eurostat/eurostat-2026-10-06.pdf",
+     "type": "pdf",
+     "date": "2026-10-06T22:39:44Z",
+     "size": 28399,
+     "sha": "ae826a1edd26d8525c2ea64cbfe4e01408bf5fa3",
+     "source": "artifact:estat-wrap/eurostat-2026-10-06.pdf",
+     "artifact": 11449391435
+    },
+    {
+     "name": "eurostat-2026-10-05.pdf",
+     "name_orig": "eurostat-2026-10-05.pdf",
+     "path": "assets/eurostat/eurostat-2026-10-05.pdf",
+     "type": "pdf",
+     "date": "2026-10-06T00:05:40Z",
+     "size": 31650,
+     "sha": "2089adbf10c7f60be73634cbfb112869f2723a71",
+     "source": "artifact:estat-wrap/eurostat-2026-10-05.pdf",
+     "artifact": 11381546643
+    }
+   ],
+   "papers": [],
+   "headlines": [],
+   "error": null,
+   "hero": null,
+   "updated": "2026-10-06T22:39:44Z"
+  },
+  {
+   "id": "istat",
+   "title": "Istat Wrap",
+   "repo": "imf-spglobal-wrap_",
+   "kind": "wrap",
+   "desc": "Uscite Istat.",
+   "credit": null,
+   "files": [
+    {
+     "name": "istat-2026-10-07.pdf",
+     "name_orig": "istat-2026-10-07.pdf",
+     "path": "assets/istat/istat-2026-10-07.pdf",
+     "type": "pdf",
+     "date": "2026-10-07T17:47:09Z",
+     "size": 29638,
+     "sha": "42ab845c87458fb1738dfc980f07c45ade226b88",
+     "source": "artifact:istat-wrap/istat-2026-10-07.pdf",
+     "artifact": 11501216416
+    },
+    {
+     "name": "istat-2026-10-06.pdf",
+     "name_orig": "istat-2026-10-06.pdf",
+     "path": "assets/istat/istat-2026-10-06.pdf",
+     "type": "pdf",
+     "date": "2026-10-06T17:11:00Z",
+     "size": 42817,
+     "sha": "be3d671a2197f1ff2f220ab61be3cb3e5a29ff6b",
+     "source": "artifact:istat-wrap/istat-2026-10-06.pdf",
+     "artifact": 11429169770
+    },
+    {
+     "name": "istat-2026-10-05.pdf",
+     "name_orig": "istat-2026-10-05.pdf",
+     "path": "assets/istat/istat-2026-10-05.pdf",
+     "type": "pdf",
+     "date": "2026-10-05T20:30:45Z",
+     "size": 123631,
+     "sha": "cb3c4fdb8609929182ec233aa97b73407a0687b3",
+     "source": "artifact:istat-wrap/istat-2026-10-05.pdf",
+     "artifact": 11369676021
+    }
+   ],
+   "papers": [],
+   "headlines": [],
+   "error": null,
+   "hero": null,
+   "updated": "2026-10-07T17:47:09Z"
+  },
+  {
+   "id": "press-corner",
+   "title": "Press corner Wrap",
+   "repo": "imf-spglobal-wrap_",
+   "kind": "wrap",
+   "desc": "Press corner della Commissione UE.",
+   "credit": null,
+   "files": [
+    {
+     "name": "presscorner-2026-10-18.pdf",
+     "name_orig": "presscorner-2026-10-18.pdf",
+     "path": "assets/press-corner/presscorner-2026-10-18.pdf",
+     "type": "pdf",
+     "date": "2026-10-18T21:49:40Z",
+     "size": 27401,
+     "sha": "d87abc2f12bee5c538ac06740ca5000fc089af96",
+     "source": "artifact:pc-wrap/presscorner-2026-10-18.pdf",
+     "artifact": 12151877524
+    },
+    {
+     "name": "presscorner-2026-10-06.pdf",
+     "name_orig": "presscorner-2026-10-06.pdf",
+     "path": "assets/press-corner/presscorner-2026-10-06.pdf",
+     "type": "pdf",
+     "date": "2026-10-06T22:52:23Z",
+     "size": 59386,
+     "sha": "dff98092ba60d8dc989aa761c4e0e0cd2fc90323",
+     "source": "artifact:pc-wrap/presscorner-2026-10-06.pdf",
+     "artifact": 11448708348
+    },
+    {
+     "name": "presscorner-2026-10-05.pdf",
+     "name_orig": "presscorner-2026-10-05.pdf",
+     "path": "assets/press-corner/presscorner-2026-10-05.pdf",
+     "type": "pdf",
+     "date": "2026-10-06T00:23:21Z",
+     "size": 56820,
+     "sha": "cce2c63e764c5cc79526a7a508bf8ab93c18ca9f",
+     "source": "artifact:pc-wrap/presscorner-2026-10-05.pdf",
+     "artifact": 11382400567
+    }
+   ],
+   "papers": [],
+   "headlines": [],
+   "error": null,
+   "hero": null,
+   "updated": "2026-10-18T21:49:40Z"
+  },
+  {
+   "id": "zerohedge",
+   "title": "ZeroHedge Wrap",
+   "repo": "imf-spglobal-wrap_",
+   "kind": "wrap",
+   "desc": "Wrap ZeroHedge.",
+   "credit": null,
+   "files": [
+    {
+     "name": "zerohedge-2026-10-18-sera.pdf",
+     "name_orig": "zerohedge-2026-10-18-sera.pdf",
+     "path": "assets/zerohedge/zerohedge-2026-10-18-sera.pdf",
+     "type": "pdf",
+     "date": "2026-10-18T21:51:06Z",
+     "size": 74945,
+     "sha": "c0fa24b9f191384f54b7ca788ba33d65631d9cf2",
+     "source": "artifact:zh-wrap/zerohedge-2026-10-18-sera.pdf",
+     "artifact": 12152430692
+    },
+    {
+     "name": "zerohedge-2026-10-18-pranzo.pdf",
+     "name_orig": "zerohedge-2026-10-18-pranzo.pdf",
+     "path": "assets/zerohedge/zerohedge-2026-10-18-pranzo.pdf",
+     "type": "pdf",
+     "date": "2026-10-18T14:32:04Z",
+     "size": 26335,
+     "sha": "8f26412abdc5012193a090812382ead748c18956",
+     "source": "artifact:zh-wrap/zerohedge-2026-10-18-pranzo.pdf",
+     "artifact": 12139912033
+    },
+    {
+     "name": "zerohedge-2026-10-17-pranzo.pdf",
+     "name_orig": "zerohedge-2026-10-17-pranzo.pdf",
+     "path": "assets/zerohedge/zerohedge-2026-10-17-pranzo.pdf",
+     "type": "pdf",
+     "date": "2026-10-17T14:11:42Z",
+     "size": 28991,
+     "sha": "9d1a57947edaf8270c43f02a19e101844729bec2",
+     "source": "artifact:zh-wrap/zerohedge-2026-10-17-pranzo.pdf",
+     "artifact": 12103264226
+    }
+   ],
+   "papers": [],
+   "headlines": [],
+   "error": null,
+   "hero": null,
+   "updated": "2026-10-18T21:51:06Z"
   },
   {
    "id": "fed",
@@ -1782,31 +2400,31 @@
    ],
    "papers": [
     {
-     "title": "Fiscal Monetary Interactions The Role of Debt Maturity",
-     "path": "assets/imf/Fiscal-Monetary_Interactions_The_Role_of_Debt_Maturity.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": null,
-     "pubdate": null,
-     "date": "2026-10-14T04:32:17Z",
-     "size": 7344364,
-     "sha": "0eca385591b37afed7e0daea6e65a8435723d1fa",
-     "source": "articoli/imf/Fiscal-Monetary Interactions The Role of Debt Maturity.pdf",
-     "name_orig": "Fiscal-Monetary Interactions The Role of Debt Maturity.pdf",
-     "credit": "IMF"
-    },
-    {
      "title": "Fear and Shortages Identifying Geopolitical Risk and Supply Disruptions in Energy Markets",
      "path": "assets/imf/Fear_and_Shortages_Identifying_Geopolitical_Risk_and_Supply_Disruptions_in_Energy_Markets.pdf",
      "url": null,
      "fonte": null,
      "authors": null,
-     "pubdate": null,
-     "date": "2026-10-13T04:43:38Z",
+     "pubdate": "2026-10-18",
+     "date": "2026-10-18T10:00:00Z",
      "size": 2769033,
      "sha": "0c66cfc5beb6c9cc71afb1eaf330357a69150447",
-     "source": "articoli/imf/Fear and Shortages Identifying Geopolitical Risk and Supply Disruptions in Energy Markets.pdf",
+     "source": "articoli/imf/archivio/2026-10-18/Fear and Shortages Identifying Geopolitical Risk and Supply Disruptions in Energy Markets.pdf",
      "name_orig": "Fear and Shortages Identifying Geopolitical Risk and Supply Disruptions in Energy Markets.pdf",
+     "credit": "IMF"
+    },
+    {
+     "title": "Fiscal-Monetary Interactions The Role of Debt Maturity",
+     "path": "assets/imf/Fiscal-Monetary_Interactions_The_Role_of_Debt_Maturity.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": "2026-10-18",
+     "date": "2026-10-18T10:00:00Z",
+     "size": 7344364,
+     "sha": "0eca385591b37afed7e0daea6e65a8435723d1fa",
+     "source": "articoli/imf/archivio/2026-10-18/Fiscal-Monetary Interactions The Role of Debt Maturity.pdf",
+     "name_orig": "Fiscal-Monetary Interactions The Role of Debt Maturity.pdf",
      "credit": "IMF"
     },
     {
@@ -1815,11 +2433,11 @@
      "url": null,
      "fonte": null,
      "authors": null,
-     "pubdate": null,
-     "date": "2026-10-13T04:43:38Z",
+     "pubdate": "2026-10-18",
+     "date": "2026-10-18T10:00:00Z",
      "size": 11096348,
      "sha": "347da6ef3b91d5c73d8713b4fdb00e5ed561aa91",
-     "source": "articoli/imf/Global Financial Stability Report October 2026 Resilience, Risk, and Transformation.pdf",
+     "source": "articoli/imf/archivio/2026-10-18/Global Financial Stability Report October 2026 Resilience, Risk, and Transformation.pdf",
      "name_orig": "Global Financial Stability Report October 2026 Resilience, Risk, and Transformation.pdf",
      "credit": "IMF"
     },
@@ -1829,11 +2447,11 @@
      "url": null,
      "fonte": null,
      "authors": null,
-     "pubdate": null,
-     "date": "2026-10-13T04:43:38Z",
+     "pubdate": "2026-10-18",
+     "date": "2026-10-18T10:00:00Z",
      "size": 8198239,
      "sha": "ec2e386ab3a2784b4c8a94d821bf571347c7c9bd",
-     "source": "articoli/imf/World Economic Outlook October 2026 Resilience Under Strain, Urgent Choices.pdf",
+     "source": "articoli/imf/archivio/2026-10-18/World Economic Outlook October 2026 Resilience Under Strain, Urgent Choices.pdf",
      "name_orig": "World Economic Outlook October 2026 Resilience Under Strain, Urgent Choices.pdf",
      "credit": "IMF"
     },
@@ -2009,7 +2627,7 @@
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-10-14T04:32:17Z"
+   "updated": "2026-10-18T10:00:00Z"
   }
  ],
  "excluded": {
@@ -2043,8 +2661,10 @@
    11573417813,
    11632314286,
    11639662267,
+   11719564587,
    11760957681,
    11770985773,
+   11773952519,
    11774834670,
    11785860919,
    11786130545,
@@ -2053,18 +2673,24 @@
    11844632470,
    11859727651,
    11859938725,
+   11860907404,
    11895943827,
    11896663475,
    11906712351,
+   11908191849,
    11918433151,
    11935683982,
+   11936648393,
    11973583916,
    11985027449,
+   11986470535,
    11995727261,
    12014345108,
+   12014671236,
    12046796799,
    12055001101,
-   12063776848
+   12063776848,
+   12080094519
   ]
  }
 }
