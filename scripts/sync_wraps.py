@@ -656,9 +656,25 @@ def main():
             log(f"stato wrap-monitor: {len(monitor.get('workflow', {}))} workflow, generato {monitor.get('generato')}")
     except Exception as e:                                            # noqa: BLE001
         log(f"::warning::stato wrap-monitor non letto: {e}")
+    # edizione del cruscotto (mattina/sera) dallo stato del wrap-monitor, se passato
+    edizione = prev.get("edizione")
+    cru = os.environ.get("CRUSCOTTO_STATO") or ""
+    if cru and os.path.isfile(cru):
+        try:
+            with open(cru, encoding="utf-8") as fh:
+                cs = json.load(fh)
+            chiave = cs.get("ultima") or ""
+            voce = cs.get("edizioni", {}).get(chiave, {})
+            if voce:
+                giorno, nome = (chiave.split(" ", 1) + [""])[:2]
+                edizione = dict(nome=nome, giorno=giorno, quando=iso(dt.datetime.now(dt.timezone.utc)),
+                                aggiornati=voce.get("aggiornati"), mancanti=len(voce.get("mancanti") or []),
+                                completa=voce.get("esito") == "completa")
+        except Exception as e:                                        # noqa: BLE001
+            log(f"::warning::stato del cruscotto non letto: {e}")
     manifest = dict(generated_at=prev.get("generated_at"), owner=OWNER, timezone="Europe/Rome",
                     sections=sections, excluded=EXCLUDED, artifacts_seen=dict(empty=sorted(set(seen_empty))),
-                    monitor=monitor)
+                    monitor=monitor, edizione=edizione)
     comparable = lambda m: json.dumps({k: v for k, v in m.items() if k != "generated_at"}, sort_keys=True)
     if comparable(manifest) != comparable(prev):
         manifest["generated_at"] = iso(dt.datetime.now(dt.timezone.utc))
