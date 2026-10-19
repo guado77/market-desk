@@ -593,8 +593,20 @@ def main():
                                                artifact=c.get("artifact")))
             hero = sec.get("hero")
             pngs = [f for f in entry["files"] if f["type"] == "png"]
+            # immagine principale: solo fra le piu' recenti (entro 36 ore dall'ultima),
+            # cosi' una card vecchia o vuota (es. oil_card.png di settembre) non
+            # copre l'output nuovo; fra queste vince il nome indicato in "hero"
+            ts = lambda f: dt.datetime.fromisoformat(f["date"][:-1]).timestamp()        # noqa: E731
+            if pngs:
+                ultimo = max(ts(f) for f in pngs)
+                for f in entry["files"]:
+                    if ultimo - ts(f) > 7 * 86400:
+                        f["vecchio"] = True
+                pngs = [f for f in pngs if ultimo - ts(f) <= 36 * 3600]
             if hero:
-                pngs.sort(key=lambda f: (not re.search(hero, f["name_orig"], re.I), -dt.datetime.fromisoformat(f["date"][:-1]).timestamp()))
+                pngs.sort(key=lambda f: (not re.search(hero, f["name_orig"], re.I), -ts(f)))
+            else:
+                pngs.sort(key=lambda f: -ts(f))
             entry["hero"] = pngs[0]["path"] if pngs else None
             if sec.get("kind") == "papers":
                 for c in from_papers(sec):
@@ -627,8 +639,19 @@ def main():
             if rel not in keep_paths and fn != ".gitkeep":
                 os.remove(os.path.join(dirpath, fn))
 
+    # stato delle pipeline dal wrap-monitor (report/stato.json): semafori del sito
+    monitor = prev.get("monitor")
+    try:
+        raw = api(f"/repos/{OWNER}/wrap-monitor/contents/report/stato.json", raw=True,
+                  accept="application/vnd.github.raw")
+        if raw:
+            monitor = json.loads(raw)
+            log(f"stato wrap-monitor: {len(monitor.get('workflow', {}))} workflow, generato {monitor.get('generato')}")
+    except Exception as e:                                            # noqa: BLE001
+        log(f"::warning::stato wrap-monitor non letto: {e}")
     manifest = dict(generated_at=prev.get("generated_at"), owner=OWNER, timezone="Europe/Rome",
-                    sections=sections, excluded=EXCLUDED, artifacts_seen=dict(empty=sorted(set(seen_empty))))
+                    sections=sections, excluded=EXCLUDED, artifacts_seen=dict(empty=sorted(set(seen_empty))),
+                    monitor=monitor)
     comparable = lambda m: json.dumps({k: v for k, v in m.items() if k != "generated_at"}, sort_keys=True)
     if comparable(manifest) != comparable(prev):
         manifest["generated_at"] = iso(dt.datetime.now(dt.timezone.utc))

@@ -17,7 +17,7 @@ Cruscotto pubblico (GitHub Pages) di **Andrea Venturini** con gli ultimi output 
   e si riempiono da sole quando le pipeline ripartono.
 - `scripts/check_publish.py` blocca il commit se in `assets/` ci sono nomi non validi su Windows,
   estensioni non ammesse o testo che somiglia a un segreto.
-- `.github/workflows/sync.yml` (da attivare, vedi sotto: oggi è in `setup/sync.yml`) gira ogni 2 ore, a mano (*Run workflow*) e su `repository_dispatch`
+- `.github/workflows/sync.yml` gira ogni 2 ore, a mano (*Run workflow*) e su `repository_dispatch`
   (tipo `wrap-updated`), e committa le novità. Pages pubblica il branch `main` (cartella radice).
 
 ### Cosa NON viene pubblicato
@@ -33,7 +33,19 @@ Cruscotto pubblico (GitHub Pages) di **Andrea Venturini** con gli ultimi output 
 I PDF Bloomberg e S&P finiscono in **guado77/market-desk-private** (privato). Nel sito pubblico i link
 «PDF nel repo privato 🔒» funzionano solo se sei collegato a GitHub come `guado77`.
 
-## Attivare il workflow (una volta, a mano)
+## Il cruscotto
+
+Stile terminale: schede **Oggi** (KPI, card principali, ultime uscite, wrap da controllare), **Mercati**,
+**Energia**, **Macro & Fiscale**, **Ricerca** (PDF del wrap leggibile nella pagina + pubblicazioni originali
+di Fed, BCE, BIS, IMF, Istat, ZeroHedge), **Notizie** (solo titoli Bloomberg/S&P) e **Stato**.
+Scorciatoie: `1`–`7` cambiano scheda, `/` cerca, frecce nella galleria.
+
+I semafori vengono da `wrap-monitor/report/stato.json` (copiato in `manifest.json` → `monitor`); se manca,
+il sito confronta l'età dell'ultimo output con la cadenza attesa. Ogni wrap ha **▶ RUN** (pagina Actions del
+workflow). Per rilanciare tutti i wrap scaduti: wrap-monitor → Run workflow → **forza**. ICE Evening resta
+manuale (captcha dal PC).
+
+## Attivare il workflow (una volta, a mano — se `.github/workflows/sync.yml` non c'è ancora)
 
 Il file del workflow è in `setup/sync.yml`: GitHub non permette di creare workflow con il token usato per
 il primo caricamento (manca il permesso `workflow`). Per attivarlo:
