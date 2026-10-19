@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T06:01:03Z",
+ "generated_at": "2026-10-19T06:15:01Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -133,14 +133,26 @@
    "title": "Headline Wrap",
    "repo": "market-wrap",
    "kind": "wrap",
-   "desc": "Digest delle headline (08/13/18). Oggi esce come testo su Telegram: nessun file salvato.",
+   "desc": "Digest delle headline (08/13/18, giorni feriali).",
    "credit": null,
-   "files": [],
+   "files": [
+    {
+     "name": "headline_20261019_0814.png",
+     "name_orig": "headline_20261019_0814.png",
+     "path": "assets/headline-wrap/headline_20261019_0814.png",
+     "type": "png",
+     "date": "2026-10-19T06:14:00Z",
+     "size": 173980,
+     "sha": "656f0b49c046e81d1c312875435a130c896daada",
+     "source": "uscite/headline/headline_20261019_0814.png",
+     "artifact": null
+    }
+   ],
    "papers": [],
    "headlines": [],
    "error": null,
-   "hero": null,
-   "updated": null
+   "hero": "assets/headline-wrap/headline_20261019_0814.png",
+   "updated": "2026-10-19T06:14:00Z"
   },
   {
    "id": "desk",
