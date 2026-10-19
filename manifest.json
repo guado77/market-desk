@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T22:58:35Z",
+ "generated_at": "2026-10-19T06:01:03Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -2412,6 +2412,20 @@
    ],
    "papers": [
     {
+     "title": "How is Labor Demand Changing as AI Improves New Global Evidence",
+     "path": "assets/imf/How_is_Labor_Demand_Changing_as_AI_Improves_New_Global_Evidence.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-10-19T04:41:28Z",
+     "size": 1150394,
+     "sha": "da7e9a1b2ac0fac1e6aa724c00739f76013a6238",
+     "source": "articoli/imf/How is Labor Demand Changing as AI Improves New Global Evidence.pdf",
+     "name_orig": "How is Labor Demand Changing as AI Improves New Global Evidence.pdf",
+     "credit": "IMF"
+    },
+    {
      "title": "Fear and Shortages Identifying Geopolitical Risk and Supply Disruptions in Energy Markets",
      "path": "assets/imf/Fear_and_Shortages_Identifying_Geopolitical_Risk_and_Supply_Disruptions_in_Energy_Markets.pdf",
      "url": null,
@@ -2639,7 +2653,7 @@
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-10-18T10:00:00Z"
+   "updated": "2026-10-19T04:41:28Z"
   }
  ],
  "excluded": {
@@ -2673,7 +2687,6 @@
    11573417813,
    11632314286,
    11639662267,
-   11719564587,
    11760957681,
    11770985773,
    11773952519,
