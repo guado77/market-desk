@@ -171,7 +171,7 @@ footer .in{max-width:1500px;margin:0 auto;padding:14px 18px;font-size:12px;color
     <div class="grow"></div>
     <div class="search"><input id="q" type="search" placeholder="Cerca wrap, report, titoli…" autocomplete="off" aria-label="Cerca"><kbd>/</kbd><div class="results" id="res"></div></div>
     <div class="chips" id="chips"></div>
-    <div class="sync">SYNC <b id="gen">--</b><br><span id="act">--</span></div>
+    <div class="sync">EDIZIONE <b id="gen">--</b><br><span id="act">--</span></div>
   </div>
   <nav class="tabs" id="tabs"></nav>
 </header>
@@ -369,13 +369,13 @@ function paneOggi(){
   h+=`<div class="grid" style="margin-top:16px">
    <section class="card"><div class="ch"><h2>Ultime uscite</h2><span class="sp"></span><span class="age">tutti i wrap</span></div><div class="cb"><ul class="feed" style="list-style:none;margin:0;padding:0">${F.map(x=>`<li><span class="w">${esc(ago(x.d))}</span><span class="x"><span class="s">${esc(x.s.title)}</span>${x.type==="png"?`<button data-img="${esc(x.s.id)}" data-path="${esc(x.path)}">${esc(x.name)}</button>`:x.type==="pdf"?`<button data-pdf="${esc(x.path)}" data-name="${esc(x.name)}">${esc(x.name)}</button>`:`<a href="${enc(x.path)}" download>${esc(x.name)}</a>`}</span><span class="tag t-${x.type}">${x.type.toUpperCase()}</span></li>`).join("")}</ul></div></section>
    <section class="card"><div class="ch"><h2>Da controllare</h2><span class="sp"></span><span class="age">${watch.length} pipeline</span></div><div class="cb">${watch.length?`<ul class="watch" style="list-style:none;margin:0;padding:0">${watch.map(([s,x])=>{const u=wfUrl(meta(s));return`<li>${pill(x)}<button data-go="${esc(s.id)}" style="color:var(--blue);text-align:left">${esc(s.title)}</button><span class="sp"></span><span class="age">${esc(s.updated?ago(s.updated):"mai")}</span>${u?`<a class="run" href="${u}" target="_blank" rel="noopener">▶ RUN</a>`:""}</li>`}).join("")}</ul>`:`<div class="empty">Tutto regolare</div>`}
-   <p class="desc" style="margin-top:8px">Quando tornano i crediti API: <a href="https://github.com/${OWNER}/wrap-monitor/actions/workflows/monitor.yml" target="_blank" rel="noopener">wrap-monitor → Run workflow</a> con la casella <b>forza</b> rilancia tutti i wrap con l'output scaduto (ICE escluso: va avviato dal PC per il captcha).</p></div></section></div>`;
+   <p class="desc" style="margin-top:8px">Il cruscotto esce da solo due volte al giorno (mattina entro le 09:30, sera entro le 23:30): prima rilancia i wrap con l'output scaduto, poi pubblica. Per un'edizione subito: <a href="https://github.com/${OWNER}/wrap-monitor/actions/workflows/cruscotto.yml" target="_blank" rel="noopener">Cruscotto → Run workflow</a> (ICE escluso: va avviato dal PC per il captcha).</p></div></section></div>`;
   return h;
 }
 function paneStato(){
   const rows=Object.values(BY).map(s=>[s,status(s)]).sort((a,b)=>SEV[a[1].k]-SEV[b[1].k]||a[0].title.localeCompare(b[0].title));
   const gen=M.monitor&&M.monitor.generato;
-  let h=`<div class="howto"><b>Come rimettere in moto il cruscotto.</b> I semafori vengono dal <a href="https://github.com/${OWNER}/wrap-monitor" target="_blank" rel="noopener">wrap-monitor</a>${gen?` (ultimo controllo ${esc(when(gen))})`:" (non ancora collegato: semafori calcolati dall'età dell'ultimo output)"} e, in mancanza, dall'età dell'ultimo output rispetto alla cadenza attesa. Per rilanciare un singolo wrap: <span class="run">▶ RUN</span> apre il workflow su GitHub, poi <i>Run workflow</i>. Per rilanciare <b>tutti</b> quelli scaduti quando i crediti API sono disponibili: <a href="https://github.com/${OWNER}/wrap-monitor/actions/workflows/monitor.yml" target="_blank" rel="noopener">wrap-monitor → Run workflow → forza</a>. ICE Evening resta manuale (captcha dal PC).</div>`;
+  let h=`<div class="howto"><b>Come rimettere in moto il cruscotto.</b> I semafori vengono dal <a href="https://github.com/${OWNER}/wrap-monitor" target="_blank" rel="noopener">wrap-monitor</a>${gen?` (ultimo controllo ${esc(when(gen))})`:" (non ancora collegato: semafori calcolati dall'età dell'ultimo output)"} e, in mancanza, dall'età dell'ultimo output rispetto alla cadenza attesa. Per rilanciare un singolo wrap: <span class="run">▶ RUN</span> apre il workflow su GitHub, poi <i>Run workflow</i>. Il cruscotto si rigenera da solo mattina e sera e rilancia prima tutti i wrap scaduti; per un'edizione subito: <a href="https://github.com/${OWNER}/wrap-monitor/actions/workflows/cruscotto.yml" target="_blank" rel="noopener">Cruscotto → Run workflow</a>. ICE Evening resta manuale (captcha dal PC).</div>`;
   h+=`<section class="card wide"><div class="cb" style="padding:0;overflow:auto"><table class="st"><thead><tr><th>Wrap</th><th>Scheda</th><th>Stato</th><th>Ultimo output</th><th>Età</th><th>Cadenza</th><th>Note</th><th></th></tr></thead><tbody>${rows.map(([s,x])=>{const m=meta(s),u=wfUrl(m);const tab=TABS.find(t=>t.id===m.g);
     return`<tr><td><button data-go="${esc(s.id)}" style="color:var(--blue);text-align:left">${esc(s.title)}</button></td><td class="n">${esc(tab?tab.t:"")}</td><td>${pill(x)}</td><td class="n">${esc(when(s.updated))}</td><td class="n">${esc(s.updated?ago(s.updated):"—")}</td><td class="n">${m.cad?(m.cad>=150?"settimanale":m.cad>=90?"2×/settimana":m.cad>=24?"giornaliera":"più volte al giorno")+(m.fer?" (feriali)":"")+(m.cond?" · su novità":""):"—"}</td><td style="font-size:12.5px;color:var(--dim)">${esc(x.why||"")}${x.fail?` · <a href="${esc(x.fail.url)}" target="_blank" rel="noopener">run fallito ${esc(ago(x.fail.quando))}</a>`:""}</td><td>${u?`<a class="run" href="${u}" target="_blank" rel="noopener">▶ RUN</a>`:""}</td></tr>`}).join("")}</tbody></table></div></section>`;
   const wm=BY["wrap-monitor"];if(wm)h+=`<div class="grid" style="margin-top:16px">${card(wm)}</div>`;
@@ -392,7 +392,8 @@ function render(){
   const sts=Object.values(BY).map(status);
   const n=k=>sts.filter(x=>k.includes(x.k)).length;
   $("#chips").innerHTML=`<span class="chip s-ok" data-goto="stato" title="regolari">● ${n(["ok","nov"])}</span><span class="chip s-warn" data-goto="stato" title="in ritardo">● ${n(["warn","wait"])}</span><span class="chip s-ko" data-goto="stato" title="ferme o mancate">● ${n(["ko","miss"])}</span>`;
-  $("#gen").textContent=M.generated_at?fmtS.format(new Date(M.generated_at)):"--";
+  const E=M.edizione;
+  $("#gen").textContent=E&&E.quando?(E.nome==="mattina"?"MATTINA ":E.nome==="sera"?"SERA ":"EXTRA ")+fmtS.format(new Date(E.quando)):(M.generated_at?fmtS.format(new Date(M.generated_at)):"--");
   $("#act").textContent=Object.values(BY).filter(hasOut).length+"/"+Object.keys(BY).length+" sezioni con output";
   route();
 }

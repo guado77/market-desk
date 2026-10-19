@@ -641,9 +641,16 @@ def main():
 
     # stato delle pipeline dal wrap-monitor (report/stato.json): semafori del sito
     monitor = prev.get("monitor")
+    locale = os.environ.get("STATO_MONITOR") or ""
     try:
-        raw = api(f"/repos/{OWNER}/wrap-monitor/contents/report/stato.json", raw=True,
-                  accept="application/vnd.github.raw")
+        if locale and os.path.isfile(locale):              # passato dal Cruscotto del wrap-monitor
+            with open(locale, encoding="utf-8") as fh:
+                monitor = json.load(fh)
+            log(f"stato wrap-monitor (locale): {len(monitor.get('workflow', {}))} workflow")
+            raw = None
+        else:
+            raw = api(f"/repos/{OWNER}/wrap-monitor/contents/report/stato.json", raw=True,
+                      accept="application/vnd.github.raw")
         if raw:
             monitor = json.loads(raw)
             log(f"stato wrap-monitor: {len(monitor.get('workflow', {}))} workflow, generato {monitor.get('generato')}")

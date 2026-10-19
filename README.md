@@ -17,8 +17,12 @@ Cruscotto pubblico (GitHub Pages) di **Andrea Venturini** con gli ultimi output 
   e si riempiono da sole quando le pipeline ripartono.
 - `scripts/check_publish.py` blocca il commit se in `assets/` ci sono nomi non validi su Windows,
   estensioni non ammesse o testo che somiglia a un segreto.
-- `.github/workflows/sync.yml` gira ogni 2 ore, a mano (*Run workflow*) e su `repository_dispatch`
-  (tipo `wrap-updated`), e committa le novità. Pages pubblica il branch `main` (cartella radice).
+- **Pubblicazione**: la fa il workflow *Cruscotto Market Desk* del repo `wrap-monitor` (file `cruscotto.yml`),
+  due volte al giorno (mattina entro le 09:30, sera entro le 23:30): rilancia i wrap con l'output scaduto,
+  aspetta, esegue `scripts/sync_wraps.py` e committa qui `assets/` e `manifest.json`. Usa il token già
+  presente nel wrap-monitor (`MONITOR_TOKEN`): in questo repo **non serve nessun secret**. Lo avvia Grok Bot
+  alle 07:05 e alle 20:35; i cron del workflow fanno da riserva. Pages pubblica il branch `main`.
+- `setup/sync.yml` è il vecchio workflow autonomo (con `WRAPS_READ_TOKEN`): non serve più.
 
 ### Cosa NON viene pubblicato
 
@@ -45,7 +49,7 @@ il sito confronta l'età dell'ultimo output con la cadenza attesa. Ogni wrap ha 
 workflow). Per rilanciare tutti i wrap scaduti: wrap-monitor → Run workflow → **forza**. ICE Evening resta
 manuale (captcha dal PC).
 
-## Attivare il workflow (una volta, a mano — se `.github/workflows/sync.yml` non c'è ancora)
+## (Superato) Attivare il vecchio workflow autonomo
 
 Il file del workflow è in `setup/sync.yml`: GitHub non permette di creare workflow con il token usato per
 il primo caricamento (manca il permesso `workflow`). Per attivarlo:
