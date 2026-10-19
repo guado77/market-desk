@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T06:15:01Z",
+ "generated_at": "2026-10-19T17:07:01Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -137,6 +137,17 @@
    "credit": null,
    "files": [
     {
+     "name": "headline_20261019_1455.png",
+     "name_orig": "headline_20261019_1455.png",
+     "path": "assets/headline-wrap/headline_20261019_1455.png",
+     "type": "png",
+     "date": "2026-10-19T12:55:00Z",
+     "size": 172056,
+     "sha": "723f3402963b7a31b226f0ad2b9fd174310a28b0",
+     "source": "uscite/headline/headline_20261019_1455.png",
+     "artifact": null
+    },
+    {
      "name": "headline_20261019_0814.png",
      "name_orig": "headline_20261019_0814.png",
      "path": "assets/headline-wrap/headline_20261019_0814.png",
@@ -151,8 +162,8 @@
    "papers": [],
    "headlines": [],
    "error": null,
-   "hero": "assets/headline-wrap/headline_20261019_0814.png",
-   "updated": "2026-10-19T06:14:00Z"
+   "hero": "assets/headline-wrap/headline_20261019_1455.png",
+   "updated": "2026-10-19T12:55:00Z"
   },
   {
    "id": "desk",
@@ -539,51 +550,51 @@
      "name_orig": "market_wrap_analisi.png",
      "path": "assets/pun-wrap/market_wrap_analisi.png",
      "type": "png",
-     "date": "2026-10-18T21:45:27Z",
-     "size": 574181,
-     "sha": "b3014f80c447410862783b52436ab9c1bdcd1b82",
+     "date": "2026-10-19T14:58:47Z",
+     "size": 569249,
+     "sha": "71e5cde24c3b9587d6821a32db33b3c2737a7e62",
      "source": "artifact:pun-wrap-immagini/market_wrap_analisi.png",
-     "artifact": 12151697786
+     "artifact": 12197190660
     },
     {
      "name": "market_wrap_bolletta.png",
      "name_orig": "market_wrap_bolletta.png",
      "path": "assets/pun-wrap/market_wrap_bolletta.png",
      "type": "png",
-     "date": "2026-10-18T21:45:27Z",
-     "size": 161728,
-     "sha": "f4171853eba6e76258c65ef09437570933af7f98",
+     "date": "2026-10-19T14:58:47Z",
+     "size": 161823,
+     "sha": "6ae206d2e567d40b2cef4a7686378fad96f5b36c",
      "source": "artifact:pun-wrap-immagini/market_wrap_bolletta.png",
-     "artifact": 12151697786
-    },
-    {
-     "name": "market_wrap_gme.png",
-     "name_orig": "market_wrap_gme.png",
-     "path": "assets/pun-wrap/market_wrap_gme.png",
-     "type": "png",
-     "date": "2026-10-18T21:45:27Z",
-     "size": 511551,
-     "sha": "7787decc32e0d75e878cc2bfce5caec2f8154c0f",
-     "source": "artifact:pun-wrap-immagini/market_wrap_gme.png",
-     "artifact": 12151697786
+     "artifact": 12197190660
     },
     {
      "name": "market_wrap_fondamentali.png",
      "name_orig": "market_wrap_fondamentali.png",
      "path": "assets/pun-wrap/market_wrap_fondamentali.png",
      "type": "png",
-     "date": "2026-10-18T21:45:27Z",
-     "size": 82574,
-     "sha": "653f6f98ec513987b09064ce827038d66b084eac",
+     "date": "2026-10-19T14:58:47Z",
+     "size": 82765,
+     "sha": "df85f65d1304449c32fcba450b8b598c4e85d7cf",
      "source": "artifact:pun-wrap-immagini/market_wrap_fondamentali.png",
-     "artifact": 12151697786
+     "artifact": 12197190660
+    },
+    {
+     "name": "market_wrap_gme.png",
+     "name_orig": "market_wrap_gme.png",
+     "path": "assets/pun-wrap/market_wrap_gme.png",
+     "type": "png",
+     "date": "2026-10-19T14:58:47Z",
+     "size": 517409,
+     "sha": "1f05cebcdc63342d495c49554f5cb1291b73fc59",
+     "source": "artifact:pun-wrap-immagini/market_wrap_gme.png",
+     "artifact": 12197190660
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": "assets/pun-wrap/market_wrap_analisi.png",
-   "updated": "2026-10-18T21:45:27Z"
+   "updated": "2026-10-19T14:58:47Z"
   },
   {
    "id": "pun-diagnosi",
@@ -741,6 +752,17 @@
    "credit": null,
    "files": [
     {
+     "name": "oil_morning_20261019_1705.png",
+     "name_orig": "oil_morning_20261019_1705.png",
+     "path": "assets/oil-wrap/oil_morning_20261019_1705.png",
+     "type": "png",
+     "date": "2026-10-19T15:05:24Z",
+     "size": 639333,
+     "sha": "aabacc14b0987655219022531301cdd59047b7d6",
+     "source": "artifact:oil-wrap-morning/oil_morning_20261019_1705.png",
+     "artifact": 12197371289
+    },
+    {
      "name": "oil_evening_20261018_2350.png",
      "name_orig": "oil_evening_20261018_2350.png",
      "path": "assets/oil-wrap/oil_evening_20261018_2350.png",
@@ -767,7 +789,7 @@
    "headlines": [],
    "error": null,
    "hero": "assets/oil-wrap/oil_card.png",
-   "updated": "2026-10-18T21:50:48Z"
+   "updated": "2026-10-19T15:05:24Z"
   },
   {
    "id": "spr-monitor",
@@ -989,6 +1011,54 @@
    "papers": [],
    "headlines": [
     {
+     "title": "France's bonds drop as rioting heaps pressure on government",
+     "date": "2026-10-19T10:00:00Z",
+     "url": null,
+     "credit": "Bloomberg",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-10-19-france-s-bonds-drop-as-rioting-heaps-pressure-on-government.pdf",
+     "search": "https://www.bloomberg.com/search?query=France%27s%20bonds%20drop%20as%20rioting%20heaps%20pressure%20on%20government"
+    },
+    {
+     "title": "Indonesia said to meet monday with msci over shock index threat",
+     "date": "2026-10-19T10:00:00Z",
+     "url": null,
+     "credit": "Bloomberg",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-10-19-indonesia-said-to-meet-monday-with-msci-over-shock-index-threat.pdf",
+     "search": "https://www.bloomberg.com/search?query=Indonesia%20said%20to%20meet%20monday%20with%20msci%20over%20shock%20index%20threat"
+    },
+    {
+     "title": "Indonesian stocks tumble to lowest since 2020 after msci warning",
+     "date": "2026-10-19T10:00:00Z",
+     "url": null,
+     "credit": "Bloomberg",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-10-19-indonesian-stocks-tumble-to-lowest-since-2020-after-msci-warning.pdf",
+     "search": "https://www.bloomberg.com/search?query=Indonesian%20stocks%20tumble%20to%20lowest%20since%202020%20after%20msci%20warning"
+    },
+    {
+     "title": "Iran's main oil terminals remain empty as us blockade bites",
+     "date": "2026-10-19T10:00:00Z",
+     "url": null,
+     "credit": "Bloomberg",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-10-19-iran-s-main-oil-terminals-remain-empty-as-us-blockade-bites.pdf",
+     "search": "https://www.bloomberg.com/search?query=Iran%27s%20main%20oil%20terminals%20remain%20empty%20as%20us%20blockade%20bites"
+    },
+    {
+     "title": "Trump backer bets on armenia copper as us expands regional sway",
+     "date": "2026-10-19T10:00:00Z",
+     "url": null,
+     "credit": "Bloomberg",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-10-19-trump-backer-bets-on-armenia-copper-as-us-expands-regional-sway.pdf",
+     "search": "https://www.bloomberg.com/search?query=Trump%20backer%20bets%20on%20armenia%20copper%20as%20us%20expands%20regional%20sway"
+    },
+    {
+     "title": "Uk debt is a buy for traders betting on a play it safe budget",
+     "date": "2026-10-19T10:00:00Z",
+     "url": null,
+     "credit": "Bloomberg",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-10-19-uk-debt-is-a-buy-for-traders-betting-on-a-play-it-safe-budget.pdf",
+     "search": "https://www.bloomberg.com/search?query=Uk%20debt%20is%20a%20buy%20for%20traders%20betting%20on%20a%20play%20it%20safe%20budget"
+    },
+    {
      "title": "Thoma bravo's proofpoint taps jpmorgan ubs on varonis debt deal",
      "date": "2026-10-19T10:00:00Z",
      "url": null,
@@ -1099,54 +1169,6 @@
      "credit": "Bloomberg",
      "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-10-18-ai-agents-have-entered-the-rat-race.pdf",
      "search": "https://www.bloomberg.com/search?query=Ai%20agents%20have%20entered%20the%20rat%20race"
-    },
-    {
-     "title": "Can electric hydrofoil boats deliver an urban ferry service",
-     "date": "2026-10-19T10:00:00Z",
-     "url": null,
-     "credit": "Bloomberg",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-10-18-can-electric-hydrofoil-boats-deliver-an-urban-ferry-service.pdf",
-     "search": "https://www.bloomberg.com/search?query=Can%20electric%20hydrofoil%20boats%20deliver%20an%20urban%20ferry%20service"
-    },
-    {
-     "title": "Delhi's smog problem can't be fixed from space",
-     "date": "2026-10-19T10:00:00Z",
-     "url": null,
-     "credit": "Bloomberg",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-10-18-delhi-s-smog-problem-can-t-be-fixed-from-space.pdf",
-     "search": "https://www.bloomberg.com/search?query=Delhi%27s%20smog%20problem%20can%27t%20be%20fixed%20from%20space"
-    },
-    {
-     "title": "Election rallies that swept latin america face reality check",
-     "date": "2026-10-19T10:00:00Z",
-     "url": null,
-     "credit": "Bloomberg",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-10-18-election-rallies-that-swept-latin-america-face-reality-check.pdf",
-     "search": "https://www.bloomberg.com/search?query=Election%20rallies%20that%20swept%20latin%20america%20face%20reality%20check"
-    },
-    {
-     "title": "Trump endorses netanyahu for reelection as israeli leader",
-     "date": "2026-10-19T10:00:00Z",
-     "url": null,
-     "credit": "Bloomberg",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-10-18-trump-endorses-netanyahu-for-reelection-as-israeli-leader.pdf",
-     "search": "https://www.bloomberg.com/search?query=Trump%20endorses%20netanyahu%20for%20reelection%20as%20israeli%20leader"
-    },
-    {
-     "title": "Us chamber of commerce endorses paxton in texas senate race",
-     "date": "2026-10-19T10:00:00Z",
-     "url": null,
-     "credit": "Bloomberg",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-10-18-us-chamber-of-commerce-endorses-paxton-in-texas-senate-race.pdf",
-     "search": "https://www.bloomberg.com/search?query=Us%20chamber%20of%20commerce%20endorses%20paxton%20in%20texas%20senate%20race"
-    },
-    {
-     "title": "Bank of France’s Moulin Says All Countries Face Higher Rates Now",
-     "date": "2026-10-19T10:00:00Z",
-     "url": null,
-     "credit": "Bloomberg",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Bank_of_Frances_Moulin_Says_All_Countries_Face_Higher_Rates_Now_-_Bloomberg.pdf",
-     "search": "https://www.bloomberg.com/search?query=Bank%20of%20France%E2%80%99s%20Moulin%20Says%20All%20Countries%20Face%20Higher%20Rates%20Now"
     }
    ],
    "error": null,
@@ -1163,6 +1185,13 @@
    "files": [],
    "papers": [],
    "headlines": [
+    {
+     "title": "AI-driven telco infrastructure in Asia-Pacific Telco-hyperscaler partnerships",
+     "date": "2026-10-19T11:44:24Z",
+     "url": null,
+     "credit": "S&P Global",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/spg/AI-driven_telco_infrastructure_in_Asia-Pacific_Telco-hyperscaler_partnerships.pdf"
+    },
     {
      "title": "Emerging markets growth lags developed economies in September",
      "date": "2026-10-16T11:44:56Z",
@@ -1285,7 +1314,7 @@
    ],
    "error": null,
    "hero": null,
-   "updated": "2026-10-16T11:44:56Z"
+   "updated": "2026-10-19T11:44:24Z"
   },
   {
    "id": "analysis-corner",
@@ -1762,17 +1791,6 @@
      "sha": "f7a7cf830e4f2ee86862ab6243f38f6bac415d1a",
      "source": "artifact:fed-wrap-quotidiano/fed-wrap-quotidiano-06-10-2026.pdf",
      "artifact": 11416161183
-    },
-    {
-     "name": "fed-wrap-quotidiano-05-10-2026.pdf",
-     "name_orig": "fed-wrap-quotidiano-05-10-2026.pdf",
-     "path": "assets/fed/fed-wrap-quotidiano-05-10-2026.pdf",
-     "type": "pdf",
-     "date": "2026-10-05T14:09:51Z",
-     "size": 30807,
-     "sha": "833eaa09231fdea3a052b96a2ed66383e7f1471d",
-     "source": "artifact:fed-wrap-quotidiano/fed-wrap-quotidiano-05-10-2026.pdf",
-     "artifact": 11350872261
     }
    ],
    "papers": [
@@ -2071,6 +2089,17 @@
    "credit": "BIS",
    "files": [
     {
+     "name": "bis-wrap-settimanale-settimana-12-10-19-10-2026.pdf",
+     "name_orig": "bis-wrap-settimanale-settimana-12-10-19-10-2026.pdf",
+     "path": "assets/bis/bis-wrap-settimanale-settimana-12-10-19-10-2026.pdf",
+     "type": "pdf",
+     "date": "2026-10-19T14:59:36Z",
+     "size": 190274,
+     "sha": "9eee281e99a7b428d37a1c52d96b1a6390e8af18",
+     "source": "artifact:bis-wrap-settimanale/bis-wrap-settimanale-settimana-12-10-19-10-2026.pdf",
+     "artifact": 12195839377
+    },
+    {
      "name": "bis-wrap-quotidiano-07-10-2026.pdf",
      "name_orig": "bis-wrap-quotidiano-07-10-2026.pdf",
      "path": "assets/bis/bis-wrap-quotidiano-07-10-2026.pdf",
@@ -2091,20 +2120,135 @@
      "sha": "9f59889ac25952f0df777307d439c60b7ff70d96",
      "source": "artifact:bis-wrap-quotidiano/bis-wrap-quotidiano-06-10-2026.pdf",
      "artifact": 11418942219
-    },
-    {
-     "name": "bis-wrap-mensile-settembre-2026.pdf",
-     "name_orig": "bis-wrap-mensile-settembre-2026.pdf",
-     "path": "assets/bis/bis-wrap-mensile-settembre-2026.pdf",
-     "type": "pdf",
-     "date": "2026-10-05T18:31:22Z",
-     "size": 78100,
-     "sha": "efef903f780095539c5ce709fb1eb191516a420b",
-     "source": "artifact:bis-wrap-mensile/bis-wrap-mensile-settembre-2026.pdf",
-     "artifact": 11364319194
     }
    ],
    "papers": [
+    {
+     "title": "Are stablecoins and bank deposits substitutes?",
+     "path": "assets/bis/2026-10-13-wp1382-stablecoins-bank-deposits-substitutes.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "Rashad Ahmed and Inaki Aldasoro",
+     "pubdate": "2026-10-19",
+     "date": "2026-10-19T10:00:00Z",
+     "size": 371187,
+     "sha": "740c4010a37f058d994d22ff8e27727c6c4fc91a",
+     "source": "dati/pdf/elaborati/2026-10-13-wp1382-stablecoins-bank-deposits-substitutes.pdf",
+     "name_orig": "2026-10-13-wp1382-stablecoins-bank-deposits-substitutes.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "Money and the architecture of trust",
+     "path": "assets/bis/2026-10-14-paper-175-money-architecture-trust.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "I�aki Aldasoro",
+     "pubdate": "2026-10-19",
+     "date": "2026-10-19T10:00:00Z",
+     "size": 837337,
+     "sha": "c61a356402853edb0bea4052b0488ef422d67e6a",
+     "source": "dati/pdf/elaborati/2026-10-14-paper-175-money-architecture-trust.pdf",
+     "name_orig": "2026-10-14-paper-175-money-architecture-trust.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "Offshore forwards and exchange rate transmission in emerging markets",
+     "path": "assets/bis/2026-10-16-wp1383-offshore-forwards-exchange-rate-transmission-emerging-markets.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "Gerardo Ferrara, Andreas Schrimpf, Ganesh Viswanath-Natraj and Zijie Wang",
+     "pubdate": "2026-10-19",
+     "date": "2026-10-19T10:00:00Z",
+     "size": 1114266,
+     "sha": "9fb005743be05ccd53fcbecb1642b60eabfaf790",
+     "source": "dati/pdf/elaborati/2026-10-16-wp1383-offshore-forwards-exchange-rate-transmission-emerging-markets.pdf",
+     "name_orig": "2026-10-16-wp1383-offshore-forwards-exchange-rate-transmission-emerging-markets.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "Basel Committee finalises measures to address window-dressing in the G-SIB framework and consults on G-SIB methodology review | Bank for International Settlements",
+     "path": "assets/bis/Basel_Committee_finalises_measures_to_address_window-dressing_in_the_G-SIB_framework_and_consults_on_G-SIB_met_xafhp2iapff.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "",
+     "pubdate": "2026-10-19",
+     "date": "2026-10-19T10:00:00Z",
+     "size": 345510,
+     "sha": "40f7603f76d074a8b1d3f000951cd4f1da6567b4",
+     "source": "dati/pdf/elaborati/Basel Committee finalises measures to address window-dressing in the G-SIB framework and consults on G-SIB met (xafhp2iapff).pdf",
+     "name_orig": "Basel Committee finalises measures to address window-dressing in the G-SIB framework and consults on G-SIB met (xafhp2iapff).pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "Cross-border payments as a necessity for Africa's resilience and economic transformation | Bank for International Settlements",
+     "path": "assets/bis/Cross-border_payments_as_a_necessity_for_Africa_s_resilience_and_economic_transformation.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "",
+     "pubdate": "2026-10-19",
+     "date": "2026-10-19T10:00:00Z",
+     "size": 473128,
+     "sha": "fbe82fd07034593aa5251ae649c24716f45c553d",
+     "source": "dati/pdf/elaborati/Cross-border payments as a necessity for Africa's resilience and economic transformation.pdf",
+     "name_orig": "Cross-border payments as a necessity for Africa's resilience and economic transformation.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "Global standard-setting bodies publish final report on guidance for FMIs on general business risks and general business losses | Bank for International Settlements",
+     "path": "assets/bis/Global_standard-setting_bodies_publish_final_report_on_guidance_for_FMIs_on_general_business_risks_and_general_business_losses.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "",
+     "pubdate": "2026-10-19",
+     "date": "2026-10-19T10:00:00Z",
+     "size": 365404,
+     "sha": "86b4703494c9726d9236a284a73089835e215d00",
+     "source": "dati/pdf/elaborati/Global standard-setting bodies publish final report on guidance for FMIs on general business risks and general business losses.pdf",
+     "name_orig": "Global standard-setting bodies publish final report on guidance for FMIs on general business risks and general business losses.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "Intelligence-led financial crime prevention: the power of data, insights and collaboration | Bank for International Settlements",
+     "path": "assets/bis/Intelligence-led_financial_crime_prevention_the_power_of_data_insights_and_collaboration.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "",
+     "pubdate": "2026-10-19",
+     "date": "2026-10-19T10:00:00Z",
+     "size": 467240,
+     "sha": "49de30550ecfe73cb3cba8d357a0a0d4e4d60279",
+     "source": "dati/pdf/elaborati/Intelligence-led financial crime prevention the power of data, insights and collaboration.pdf",
+     "name_orig": "Intelligence-led financial crime prevention the power of data, insights and collaboration.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "Leveraging the Mauritius IFC as a payment system hub | Bank for International Settlements",
+     "path": "assets/bis/Leveraging_the_Mauritius_IFC_as_a_payment_system_hub.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "",
+     "pubdate": "2026-10-19",
+     "date": "2026-10-19T10:00:00Z",
+     "size": 439364,
+     "sha": "bf917e1baf47ff0a38db993ebdffc7c2d62d95b1",
+     "source": "dati/pdf/elaborati/Leveraging the Mauritius IFC as a payment system hub.pdf",
+     "name_orig": "Leveraging the Mauritius IFC as a payment system hub.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "The signaling value of the summary of economic projections | Bank for International Settlements",
+     "path": "assets/bis/The_signaling_value_of_the_summary_of_economic_projections.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "",
+     "pubdate": "2026-10-19",
+     "date": "2026-10-19T10:00:00Z",
+     "size": 412161,
+     "sha": "0f29228cf7f7e280e9716a26de6fb90e548df919",
+     "source": "dati/pdf/elaborati/The signaling value of the summary of economic projections.pdf",
+     "name_orig": "The signaling value of the summary of economic projections.pdf",
+     "credit": "BIS"
+    },
     {
      "title": "The Czech koruna 50 years after the beginning of the post-Bretton Woods system and the Czech National Bank 100 years after the establishment of the National Bank of Czechoslovakia",
      "path": "assets/bis/2026-10-07-speech-cnb-frait-czech-koruna-post-bretton-woods-cnb-100-years.pdf",
@@ -2258,138 +2402,12 @@
      "source": "dati/pdf/elaborati/2026-10-06-speech-ecb-vujcic-future-european-banking.pdf",
      "name_orig": "2026-10-06-speech-ecb-vujcic-future-european-banking.pdf",
      "credit": "BIS"
-    },
-    {
-     "title": "Economic conditions and monetary policy | Bank for International Settlements",
-     "path": "assets/bis/2026-10-06-speech-fed-barr-economic-conditions-monetary-policy.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-07",
-     "date": "2026-10-07T10:00:00Z",
-     "size": 426288,
-     "sha": "63298b42d971e6091c479e170b5bffb0e7b4ae87",
-     "source": "dati/pdf/elaborati/2026-10-06-speech-fed-barr-economic-conditions-monetary-policy.pdf",
-     "name_orig": "2026-10-06-speech-fed-barr-economic-conditions-monetary-policy.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Opening remarks - Community Bank Cyber Workshop | Bank for International Settlements",
-     "path": "assets/bis/2026-10-06-speech-fed-bowman-community-bank-cyber-workshop.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-07",
-     "date": "2026-10-07T10:00:00Z",
-     "size": 348519,
-     "sha": "3532e78b0c60883d41c5ccae1a2ebd6dbce31ef3",
-     "source": "dati/pdf/elaborati/2026-10-06-speech-fed-bowman-community-bank-cyber-workshop.pdf",
-     "name_orig": "2026-10-06-speech-fed-bowman-community-bank-cyber-workshop.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "The dual mandate in rural America | Bank for International Settlements",
-     "path": "assets/bis/2026-10-06-speech-fed-cook-dual-mandate-rural-america.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-07",
-     "date": "2026-10-07T10:00:00Z",
-     "size": 322042,
-     "sha": "353eb236738b8f0febda5ff59736b611c7a911ca",
-     "source": "dati/pdf/elaborati/2026-10-06-speech-fed-cook-dual-mandate-rural-america.pdf",
-     "name_orig": "2026-10-06-speech-fed-cook-dual-mandate-rural-america.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Keynote speech - Money20/20 Middle East | Bank for International Settlements",
-     "path": "assets/bis/2026-10-06-speech-sama-al-sayari-money2020-middle-east.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-07",
-     "date": "2026-10-07T10:00:00Z",
-     "size": 352646,
-     "sha": "5ac1a3cb6535446d17ba2025cd149d739b5e70e5",
-     "source": "dati/pdf/elaborati/2026-10-06-speech-sama-al-sayari-money2020-middle-east.pdf",
-     "name_orig": "2026-10-06-speech-sama-al-sayari-money2020-middle-east.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Basel III applicable in almost all member jurisdictions by 2027 | Bank for International Settlements",
-     "path": "assets/bis/2026-10-05-press-basel-iii-applicable-almost-all-jurisdictions-2027.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-06",
-     "date": "2026-10-06T10:00:00Z",
-     "size": 299835,
-     "sha": "d2d25529b8629d296f6f9cdb3c54b6e915295d26",
-     "source": "dati/pdf/elaborati/2026-10-05-press-basel-iii-applicable-almost-all-jurisdictions-2027.pdf",
-     "name_orig": "2026-10-05-press-basel-iii-applicable-almost-all-jurisdictions-2027.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Leading the next chapter - Islamic finance as a catalyst for national prosperity | Bank for International Settlements",
-     "path": "assets/bis/2026-10-05-speech-bnm-ghaffour-islamic-finance-national-prosperity.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-06",
-     "date": "2026-10-06T10:00:00Z",
-     "size": 432746,
-     "sha": "0095b2a33e924fbec7ebf7b80a3e105f23e1a061",
-     "source": "dati/pdf/elaborati/2026-10-05-speech-bnm-ghaffour-islamic-finance-national-prosperity.pdf",
-     "name_orig": "2026-10-05-speech-bnm-ghaffour-islamic-finance-national-prosperity.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Launch of the Women Entrepreneurs (WE) Finance Code in Albania | Bank for International Settlements",
-     "path": "assets/bis/2026-10-05-speech-boa-sejko-women-entrepreneurs-finance-code-albania.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-06",
-     "date": "2026-10-06T10:00:00Z",
-     "size": 368600,
-     "sha": "1d7013e1091e8059c3b7e61e2b8fb882bd05f56e",
-     "source": "dati/pdf/elaborati/2026-10-05-speech-boa-sejko-women-entrepreneurs-finance-code-albania.pdf",
-     "name_orig": "2026-10-05-speech-boa-sejko-women-entrepreneurs-finance-code-albania.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Payments in the age of AI agents | Bank for International Settlements",
-     "path": "assets/bis/2026-10-05-speech-fed-waller-payments-age-ai-agents.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-06",
-     "date": "2026-10-06T10:00:00Z",
-     "size": 401178,
-     "sha": "ab51692a29a182da357bbfb8eb45d96b1d0466fb",
-     "source": "dati/pdf/elaborati/2026-10-05-speech-fed-waller-payments-age-ai-agents.pdf",
-     "name_orig": "2026-10-05-speech-fed-waller-payments-age-ai-agents.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Accelerating Hong Kong’s bond market development - building a diversified, deep, dynamic and digital-native market",
-     "path": "assets/bis/2026-10-05-speech-hkma-yue-hong-kong-bond-market-development.pdf",
-     "url": "https://www.bis.org/speeches/20261005-accelerating-hong-kongs-bond-market-development-building-diversified-deep-dynamic-and-digital-native-market",
-     "fonte": "BIS - Discorsi dei banchieri centrali",
-     "authors": "Eddie Yue",
-     "pubdate": "2026-10-05",
-     "date": "2026-10-06T10:00:00Z",
-     "size": 437195,
-     "sha": "bfa1119b78c8b3cddb3ec8385748ed657a02b3aa",
-     "source": "dati/pdf/elaborati/2026-10-05-speech-hkma-yue-hong-kong-bond-market-development.pdf",
-     "name_orig": "2026-10-05-speech-hkma-yue-hong-kong-bond-market-development.pdf",
-     "credit": "BIS"
     }
    ],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-10-08T10:00:00Z"
+   "updated": "2026-10-19T14:59:36Z"
   },
   {
    "id": "imf",
@@ -2686,7 +2704,6 @@
    11238837797,
    11245890320,
    11303991635,
-   11354074206,
    11358039505,
    11360490936,
    11367981476,
@@ -2699,7 +2716,6 @@
    11573417813,
    11632314286,
    11639662267,
-   11760957681,
    11770985773,
    11773952519,
    11774834670,
@@ -2727,7 +2743,8 @@
    12046796799,
    12055001101,
    12063776848,
-   12080094519
+   12080094519,
+   12151697786
   ]
  }
 }
