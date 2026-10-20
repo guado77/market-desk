@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T06:34:33Z",
+ "generated_at": "2026-10-20T07:04:08Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -137,6 +137,17 @@
    "credit": null,
    "files": [
     {
+     "name": "headline_20261020_0858.png",
+     "name_orig": "headline_20261020_0858.png",
+     "path": "assets/headline-wrap/headline_20261020_0858.png",
+     "type": "png",
+     "date": "2026-10-20T06:58:00Z",
+     "size": 166206,
+     "sha": "5ff62d148a9185d206b9603ca160e13ca0ad2349",
+     "source": "uscite/headline/headline_20261020_0858.png",
+     "artifact": null
+    },
+    {
      "name": "headline_20261019_1455.png",
      "name_orig": "headline_20261019_1455.png",
      "path": "assets/headline-wrap/headline_20261019_1455.png",
@@ -162,8 +173,8 @@
    "papers": [],
    "headlines": [],
    "error": null,
-   "hero": "assets/headline-wrap/headline_20261019_1455.png",
-   "updated": "2026-10-19T12:55:00Z"
+   "hero": "assets/headline-wrap/headline_20261020_0858.png",
+   "updated": "2026-10-20T06:58:00Z"
   },
   {
    "id": "desk",
@@ -3374,7 +3385,7 @@
  "edizione": {
   "nome": "mattina",
   "giorno": "2026-10-20",
-  "quando": "2026-10-20T06:34:33Z",
+  "quando": "2026-10-20T07:04:08Z",
   "aggiornati": 31,
   "mancanti": 1,
   "completa": false
