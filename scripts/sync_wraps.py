@@ -406,16 +406,16 @@ def from_headlines(sec, prev_links):
         d = iso_parse(arch[1]) if arch else None
         slug = re.match(r"^(20\d\d-\d\d-\d\d)-([a-z0-9-]+)$", title)
         if slug:   # nome tipo 2026-10-17-ecb-leans-toward-... -> titolo leggibile
-            d = d or iso_parse(slug[1])
+            d = iso_parse(slug[1]) or d   # data dell articolo, non quella di archiviazione
             t = re.sub(r"-s-", "'s ", slug[2]).replace("-", " ")
             t = re.sub(r"\bt\b", "t", re.sub(r"\bcan t\b", "can't", t))
             title = t[:1].upper() + t[1:]
-        out.append(dict(title=title, path=p, sha=f["sha"], size=f["size"], date=d))
+        out.append(dict(title=title, path=p, sha=f["sha"], size=f["size"], date=d, exact=bool(slug)))
     for c in out:
         if c["date"] is None:
             c["date"] = commit_date(sec["repo"], c["path"])
     seen, res = set(), []
-    for c in sorted(out, key=lambda c: c["date"] or dt.datetime.min.replace(tzinfo=dt.timezone.utc), reverse=True):
+    for c in sorted(out, key=lambda c: (c["date"] or dt.datetime.min.replace(tzinfo=dt.timezone.utc), c.get("exact", False)), reverse=True):
         k = c["title"].lower()
         if k in seen:
             continue
