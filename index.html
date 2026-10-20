@@ -123,7 +123,7 @@ ul.items li .c{font-size:12px;color:var(--amber2)}
 .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:16px}
 .kpi{background:var(--panel);border:1px solid var(--line);padding:10px 12px;cursor:pointer}
 .kpi .v{font:600 26px var(--mono)}.kpi .l{font:11px var(--mono);color:var(--dim);letter-spacing:.05em;text-transform:uppercase}
-.today{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:16px;align-items:start}
+.today{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr;gap:16px;align-items:start}
 @media(max-width:1200px){.today{grid-template-columns:1fr 1fr}}
 .feed li{display:grid;grid-template-columns:78px 1fr auto;gap:10px;align-items:center;border-top:1px solid var(--line);padding:7px 0}
 .feed .w{font:11.5px var(--mono);color:var(--dim);white-space:nowrap}
@@ -221,7 +221,7 @@ const META={
  "ice-evening-wrap":{g:"energia",wf:"ice-evening-wrap/wrap.yml",cad:26,fer:1,v:"img",man:1,note:"Manuale: serve il captcha ICE dal PC, poi il download parte da solo."},
  "spr-monitor":{g:"energia",wf:"spr-monitor/wpsr.yml",cad:175,v:"img",cond:1},
  "spr-doe":{g:"energia",wf:"spr-monitor/spr-monitor.yml",cad:0,v:"text",note:"Solo avvisi Telegram sulla riserva strategica DOE."},
- "fiscal-flows":{g:"macro",wf:"imf-spglobal-wrap_/dts.yml",cad:100,v:"img",cond:1},
+ "fiscal-flows":{g:"macro",wf:"imf-spglobal-wrap_/dts.yml",cad:100,v:"img",cond:1,hero:/fiscal_impulse/},
  "cbo":{g:"macro",wf:"imf-spglobal-wrap_/cbo.yml",cad:0,v:"text",note:"Avvisi in chat privata sulle nuove pubblicazioni CBO; i numeri entrano nel Fiscal Flows Wrap."},
  "hicp-wrap":{g:"macro",wf:"hicp-wrap/aggiorna.yml",cad:840,v:"pdf",cond:1},
  "istat":{g:"macro",wf:"imf-spglobal-wrap_/istat.yml",cad:200,v:"pdf",cond:1},
@@ -277,6 +277,7 @@ const pdfs=s=>files(s).filter(f=>f.type==="pdf");
 function hasOut(s){return (s.files||[]).length||(s.papers||[]).length||(s.headlines||[]).length}
 /* immagine principale: la piu' recente; il nome indicato dal sync vince solo se recente */
 function heroOf(s){const p=pngs(s);if(!p.length)return null;const top=p[0];
+  const mh=meta(s).hero;if(mh){const x=p.find(f=>mh.test(f.name_orig||f.name)&&(new Date(top.date)-new Date(f.date))<=36*36e5);if(x)return x}
   const h=p.find(f=>f.path===s.hero);if(h&&(new Date(top.date)-new Date(h.date))<=36*36e5)return h;return top}
 function wfUrl(m){if(!m.wf)return null;const [repo,file]=m.wf.split("/");return file?`https://github.com/${OWNER}/${repo}/actions/workflows/${file}`:`https://github.com/${OWNER}/${repo}/actions`}
 /* semaforo: prima il wrap-monitor, poi l'eta' dell'ultimo output */
@@ -356,7 +357,7 @@ function paneOggi(){
     <div class="kpi" data-goto="stato"><div class="v s-ko">${cnt(["ko","miss"])}</div><div class="l">ferme o mancate</div></div>
     <div class="kpi" data-goto="stato"><div class="v s-man">${cnt(["man","off"])}</div><div class="l">manuali / disattivate</div></div>
     <div class="kpi" data-goto="ricerca"><div class="v">${all.reduce((n,s)=>n+(s.papers||[]).length,0)}</div><div class="l">pubblicazioni in archivio</div></div></div>`;
-  const top=["market-wrap","desk","headline-wrap"].map(i=>BY[i]).filter(Boolean);
+  const top=["market-wrap","desk","headline-wrap","fiscal-flows"].map(i=>BY[i]).filter(Boolean);
   h+=`<div class="today">${top.map(s=>card(s,{compact:1})).join("")}</div>`;
   /* ultime uscite */
   const feed=[];
