@@ -1,0 +1,69 @@
+name: Aggiorna il cruscotto
+
+# Ogni 15 minuti: se un wrap ha prodotto qualcosa di nuovo (anche lanciato a
+# mano con Run workflow) lo copia nel sito. Se non c'e' nulla di nuovo non
+# committa niente. Repo pubblico: i minuti di GitHub Actions sono gratuiti.
+# Token: WRAPS_READ_TOKEN, sola lettura sui repo dei wrap (Contents + Actions).
+# La scrittura su questo repo usa il GITHUB_TOKEN del workflow.
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+  repository_dispatch:
+    types: [wrap-updated]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-desk-aggiorna
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Controllo token
+        id: tok
+        env:
+          WRAPS_READ_TOKEN: ${{ secrets.WRAPS_READ_TOKEN }}
+        run: |
+          if [ -z "$WRAPS_READ_TOKEN" ]; then
+            echo "::warning::Secret WRAPS_READ_TOKEN mancante: aggiornamento saltato."
+            echo "go=no" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=yes" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.tok.outputs.go == 'yes'
+
+      - uses: actions/setup-python@v5
+        if: steps.tok.outputs.go == 'yes'
+        with:
+          python-version: "3.12"
+
+      - name: Strumenti per il controllo dei PDF
+        if: steps.tok.outputs.go == 'yes'
+        run: sudo apt-get install -y -q poppler-utils >/dev/null || true
+
+      - name: Copia le novita' e pubblica
+        if: steps.tok.outputs.go == 'yes'
+        env:
+          WRAPS_READ_TOKEN: ${{ secrets.WRAPS_READ_TOKEN }}
+        run: |
+          git config user.name "market-desk-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3; do
+            python scripts/sync_wraps.py
+            python scripts/check_publish.py assets manifest.json
+            git add -A assets manifest.json
+            if git diff --cached --quiet; then echo "nessuna novita'"; break; fi
+            git commit -q -m "aggiornamento $(date -u +%Y-%m-%dT%H:%MZ)"
+            if git pull --rebase -q && git push -q; then echo "pubblicato"; break; fi
+            # qualcun altro (Cruscotto, Grok) ha pubblicato nel frattempo: si riparte da li'
+            git rebase --abort 2>/dev/null || true
+            git fetch -q origin main && git reset -q --hard origin/main
+            sleep 5
+          done
