@@ -649,8 +649,17 @@ def main():
             log(f"stato wrap-monitor (locale): {len(monitor.get('workflow', {}))} workflow")
             raw = None
         else:
-            raw = api(f"/repos/{OWNER}/wrap-monitor/contents/report/stato.json", raw=True,
-                      accept="application/vnd.github.raw")
+            # due fonti: il controllo del monitor (report/) e l'ultima edizione del
+            # Cruscotto (state/): si usa la piu' recente, cosi' i semafori non saltano
+            raw = None
+            for percorso in ("report/stato.json", "state/cruscotto-stato.json"):
+                r = api(f"/repos/{OWNER}/wrap-monitor/contents/{percorso}", raw=True,
+                        accept="application/vnd.github.raw")
+                if not r:
+                    continue
+                cand = json.loads(r)
+                if raw is None or (cand.get("generato") or "") > (json.loads(raw).get("generato") or ""):
+                    raw = r
         if raw:
             monitor = json.loads(raw)
             log(f"stato wrap-monitor: {len(monitor.get('workflow', {}))} workflow, generato {monitor.get('generato')}")

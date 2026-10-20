@@ -171,14 +171,14 @@ footer .in{max-width:1500px;margin:0 auto;padding:14px 18px;font-size:12px;color
     <div class="grow"></div>
     <div class="search"><input id="q" type="search" placeholder="Cerca wrap, report, titoli…" autocomplete="off" aria-label="Cerca"><kbd>/</kbd><div class="results" id="res"></div></div>
     <div class="chips" id="chips"></div>
-    <div class="sync">EDIZIONE <b id="gen">--</b><br><span id="act">--</span></div>
+    <div class="sync">AGGIORNATO <b id="gen">--</b><br><span id="act">--</span></div>
   </div>
   <nav class="tabs" id="tabs"></nav>
 </header>
 <div class="disc" id="disc"><b>Avvertenza</b><span>Progetto personale, a scopo conoscitivo: nessuna finalità di investimento, consulenza, sollecitazione o raccomandazione. Si aggiorna soprattutto quando ci sono crediti API disponibili. I documenti di terzi restano di proprietà delle fonti citate.</span><button id="discx" aria-label="Chiudi avvertenza">×</button></div>
 <main id="main"><div class="empty">Caricamento…</div></main>
 <footer><div class="in">
-  <p><b style="color:var(--amber)">Market Desk</b> · a cura di Andrea Venturini · aggiornamento automatico dagli output dei wrap: due edizioni al giorno, mattina e sera. Orari in ora di Roma.</p>
+  <p><b style="color:var(--amber)">Market Desk</b> · a cura di Andrea Venturini · aggiornamento automatico dagli output dei wrap: entro 15 minuti da ogni uscita, più due edizioni al giorno (mattina e sera). Orari in ora di Roma.</p>
   <p>Progetto personale, a scopo conoscitivo e senza alcuna finalità di investimento; gli aggiornamenti dipendono anche dalla disponibilità di crediti API. Nulla di quanto pubblicato costituisce consulenza finanziaria, offerta, sollecitazione o raccomandazione di investimento. Dati e grafici possono contenere errori o ritardi: verificare sempre sulle fonti ufficiali. I contenuti di terzi (pubblicazioni Federal Reserve, BCE, BIS, IMF, Istat, Eurostat, Commissione e Parlamento europeo; titoli Bloomberg e S&amp;P Global; dati di mercato) appartengono alle fonti citate e sono riportati con indicazione della fonte.</p>
   <p>Tasti: <span class="mono">1–7</span> schede · <span class="mono">/</span> cerca · <span class="mono">←/→</span> scorri le immagini · <span class="mono">Esc</span> chiudi.</p>
 </div></footer>
@@ -394,8 +394,8 @@ function render(){
   const n=k=>sts.filter(x=>k.includes(x.k)).length;
   $("#chips").innerHTML=`<span class="chip s-ok" data-goto="stato" title="regolari">● ${n(["ok","nov"])}</span><span class="chip s-warn" data-goto="stato" title="in ritardo">● ${n(["warn","wait"])}</span><span class="chip s-ko" data-goto="stato" title="ferme o mancate">● ${n(["ko","miss"])}</span>`;
   const E=M.edizione;
-  $("#gen").textContent=E&&E.quando?(E.nome==="mattina"?"MATTINA ":E.nome==="sera"?"SERA ":"EXTRA ")+fmtS.format(new Date(E.quando)):(M.generated_at?fmtS.format(new Date(M.generated_at)):"--");
-  $("#act").textContent=Object.values(BY).filter(hasOut).length+"/"+Object.keys(BY).length+" sezioni con output";
+  $("#gen").textContent=M.generated_at?fmtS.format(new Date(M.generated_at)):"--";
+  $("#act").textContent=(E&&E.nome?"edizione "+(E.nome==="mattina"?"mattina":E.nome==="sera"?"sera":"extra")+" · ":"")+Object.values(BY).filter(hasOut).length+"/"+Object.keys(BY).length+" sezioni";
   route();
 }
 

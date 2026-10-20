@@ -17,12 +17,14 @@ Cruscotto pubblico (GitHub Pages) di **Andrea Venturini** con gli ultimi output 
   e si riempiono da sole quando le pipeline ripartono.
 - `scripts/check_publish.py` blocca il commit se in `assets/` ci sono nomi non validi su Windows,
   estensioni non ammesse o testo che somiglia a un segreto.
-- **Pubblicazione**: la fa il workflow *Cruscotto Market Desk* del repo `wrap-monitor` (file `cruscotto.yml`),
-  due volte al giorno (mattina entro le 09:30, sera entro le 23:30): rilancia i wrap con l'output scaduto,
-  aspetta, esegue `scripts/sync_wraps.py` e committa qui `assets/` e `manifest.json`. Usa il token già
-  presente nel wrap-monitor (`MONITOR_TOKEN`): in questo repo **non serve nessun secret**. Lo avvia Grok Bot
-  alle 07:05 e alle 20:35; i cron del workflow fanno da riserva. Pages pubblica il branch `main`.
-- `setup/sync.yml` è il vecchio workflow autonomo (con `WRAPS_READ_TOKEN`): non serve più.
+- **Aggiornamento continuo**: il workflow `.github/workflows/aggiorna.yml` (copia in `setup/aggiorna.yml`)
+  gira ogni 15 minuti in questo repo pubblico (minuti Actions gratuiti): se un wrap ha prodotto qualcosa di
+  nuovo, anche lanciato a mano, lo copia nel sito; se non c'e' nulla di nuovo non committa niente. Usa il
+  secret `WRAPS_READ_TOKEN` (sola lettura: Contents e Actions sui repo dei wrap).
+- **Edizioni mattina e sera**: il workflow *Cruscotto Market Desk* del repo `wrap-monitor`, avviato da Grok Bot
+  alle 07:00 e alle 20:30, rilancia i wrap con l'output scaduto e manda il riepilogo in chat privata. Grok Bot
+  fa anche una sincronizzazione di riserva alle 08:15 e alle 21:50 (routine "Market Desk sync").
+- `setup/sync.yml` e' il vecchio workflow ogni 2 ore: sostituito da `aggiorna.yml`.
 
 ### Cosa NON viene pubblicato
 
