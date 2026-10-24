@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T19:59:51Z",
+ "generated_at": "2026-10-24T06:32:27Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -11,6 +11,17 @@
    "desc": "Wrap cross-asset del mattino e della sera.",
    "credit": null,
    "files": [
+    {
+     "name": "wrap_evening_20261024_0115.png",
+     "name_orig": "wrap_evening_20261024_0115.png",
+     "path": "assets/market-wrap/wrap_evening_20261024_0115.png",
+     "type": "png",
+     "date": "2026-10-23T23:17:14Z",
+     "size": 247535,
+     "sha": "7d32d1b1a4f2ff6db5f1281df8ae91aad02780ba",
+     "source": "artifact:market-wrap-evening/wrap_evening_20261024_0115.png",
+     "artifact": 12537684468
+    },
     {
      "name": "wrap_morning_20261023_1450.png",
      "name_orig": "wrap_morning_20261023_1450.png",
@@ -56,15 +67,15 @@
      "artifact": 12389403031
     },
     {
-     "name": "wrap_morning_20261021_1509.png",
-     "name_orig": "wrap_morning_20261021_1509.png",
-     "path": "assets/market-wrap/wrap_morning_20261021_1509.png",
-     "type": "png",
-     "date": "2026-10-21T13:11:03Z",
-     "size": 249461,
-     "sha": "3d7509992c910984be86057a8c87ece4262dae78",
-     "source": "artifact:market-wrap-morning/wrap_morning_20261021_1509.png",
-     "artifact": 12347474300
+     "name": "market-wrap-2026-10-24-0115.pdf",
+     "name_orig": "market-wrap-2026-10-24-0115.pdf",
+     "path": "assets/market-wrap/market-wrap-2026-10-24-0115.pdf",
+     "type": "pdf",
+     "date": "2026-10-23T23:17:14Z",
+     "size": 1041996,
+     "sha": "f1e867d9eeec880895a383f0068fcacaa33b82d6",
+     "source": "artifact:market-wrap-evening/market-wrap-2026-10-24-0115.pdf",
+     "artifact": 12537684468
     },
     {
      "name": "market-wrap-2026-10-23-1450.pdf",
@@ -109,24 +120,13 @@
      "sha": "6db1b6c972d22ada842535985b7d0bd864aaf622",
      "source": "artifact:market-wrap-evening/market-wrap-2026-10-22-0129.pdf",
      "artifact": 12389403031
-    },
-    {
-     "name": "market-wrap-2026-10-21-1509.pdf",
-     "name_orig": "market-wrap-2026-10-21-1509.pdf",
-     "path": "assets/market-wrap/market-wrap-2026-10-21-1509.pdf",
-     "type": "pdf",
-     "date": "2026-10-21T13:11:03Z",
-     "size": 1051028,
-     "sha": "15e249fa9a53b1b7036e838721a32bc91fd1b91e",
-     "source": "artifact:market-wrap-morning/market-wrap-2026-10-21-1509.pdf",
-     "artifact": 12347474300
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
-   "hero": "assets/market-wrap/wrap_morning_20261023_1450.png",
-   "updated": "2026-10-23T12:51:22Z"
+   "hero": "assets/market-wrap/wrap_evening_20261024_0115.png",
+   "updated": "2026-10-23T23:17:14Z"
   },
   {
    "id": "headline-wrap",
@@ -207,6 +207,17 @@
    "credit": null,
    "files": [
     {
+     "name": "card-2026-10-23-2351Z.png",
+     "name_orig": "card-2026-10-23-2351Z.png",
+     "path": "assets/desk/card-2026-10-23-2351Z.png",
+     "type": "png",
+     "date": "2026-10-23T23:51:00Z",
+     "size": 141958,
+     "sha": "989e3fcd2d24509907e43d571cb25bc3e5b7b5ed",
+     "source": "out/card-2026-10-23-2351Z.png",
+     "artifact": null
+    },
+    {
      "name": "card-2026-10-22-2359Z.png",
      "name_orig": "card-2026-10-22-2359Z.png",
      "path": "assets/desk/card-2026-10-22-2359Z.png",
@@ -249,24 +260,13 @@
      "sha": "fe47533e6df2d16b2d4eb5d6e56bb89cf778bd62",
      "source": "out/card-2026-10-20-0029Z.png",
      "artifact": null
-    },
-    {
-     "name": "card-2026-10-18-2136Z.png",
-     "name_orig": "card-2026-10-18-2136Z.png",
-     "path": "assets/desk/card-2026-10-18-2136Z.png",
-     "type": "png",
-     "date": "2026-10-18T21:36:00Z",
-     "size": 132934,
-     "sha": "c6a1d8137a59597852963ad263a2e31343d8663b",
-     "source": "out/card-2026-10-18-2136Z.png",
-     "artifact": null
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
-   "hero": "assets/desk/card-2026-10-22-2359Z.png",
-   "updated": "2026-10-22T23:59:00Z"
+   "hero": "assets/desk/card-2026-10-23-2351Z.png",
+   "updated": "2026-10-23T23:51:00Z"
   },
   {
    "id": "tvol-wrap",
@@ -276,6 +276,39 @@
    "desc": "Volatilità implicita Treasury, smile, flussi Eurex.",
    "credit": null,
    "files": [
+    {
+     "name": "eurex_card.png",
+     "name_orig": "eurex_card.png",
+     "path": "assets/tvol-wrap/eurex_card.png",
+     "type": "png",
+     "date": "2026-10-23T20:43:51Z",
+     "size": 107496,
+     "sha": "84949d5b51004a7b227035802e2becc6083cc630",
+     "source": "data/eurex_card.png",
+     "artifact": null
+    },
+    {
+     "name": "flussi_card.png",
+     "name_orig": "flussi_card.png",
+     "path": "assets/tvol-wrap/flussi_card.png",
+     "type": "png",
+     "date": "2026-10-23T20:43:51Z",
+     "size": 199425,
+     "sha": "77c1767aa2486352de91c734d95d9bfa8fd6b000",
+     "source": "data/flussi_card.png",
+     "artifact": null
+    },
+    {
+     "name": "last_card.png",
+     "name_orig": "last_card.png",
+     "path": "assets/tvol-wrap/last_card.png",
+     "type": "png",
+     "date": "2026-10-23T20:43:51Z",
+     "size": 218012,
+     "sha": "5bcfc200461a7978dfb0cf6da057b30bcda41b94",
+     "source": "data/last_card.png",
+     "artifact": null
+    },
     {
      "name": "smile_CL.png",
      "name_orig": "smile_CL.png",
@@ -321,39 +354,6 @@
      "artifact": null
     },
     {
-     "name": "eurex_card.png",
-     "name_orig": "eurex_card.png",
-     "path": "assets/tvol-wrap/eurex_card.png",
-     "type": "png",
-     "date": "2026-10-23T12:24:45Z",
-     "size": 104391,
-     "sha": "2f203b1fbbb7068921c7bbe7e706a2d8d37b16e7",
-     "source": "data/eurex_card.png",
-     "artifact": null
-    },
-    {
-     "name": "flussi_card.png",
-     "name_orig": "flussi_card.png",
-     "path": "assets/tvol-wrap/flussi_card.png",
-     "type": "png",
-     "date": "2026-10-23T12:24:45Z",
-     "size": 199032,
-     "sha": "09de943c6877fd50577f1ce27a71d4a2b19fe8cc",
-     "source": "data/flussi_card.png",
-     "artifact": null
-    },
-    {
-     "name": "last_card.png",
-     "name_orig": "last_card.png",
-     "path": "assets/tvol-wrap/last_card.png",
-     "type": "png",
-     "date": "2026-10-23T12:24:45Z",
-     "size": 217829,
-     "sha": "24a9aed80255350568b86f64c42cd12e9e799f6a",
-     "source": "data/last_card.png",
-     "artifact": null
-    },
-    {
      "name": "last_chart.png",
      "name_orig": "last_chart.png",
      "path": "assets/tvol-wrap/last_chart.png",
@@ -392,7 +392,7 @@
    "headlines": [],
    "error": null,
    "hero": "assets/tvol-wrap/last_card.png",
-   "updated": "2026-10-23T13:04:56Z"
+   "updated": "2026-10-23T20:43:51Z"
   },
   {
    "id": "fi-wrap",
@@ -589,51 +589,51 @@
      "name_orig": "market_wrap_analisi.png",
      "path": "assets/pun-wrap/market_wrap_analisi.png",
      "type": "png",
-     "date": "2026-10-23T12:51:03Z",
-     "size": 555536,
-     "sha": "96ae84f98569e9f68ab9bfae74ed833cb03c8c09",
+     "date": "2026-10-23T23:41:06Z",
+     "size": 557187,
+     "sha": "099d55de548aeb94c6d7e2acde9f57a0a5d8dca8",
      "source": "artifact:pun-wrap-immagini/market_wrap_analisi.png",
-     "artifact": 12502462222
+     "artifact": 12538529165
     },
     {
      "name": "market_wrap_bolletta.png",
      "name_orig": "market_wrap_bolletta.png",
      "path": "assets/pun-wrap/market_wrap_bolletta.png",
      "type": "png",
-     "date": "2026-10-23T12:51:03Z",
-     "size": 161559,
-     "sha": "f23706122e81e7caf94aabb510571ed617aa4750",
+     "date": "2026-10-23T23:41:06Z",
+     "size": 161472,
+     "sha": "8a7347be60e8608c8e7493348d30c067a3e0db51",
      "source": "artifact:pun-wrap-immagini/market_wrap_bolletta.png",
-     "artifact": 12502462222
+     "artifact": 12538529165
     },
     {
      "name": "market_wrap_fondamentali.png",
      "name_orig": "market_wrap_fondamentali.png",
      "path": "assets/pun-wrap/market_wrap_fondamentali.png",
      "type": "png",
-     "date": "2026-10-23T12:51:03Z",
+     "date": "2026-10-23T23:41:06Z",
      "size": 82369,
      "sha": "2e6734418a9a8b5f4f30645a1efeccb7fc5147c6",
      "source": "artifact:pun-wrap-immagini/market_wrap_fondamentali.png",
-     "artifact": 12502462222
+     "artifact": 12538529165
     },
     {
      "name": "market_wrap_gme.png",
      "name_orig": "market_wrap_gme.png",
      "path": "assets/pun-wrap/market_wrap_gme.png",
      "type": "png",
-     "date": "2026-10-23T12:51:03Z",
+     "date": "2026-10-23T23:41:06Z",
      "size": 515293,
      "sha": "3e382513162c94ca96bd87f0adb14b8f89d9c74d",
      "source": "artifact:pun-wrap-immagini/market_wrap_gme.png",
-     "artifact": 12502462222
+     "artifact": 12538529165
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": "assets/pun-wrap/market_wrap_analisi.png",
-   "updated": "2026-10-23T12:51:03Z"
+   "updated": "2026-10-23T23:41:06Z"
   },
   {
    "id": "pun-diagnosi",
@@ -1368,6 +1368,17 @@
    "credit": null,
    "files": [
     {
+     "name": "serale-2026-10-23.pdf",
+     "name_orig": "serale-2026-10-23.pdf",
+     "path": "assets/analysis-corner/serale-2026-10-23.pdf",
+     "type": "pdf",
+     "date": "2026-10-24T00:26:32Z",
+     "size": 192001,
+     "sha": "4fdd870aeb37e13a65675752099dd5b8ce202993",
+     "source": "artifact:analysis-corner/serale/serale-2026-10-23.pdf",
+     "artifact": 12540494270
+    },
+    {
      "name": "analysis-corner-2026-10-19.pdf",
      "name_orig": "analysis-corner-2026-10-19.pdf",
      "path": "assets/analysis-corner/analysis-corner-2026-10-19.pdf",
@@ -1394,7 +1405,7 @@
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-10-20T00:15:07Z"
+   "updated": "2026-10-24T00:26:32Z"
   },
   {
    "id": "cbo",
@@ -1423,62 +1434,62 @@
      "name_orig": "cftc_1_cruscotto.png",
      "path": "assets/cftc/cftc_1_cruscotto.png",
      "type": "png",
-     "date": "2026-10-18T22:56:36Z",
-     "size": 552077,
-     "sha": "4432c021174199ad46c452a832c95dcdc4eb0f90",
+     "date": "2026-10-23T21:54:11Z",
+     "size": 549829,
+     "sha": "d1d89d63967773237a410ea8e51c85a76fee2d87",
      "source": "artifact:cftc-wrap/cftc_1_cruscotto.png",
-     "artifact": 12154185000
+     "artifact": 12534212929
     },
     {
      "name": "cftc_2_tassi.png",
      "name_orig": "cftc_2_tassi.png",
      "path": "assets/cftc/cftc_2_tassi.png",
      "type": "png",
-     "date": "2026-10-18T22:56:36Z",
-     "size": 294272,
-     "sha": "dea55de04e4c348e8f12b9713790f98ff65ce47b",
+     "date": "2026-10-23T21:54:11Z",
+     "size": 298961,
+     "sha": "31a9be5768364a6b8bde5696af0219d7b18bec9a",
      "source": "artifact:cftc-wrap/cftc_2_tassi.png",
-     "artifact": 12154185000
+     "artifact": 12534212929
     },
     {
      "name": "cftc_3_azionario.png",
      "name_orig": "cftc_3_azionario.png",
      "path": "assets/cftc/cftc_3_azionario.png",
      "type": "png",
-     "date": "2026-10-18T22:56:36Z",
-     "size": 216392,
-     "sha": "376396048fc9736ccef580288b4eabbaf9a2586c",
+     "date": "2026-10-23T21:54:11Z",
+     "size": 213782,
+     "sha": "2c39cf3f0f629a991eb86e9c31484f7dc383927e",
      "source": "artifact:cftc-wrap/cftc_3_azionario.png",
-     "artifact": 12154185000
+     "artifact": 12534212929
     },
     {
      "name": "cftc_4_materie_prime.png",
      "name_orig": "cftc_4_materie_prime.png",
      "path": "assets/cftc/cftc_4_materie_prime.png",
      "type": "png",
-     "date": "2026-10-18T22:56:36Z",
-     "size": 254594,
-     "sha": "e81328fdf394e2f9c96af1c05e81b43cffd57256",
+     "date": "2026-10-23T21:54:11Z",
+     "size": 262194,
+     "sha": "2a07542e57aaeb988cacd0ef18c9bf5d61515afb",
      "source": "artifact:cftc-wrap/cftc_4_materie_prime.png",
-     "artifact": 12154185000
+     "artifact": 12534212929
     },
     {
      "name": "cftc_5_indice_cot.png",
      "name_orig": "cftc_5_indice_cot.png",
      "path": "assets/cftc/cftc_5_indice_cot.png",
      "type": "png",
-     "date": "2026-10-18T22:56:36Z",
-     "size": 209350,
-     "sha": "ccffcd62adcb8be6ea8558d3a9488ece8353bc9c",
+     "date": "2026-10-23T21:54:11Z",
+     "size": 212427,
+     "sha": "c728e9cf4f8fca8c41055567b02aaeca7ec8463c",
      "source": "artifact:cftc-wrap/cftc_5_indice_cot.png",
-     "artifact": 12154185000
+     "artifact": 12534212929
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": "assets/cftc/cftc_1_cruscotto.png",
-   "updated": "2026-10-18T22:56:36Z"
+   "updated": "2026-10-23T21:54:11Z"
   },
   {
    "id": "fiscal-flows",
@@ -1493,55 +1504,66 @@
      "name_orig": "01_settimane.png",
      "path": "assets/fiscal-flows/01_settimane.png",
      "type": "png",
-     "date": "2026-10-20T23:58:10Z",
-     "size": 143413,
-     "sha": "3c99fcfb59a4c867acfd5649451459f3b12b1d4a",
+     "date": "2026-10-23T23:54:15Z",
+     "size": 142913,
+     "sha": "f2aded9234dea543797874e2d5be799d69362a48",
      "source": "artifact:fiscal-flows-wrap/01_settimane.png",
-     "artifact": 12310160864
+     "artifact": 12540160302
     },
     {
      "name": "02_fiscal_impulse.png",
      "name_orig": "02_fiscal_impulse.png",
      "path": "assets/fiscal-flows/02_fiscal_impulse.png",
      "type": "png",
-     "date": "2026-10-20T23:58:10Z",
+     "date": "2026-10-23T23:54:15Z",
      "size": 146884,
      "sha": "d90433a998f9e54989a768e308914cb8ac59924b",
      "source": "artifact:fiscal-flows-wrap/02_fiscal_impulse.png",
-     "artifact": 12310160864
+     "artifact": 12540160302
     },
     {
      "name": "03_total.png",
      "name_orig": "03_total.png",
      "path": "assets/fiscal-flows/03_total.png",
      "type": "png",
-     "date": "2026-10-20T23:58:10Z",
-     "size": 173304,
-     "sha": "05b489e332fb406eee05790a6488bba7bd345839",
+     "date": "2026-10-23T23:54:15Z",
+     "size": 172836,
+     "sha": "7664aaa8b09517e2a08b420bb458b8e80cbd3951",
      "source": "artifact:fiscal-flows-wrap/03_total.png",
-     "artifact": 12310160864
+     "artifact": 12540160302
     },
     {
      "name": "04_interest.png",
      "name_orig": "04_interest.png",
      "path": "assets/fiscal-flows/04_interest.png",
      "type": "png",
-     "date": "2026-10-20T23:58:10Z",
+     "date": "2026-10-23T23:54:15Z",
      "size": 320368,
      "sha": "2f02c051a7dc3fa286be3d2d68fd69ae65b89864",
      "source": "artifact:fiscal-flows-wrap/04_interest.png",
-     "artifact": 12310160864
+     "artifact": 12540160302
     },
     {
      "name": "05_social.png",
      "name_orig": "05_social.png",
      "path": "assets/fiscal-flows/05_social.png",
      "type": "png",
-     "date": "2026-10-20T23:58:10Z",
-     "size": 328492,
-     "sha": "c3e2f4db37c24c58fea03d1347c2e058d6e8a5db",
+     "date": "2026-10-23T23:54:15Z",
+     "size": 328905,
+     "sha": "8910357a7952d229da7c7368281ede92c3582831",
      "source": "artifact:fiscal-flows-wrap/05_social.png",
-     "artifact": 12310160864
+     "artifact": 12540160302
+    },
+    {
+     "name": "fiscal-flows-2026-10-22.pdf",
+     "name_orig": "fiscal-flows-2026-10-22.pdf",
+     "path": "assets/fiscal-flows/fiscal-flows-2026-10-22.pdf",
+     "type": "pdf",
+     "date": "2026-10-22T10:00:00Z",
+     "size": 2021042,
+     "sha": "8c890dc2482e43bc534149ce1c801d8c5ab4d45f",
+     "source": "artifact:fiscal-flows-wrap/fiscal-flows-2026-10-22.pdf",
+     "artifact": 12540160302
     },
     {
      "name": "fiscal-flows-2026-10-19.pdf",
@@ -1563,14 +1585,15 @@
      "size": 2010875,
      "sha": "3d20e6b2f4092802248778c2e612ca65fd9b3524",
      "source": "artifact:fiscal-flows-wrap/fiscal-flows-2026-10-15.pdf",
-     "artifact": 12154030551
+     "artifact": 12154030551,
+     "vecchio": true
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": "assets/fiscal-flows/01_settimane.png",
-   "updated": "2026-10-20T23:58:10Z"
+   "updated": "2026-10-23T23:54:15Z"
   },
   {
    "id": "ecb",
@@ -1579,12 +1602,24 @@
    "kind": "wrap",
    "desc": "Discorsi, blog e comunicati BCE.",
    "credit": null,
-   "files": [],
+   "files": [
+    {
+     "name": "serale-2026-10-23.pdf",
+     "name_orig": "serale-2026-10-23.pdf",
+     "path": "assets/ecb/serale-2026-10-23.pdf",
+     "type": "pdf",
+     "date": "2026-10-24T05:12:07Z",
+     "size": 192001,
+     "sha": "4fdd870aeb37e13a65675752099dd5b8ce202993",
+     "source": "artifact:ecb-wrap/serale/serale-2026-10-23.pdf",
+     "artifact": 12548822111
+    }
+   ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": null
+   "updated": "2026-10-24T05:12:07Z"
   },
   {
    "id": "ep-think-tank",
@@ -1593,12 +1628,24 @@
    "kind": "wrap",
    "desc": "Pubblicazioni del Think Tank del Parlamento europeo.",
    "credit": null,
-   "files": [],
+   "files": [
+    {
+     "name": "serale-2026-10-23.pdf",
+     "name_orig": "serale-2026-10-23.pdf",
+     "path": "assets/ep-think-tank/serale-2026-10-23.pdf",
+     "type": "pdf",
+     "date": "2026-10-24T05:12:05Z",
+     "size": 192001,
+     "sha": "4fdd870aeb37e13a65675752099dd5b8ce202993",
+     "source": "artifact:ep-wrap/serale/serale-2026-10-23.pdf",
+     "artifact": 12549361344
+    }
+   ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": null
+   "updated": "2026-10-24T05:12:05Z"
   },
   {
    "id": "eurostat",
@@ -1607,12 +1654,24 @@
    "kind": "wrap",
    "desc": "Uscite Eurostat.",
    "credit": null,
-   "files": [],
+   "files": [
+    {
+     "name": "serale-2026-10-23.pdf",
+     "name_orig": "serale-2026-10-23.pdf",
+     "path": "assets/eurostat/serale-2026-10-23.pdf",
+     "type": "pdf",
+     "date": "2026-10-23T22:03:18Z",
+     "size": 192001,
+     "sha": "4fdd870aeb37e13a65675752099dd5b8ce202993",
+     "source": "artifact:estat-wrap/serale/serale-2026-10-23.pdf",
+     "artifact": 12534358979
+    }
+   ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": null
+   "updated": "2026-10-23T22:03:18Z"
   },
   {
    "id": "istat",
@@ -1627,18 +1686,18 @@
      "name_orig": "serale-2026-10-23.pdf",
      "path": "assets/istat/serale-2026-10-23.pdf",
      "type": "pdf",
-     "date": "2026-10-23T18:34:17Z",
-     "size": 194338,
-     "sha": "bde0542e190522989c349159c1d7825c8afbaa74",
+     "date": "2026-10-24T05:12:10Z",
+     "size": 192001,
+     "sha": "4fdd870aeb37e13a65675752099dd5b8ce202993",
      "source": "artifact:istat-wrap/serale/serale-2026-10-23.pdf",
-     "artifact": 12523392018
+     "artifact": 12549406181
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-10-23T18:34:17Z"
+   "updated": "2026-10-24T05:12:10Z"
   },
   {
    "id": "press-corner",
@@ -1649,33 +1708,22 @@
    "credit": null,
    "files": [
     {
-     "name": "presscorner-2026-10-19.pdf",
-     "name_orig": "presscorner-2026-10-19.pdf",
-     "path": "assets/press-corner/presscorner-2026-10-19.pdf",
+     "name": "serale-2026-10-23.pdf",
+     "name_orig": "serale-2026-10-23.pdf",
+     "path": "assets/press-corner/serale-2026-10-23.pdf",
      "type": "pdf",
-     "date": "2026-10-19T22:41:17Z",
-     "size": 56594,
-     "sha": "92de86992df875146f91c4bb75bb0b0a52ebd032",
-     "source": "artifact:pc-wrap/presscorner-2026-10-19.pdf",
-     "artifact": 12225684306
-    },
-    {
-     "name": "presscorner-2026-10-18.pdf",
-     "name_orig": "presscorner-2026-10-18.pdf",
-     "path": "assets/press-corner/presscorner-2026-10-18.pdf",
-     "type": "pdf",
-     "date": "2026-10-18T21:49:40Z",
-     "size": 27401,
-     "sha": "d87abc2f12bee5c538ac06740ca5000fc089af96",
-     "source": "artifact:pc-wrap/presscorner-2026-10-18.pdf",
-     "artifact": 12151877524
+     "date": "2026-10-24T05:12:01Z",
+     "size": 192001,
+     "sha": "4fdd870aeb37e13a65675752099dd5b8ce202993",
+     "source": "artifact:pc-wrap/serale/serale-2026-10-23.pdf",
+     "artifact": 12549177071
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-10-19T22:41:17Z"
+   "updated": "2026-10-24T05:12:01Z"
   },
   {
    "id": "zerohedge",
@@ -1690,11 +1738,22 @@
      "name_orig": "serale-2026-10-23.pdf",
      "path": "assets/zerohedge/serale-2026-10-23.pdf",
      "type": "pdf",
-     "date": "2026-10-23T15:45:00Z",
-     "size": 194338,
-     "sha": "bde0542e190522989c349159c1d7825c8afbaa74",
+     "date": "2026-10-23T23:51:21Z",
+     "size": 192001,
+     "sha": "4fdd870aeb37e13a65675752099dd5b8ce202993",
      "source": "artifact:zh-wrap/serale/serale-2026-10-23.pdf",
-     "artifact": 12514015762
+     "artifact": 12539691963
+    },
+    {
+     "name": "zerohedge-2026-10-24-sera.pdf",
+     "name_orig": "zerohedge-2026-10-24-sera.pdf",
+     "path": "assets/zerohedge/zerohedge-2026-10-24-sera.pdf",
+     "type": "pdf",
+     "date": "2026-10-23T23:51:21Z",
+     "size": 32228,
+     "sha": "8ef1daa4225516a606804bc214c2ca3be0d0e75d",
+     "source": "artifact:zh-wrap/zerohedge-2026-10-24-sera.pdf",
+     "artifact": 12539691963
     },
     {
      "name": "zerohedge-2026-10-23-pranzo.pdf",
@@ -1706,24 +1765,13 @@
      "sha": "5175eff945ac41cb56cd16f3bb87c053fe4031d6",
      "source": "artifact:zh-wrap/zerohedge-2026-10-23-pranzo.pdf",
      "artifact": 12514015762
-    },
-    {
-     "name": "zerohedge-2026-10-23-sera.pdf",
-     "name_orig": "zerohedge-2026-10-23-sera.pdf",
-     "path": "assets/zerohedge/zerohedge-2026-10-23-sera.pdf",
-     "type": "pdf",
-     "date": "2026-10-22T23:58:49Z",
-     "size": 33147,
-     "sha": "ca787f10749fcf097d6bc381f9901f522426b88d",
-     "source": "artifact:zh-wrap/zerohedge-2026-10-23-sera.pdf",
-     "artifact": 12468032434
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-10-23T15:45:00Z"
+   "updated": "2026-10-23T23:51:21Z"
   },
   {
    "id": "fed",
@@ -2360,6 +2408,118 @@
    "files": [],
    "papers": [
     {
+     "title": "Effectiveness of Monetary Policy Transmission in Morocco amid Reforms to the Monetary Policy Framework",
+     "path": "assets/imf/Effectiveness_of_Monetary_Policy_Transmission_in_Morocco_amid_Reforms_to_the_Monetary_Policy_Framework.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-10-24T04:36:33Z",
+     "size": 918575,
+     "sha": "962641470de3052948ee2ed06a858cbdffb6bde4",
+     "source": "articoli/imf/Effectiveness of Monetary Policy Transmission in Morocco amid Reforms to the Monetary Policy Framework.pdf",
+     "name_orig": "Effectiveness of Monetary Policy Transmission in Morocco amid Reforms to the Monetary Policy Framework.pdf",
+     "credit": "IMF"
+    },
+    {
+     "title": "Information Networks and Inflation Expectations Evidence from Professional Forecasters and Conflicts",
+     "path": "assets/imf/Information_Networks_and_Inflation_Expectations_Evidence_from_Professional_Forecasters_and_Conflicts.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-10-24T04:36:33Z",
+     "size": 1147025,
+     "sha": "e89de3de43f6ca76eb54aa1d115a1385225e75dc",
+     "source": "articoli/imf/Information Networks and Inflation Expectations Evidence from Professional Forecasters and Conflicts.pdf",
+     "name_orig": "Information Networks and Inflation Expectations Evidence from Professional Forecasters and Conflicts.pdf",
+     "credit": "IMF"
+    },
+    {
+     "title": "Macroeconomic Effects of Forced Displacement in Sub Saharan Africa",
+     "path": "assets/imf/Macroeconomic_Effects_of_Forced_Displacement_in_Sub-Saharan_Africa.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-10-24T04:36:33Z",
+     "size": 1347074,
+     "sha": "eb8459eec56e0a94f04aaba587f38dde37e24852",
+     "source": "articoli/imf/Macroeconomic Effects of Forced Displacement in Sub-Saharan Africa.pdf",
+     "name_orig": "Macroeconomic Effects of Forced Displacement in Sub-Saharan Africa.pdf",
+     "credit": "IMF"
+    },
+    {
+     "title": "Recurring Natural Disasters and Macroeconomic Scarring A Risk Adjusted DIGNAD Framework",
+     "path": "assets/imf/Recurring_Natural_Disasters_and_Macroeconomic_Scarring_A_Risk_Adjusted_DIGNAD_Framework.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-10-24T04:36:33Z",
+     "size": 1027227,
+     "sha": "56435789c3a896cf331e4814be30a00916a0d730",
+     "source": "articoli/imf/Recurring Natural Disasters and Macroeconomic Scarring A Risk Adjusted DIGNAD Framework.pdf",
+     "name_orig": "Recurring Natural Disasters and Macroeconomic Scarring A Risk Adjusted DIGNAD Framework.pdf",
+     "credit": "IMF"
+    },
+    {
+     "title": "Rethinking Zombie Firms From Volatility to Viability",
+     "path": "assets/imf/Rethinking_Zombie_Firms_From_Volatility_to_Viability.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-10-24T04:36:33Z",
+     "size": 1753856,
+     "sha": "29e8e179121714e2479cecaee6b4b5f449523132",
+     "source": "articoli/imf/Rethinking Zombie Firms From Volatility to Viability.pdf",
+     "name_orig": "Rethinking Zombie Firms From Volatility to Viability.pdf",
+     "credit": "IMF"
+    },
+    {
+     "title": "The EU’s Energy Transition and Fuel Price Shocks",
+     "path": "assets/imf/The_EUs_Energy_Transition_and_Fuel_Price_Shocks.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-10-24T04:36:33Z",
+     "size": 749502,
+     "sha": "2946f26ac3e07d4a96aa3e98adacc50f800c4895",
+     "source": "articoli/imf/The EU’s Energy Transition and Fuel Price Shocks.pdf",
+     "name_orig": "The EU’s Energy Transition and Fuel Price Shocks.pdf",
+     "credit": "IMF"
+    },
+    {
+     "title": "The Global Fiscal Actions (GFA) Dataset",
+     "path": "assets/imf/The_Global_Fiscal_Actions_GFA_Dataset.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-10-24T04:36:33Z",
+     "size": 4134702,
+     "sha": "ea81678c6e78d1b1abde85831e872993d870508d",
+     "source": "articoli/imf/The Global Fiscal Actions (GFA) Dataset.pdf",
+     "name_orig": "The Global Fiscal Actions (GFA) Dataset.pdf",
+     "credit": "IMF"
+    },
+    {
+     "title": "Understanding Over Optimism in Tax Revenue to GDP Forecasts under IMF supported Programs",
+     "path": "assets/imf/Understanding_Over-Optimism_in_Tax_Revenue-to-GDP_Forecasts_under_IMF-supported_Programs.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-10-24T04:36:33Z",
+     "size": 869173,
+     "sha": "12fd9010328f69ad3f1ecfa98c69ec29fc223715",
+     "source": "articoli/imf/Understanding Over-Optimism in Tax Revenue-to-GDP Forecasts under IMF-supported Programs.pdf",
+     "name_orig": "Understanding Over-Optimism in Tax Revenue-to-GDP Forecasts under IMF-supported Programs.pdf",
+     "credit": "IMF"
+    },
+    {
      "title": "Fiscal Monitor October 2026 Taxing Better to Boost Growth   Executive Summary",
      "path": "assets/imf/Fiscal_Monitor_October_2026_Taxing_Better_to_Boost_Growth_-_Executive_Summary.pdf",
      "url": null,
@@ -2526,124 +2686,12 @@
      "source": "articoli/imf/archivio/2026-10-04/Beyond Clearing Central Counterparties Investment and Risk Management of Cash from Margin Calls.pdf",
      "name_orig": "Beyond Clearing Central Counterparties Investment and Risk Management of Cash from Margin Calls.pdf",
      "credit": "IMF"
-    },
-    {
-     "title": "Does Foreign Borrowing Lift Growth?",
-     "path": "assets/imf/Does_Foreign_Borrowing_Lift_Growth.pdf",
-     "url": "https://www.imf.org/en/publications/wp/issues/2026/10/03/does-foreign-borrowing-lift-growth-580148",
-     "fonte": "IMF Working Papers",
-     "authors": null,
-     "pubdate": "2026-10-03",
-     "date": "2026-10-03T10:00:00Z",
-     "size": 17202708,
-     "sha": "e910086179996d33cf4a169a1cb5820476bfd185",
-     "source": "articoli/imf/archivio/2026-10-04/Does Foreign Borrowing Lift Growth.pdf",
-     "name_orig": "Does Foreign Borrowing Lift Growth.pdf",
-     "credit": "IMF"
-    },
-    {
-     "title": "Earth Observations and Machine Learning for Gridded Macroeconomic Data",
-     "path": "assets/imf/Earth_Observations_and_Machine_Learning_for_Gridded_Macroeconomic_Data.pdf",
-     "url": "https://www.imf.org/en/publications/wp/issues/2026/10/02/earth-observations-and-machine-learning-for-gridded-macroeconomic-data-580151",
-     "fonte": "IMF Working Papers",
-     "authors": null,
-     "pubdate": "2026-10-03",
-     "date": "2026-10-03T10:00:00Z",
-     "size": 5178263,
-     "sha": "825441c930e7bf094f4cb1a3f25d90ee4635a42b",
-     "source": "articoli/imf/archivio/2026-10-04/Earth Observations and Machine Learning for Gridded Macroeconomic Data.pdf",
-     "name_orig": "Earth Observations and Machine Learning for Gridded Macroeconomic Data.pdf",
-     "credit": "IMF"
-    },
-    {
-     "title": "Education and the Decline in Average Hours Worked",
-     "path": "assets/imf/Education_and_the_Decline_in_Average_Hours_Worked.pdf",
-     "url": "https://www.imf.org/en/publications/wp/issues/2026/10/03/education-and-the-decline-in-average-hours-worked-580181",
-     "fonte": "IMF Working Papers",
-     "authors": null,
-     "pubdate": "2026-10-03",
-     "date": "2026-10-03T10:00:00Z",
-     "size": 949330,
-     "sha": "6b8c84b0ee54b6862c866e4f40330269dbc3dc1e",
-     "source": "articoli/imf/archivio/2026-10-04/Education and the Decline in Average Hours Worked.pdf",
-     "name_orig": "Education and the Decline in Average Hours Worked.pdf",
-     "credit": "IMF"
-    },
-    {
-     "title": "How Do Monetary Authorities Buy Publicly Traded Financial Assets? A Cross-Country Database and an Empirical Study of Central Bank Asset Purchase Programs",
-     "path": "assets/imf/How_Do_Monetary_Authorities_Buy_Publicly_Traded_Financial_Assets_A_Cross-Country_Database_and_an_Empirical_Study_of_Central_Bank_Asset_P.pdf",
-     "url": "https://www.imf.org/en/publications/wp/issues/2026/10/02/how-do-monetary-authorities-buy-publicly-traded-financial-assets-a-cross-country-database-580175",
-     "fonte": "IMF Working Papers",
-     "authors": null,
-     "pubdate": "2026-10-03",
-     "date": "2026-10-03T10:00:00Z",
-     "size": 2057745,
-     "sha": "0215f38ac6ba8ca5c5a96366d8dc1479bce94078",
-     "source": "articoli/imf/archivio/2026-10-04/How Do Monetary Authorities Buy Publicly Traded Financial Assets A Cross-Country Database and an Empirical Study of Central Bank Asset Purchase Progra.pdf",
-     "name_orig": "How Do Monetary Authorities Buy Publicly Traded Financial Assets A Cross-Country Database and an Empirical Study of Central Bank Asset Purchase Progra.pdf",
-     "credit": "IMF"
-    },
-    {
-     "title": "International Stablecoin Flows, Capital Controls and Currency Crises",
-     "path": "assets/imf/International_Stablecoin_Flows_Capital_Controls_and_Currency_Crises.pdf",
-     "url": "https://www.imf.org/en/publications/wp/issues/2026/10/02/international-stablecoin-flows-capital-controls-and-currency-crises-579853",
-     "fonte": "IMF Working Papers",
-     "authors": null,
-     "pubdate": "2026-10-03",
-     "date": "2026-10-03T10:00:00Z",
-     "size": 2494671,
-     "sha": "1582568e68ffe952ac8587dcc402d4f4249cb6db",
-     "source": "articoli/imf/archivio/2026-10-04/International Stablecoin Flows Capital Controls and Currency Crises.pdf",
-     "name_orig": "International Stablecoin Flows Capital Controls and Currency Crises.pdf",
-     "credit": "IMF"
-    },
-    {
-     "title": "Transmission of U.S. Long-term Rate to EM Local Currency Sovereign Bonds: The Role of the Investor Composition",
-     "path": "assets/imf/Transmission_of_US_Long-term_Rate_to_EM_Local_Currency_Sovereign_Bonds_The_Role_of_the_Investor_Composition.pdf",
-     "url": "https://www.imf.org/en/publications/wp/issues/2026/10/03/transmission-of-u-s-580186",
-     "fonte": "IMF Working Papers",
-     "authors": null,
-     "pubdate": "2026-10-03",
-     "date": "2026-10-03T10:00:00Z",
-     "size": 1681236,
-     "sha": "e035aa70d9835a8500ecab0756c806a189210abb",
-     "source": "articoli/imf/archivio/2026-10-04/Transmission of US Long-term Rate to EM Local Currency Sovereign Bonds The Role of the Investor Composition.pdf",
-     "name_orig": "Transmission of US Long-term Rate to EM Local Currency Sovereign Bonds The Role of the Investor Composition.pdf",
-     "credit": "IMF"
-    },
-    {
-     "title": "Corporate Sector Stress Testing with Endogenous Balance Sheet Dynamics",
-     "path": "assets/imf/Corporate_Sector_Stress_Testing_with_Endogenous_Balance_Sheet_Dynamics.pdf",
-     "url": "https://www.imf.org/en/publications/wp/issues/2026/10/02/corporate-sector-stress-testing-with-endogenous-balance-sheet-dynamics-580090",
-     "fonte": "IMF Working Papers",
-     "authors": null,
-     "pubdate": "2026-10-02",
-     "date": "2026-10-02T10:00:00Z",
-     "size": 2481516,
-     "sha": "638bca8097285d9e4fcb1c007399ce975f6b0f9b",
-     "source": "articoli/imf/archivio/2026-10-04/Corporate Sector Stress Testing with Endogenous Balance Sheet Dynamics.pdf",
-     "name_orig": "Corporate Sector Stress Testing with Endogenous Balance Sheet Dynamics.pdf",
-     "credit": "IMF"
-    },
-    {
-     "title": "Intangible Input Complementarities Along Supply Chains",
-     "path": "assets/imf/Intangible_Input_Complementarities_Along_Supply_Chains.pdf",
-     "url": "https://www.imf.org/en/publications/wp/issues/2026/10/02/intangible-input-complementarities-along-supply-chains-579404",
-     "fonte": "IMF Working Papers",
-     "authors": null,
-     "pubdate": "2026-10-02",
-     "date": "2026-10-02T10:00:00Z",
-     "size": 1727042,
-     "sha": "2f7d289c3b05bc392fdec6ef48e7f1c74da04165",
-     "source": "articoli/imf/archivio/2026-10-04/Intangible Input Complementarities Along Supply Chains.pdf",
-     "name_orig": "Intangible Input Complementarities Along Supply Chains.pdf",
-     "credit": "IMF"
     }
    ],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-10-21T04:37:56Z"
+   "updated": "2026-10-24T04:36:33Z"
   }
  ],
  "excluded": {
@@ -2684,28 +2732,30 @@
    11995727261,
    12055001101,
    12063776848,
-   12079792416,
-   12080094519,
-   12081735912,
    12103264226,
    12117353054,
    12139912033,
    12151323648,
    12151359306,
    12151697786,
+   12151877524,
+   12152360027,
    12152430692,
    12197190660,
    12207100546,
    12207413077,
    12217165048,
+   12225684306,
    12230328145,
    12230701324,
    12231029021,
+   12265523593,
    12266460889,
    12276509211,
    12278505813,
    12287697442,
    12307871894,
+   12309045135,
    12347773190,
    12357751758,
    12370006329,
@@ -2734,13 +2784,15 @@
    12479922570,
    12480146460,
    12494271787,
+   12502462222,
    12513000616,
    12520739489,
-   12521107305
+   12521107305,
+   12539642910
   ]
  },
  "monitor": {
-  "generato": "2026-10-23T18:31:53.145875+00:00",
+  "generato": "2026-10-24T05:09:20.406391+00:00",
   "workflow": {
    "market-wrap/market-wrap.yml": {
     "nomi": [
@@ -2749,9 +2801,9 @@
     "repo": "market-wrap",
     "workflow": "market-wrap.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-23T12:51:19+00:00",
-    "esito": "mancata",
-    "slot": "2026-10-23T06:00:00+02:00",
+    "ultima_uscita": "2026-10-23T23:17:10+00:00",
+    "esito": "ritardo",
+    "slot": "2026-10-23T22:30:00+02:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
@@ -2765,9 +2817,9 @@
     "repo": "basis-trade-wrap",
     "workflow": "basis.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-22T23:21:10+00:00",
+    "ultima_uscita": "2026-10-23T23:07:32+00:00",
     "esito": "ritardo",
-    "slot": "2026-10-22T22:15:00+02:00",
+    "slot": "2026-10-23T22:15:00+02:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
@@ -2781,7 +2833,7 @@
     "repo": "imf-spglobal-wrap_",
     "workflow": "imf.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-23T17:53:48+00:00",
+    "ultima_uscita": "2026-10-23T23:53:48+00:00",
     "esito": "ritardo",
     "slot": "2026-10-23T07:20:00+02:00",
     "condizionale": true,
@@ -2799,18 +2851,18 @@
     "stato_workflow": "active",
     "ultima_uscita": "2026-10-20T12:57:32+00:00",
     "esito": "mancata",
-    "slot": "2026-10-23T08:00:00+02:00",
+    "slot": "2026-10-23T22:00:00+02:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": {
-     "quando": "2026-10-23T12:49:55+00:00",
-     "url": "https://github.com/guado77/gmail-wrap/actions/runs/39956251771",
+     "quando": "2026-10-23T23:50:43+00:00",
+     "url": "https://github.com/guado77/gmail-wrap/actions/runs/40041863368",
      "passo": "Genera e invia il digest"
     },
     "url": "https://github.com/guado77/gmail-wrap/actions/workflows/gmail-wrap.yml",
     "causa": "crediti_api",
-    "forzato": "2026-10-23T18:31:53.145875+00:00"
+    "forzato": "2026-10-24T05:09:20.406391+00:00"
    },
    "chat-wrap/chat-wrap.yml": {
     "nomi": [
@@ -2819,8 +2871,8 @@
     "repo": "chat-wrap",
     "workflow": "chat-wrap.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-23T11:03:04+00:00",
-    "esito": "attesa",
+    "ultima_uscita": "2026-10-23T21:23:07+00:00",
+    "esito": "ritardo",
     "slot": "2026-10-23T20:00:00+02:00",
     "condizionale": false,
     "manuale": null,
@@ -2868,8 +2920,8 @@
     "repo": "tvol-wrap",
     "workflow": "tvol.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-23T12:57:33+00:00",
-    "esito": "attesa",
+    "ultima_uscita": "2026-10-23T20:36:41+00:00",
+    "esito": "ritardo",
     "slot": "2026-10-23T19:30:00+02:00",
     "condizionale": false,
     "manuale": null,
@@ -2886,18 +2938,18 @@
     "stato_workflow": "active",
     "ultima_uscita": "2026-10-20T00:16:06+00:00",
     "esito": "mancata",
-    "slot": "2026-10-23T10:00:00+02:00",
+    "slot": "2026-10-23T23:00:00+02:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": {
-     "quando": "2026-10-23T12:50:44+00:00",
-     "url": "https://github.com/guado77/oil-wrap/actions/runs/39956296713",
+     "quando": "2026-10-24T00:10:56+00:00",
+     "url": "https://github.com/guado77/oil-wrap/actions/runs/40043603376",
      "passo": "Genera e invia"
     },
     "url": "https://github.com/guado77/oil-wrap/actions/workflows/oil-wrap.yml",
     "causa": "crediti_api",
-    "forzato": "2026-10-23T18:31:53.145875+00:00"
+    "forzato": "2026-10-24T05:09:20.406391+00:00"
    },
    "pun-wrap/pun-wrap.yml": {
     "nomi": [
@@ -2906,9 +2958,9 @@
     "repo": "pun-wrap",
     "workflow": "pun-wrap.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-23T12:51:01+00:00",
-    "esito": "mancata",
-    "slot": "2026-10-23T10:00:00+02:00",
+    "ultima_uscita": "2026-10-23T23:41:03+00:00",
+    "esito": "ritardo",
+    "slot": "2026-10-23T23:00:00+02:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
@@ -2938,9 +2990,9 @@
     "repo": "imf-spglobal-wrap_",
     "workflow": "zh.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-23T15:44:56+00:00",
+    "ultima_uscita": "2026-10-23T23:51:18+00:00",
     "esito": "ritardo",
-    "slot": "2026-10-23T13:00:00+02:00",
+    "slot": "2026-10-23T23:00:00+02:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
@@ -2955,19 +3007,19 @@
     "workflow": "spg.yml",
     "stato_workflow": "active",
     "ultima_uscita": "2026-10-19T19:41:59+00:00",
-    "esito": "attesa",
+    "esito": "nessuna_novita",
     "slot": "2026-10-23T15:35:00+02:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": {
-     "quando": "2026-10-23T17:58:44+00:00",
-     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/39999232377",
+     "quando": "2026-10-23T20:38:49+00:00",
+     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/40020587972",
      "passo": "Genera e invia"
     },
     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/spg.yml",
     "causa": "crediti_api",
-    "forzato": "2026-10-23T18:31:53.145875+00:00"
+    "forzato": "2026-10-24T05:09:20.406391+00:00"
    },
    "ice-evening-wrap/wrap.yml": {
     "nomi": [
@@ -2976,8 +3028,8 @@
     "repo": "ice-evening-wrap",
     "workflow": "wrap.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-22T21:17:37+00:00",
-    "esito": "attesa",
+    "ultima_uscita": "2026-10-23T21:06:41+00:00",
+    "esito": "ritardo",
     "slot": "2026-10-23T20:00:00+02:00",
     "condizionale": false,
     "manuale": "richiede il captcha ICE dal PC: si avvia a mano",
@@ -2992,9 +3044,9 @@
     "repo": "bloomberg-wrap",
     "workflow": "bloomberg-wrap.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-22T23:21:37+00:00",
+    "ultima_uscita": "2026-10-23T23:09:11+00:00",
     "esito": "ritardo",
-    "slot": "2026-10-22T22:15:00+02:00",
+    "slot": "2026-10-23T22:15:00+02:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
@@ -3010,16 +3062,18 @@
     "stato_workflow": "active",
     "ultima_uscita": "2026-10-23T05:05:12+00:00",
     "esito": "nessuna_novita",
-    "slot": "2026-10-22T21:07:00+02:00",
+    "slot": "2026-10-23T21:07:00+02:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": {
-     "quando": "2026-10-22T23:18:48+00:00",
-     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/39870847010",
+     "quando": "2026-10-23T23:07:06+00:00",
+     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/40037646924",
      "passo": "Genera e invia"
     },
-    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/ecb.yml"
+    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/ecb.yml",
+    "causa": "crediti_api",
+    "forzato": "2026-10-24T05:09:20.406391+00:00"
    },
    "imf-spglobal-wrap_/ep.yml": {
     "nomi": [
@@ -3030,16 +3084,18 @@
     "stato_workflow": "active",
     "ultima_uscita": "2026-10-23T05:05:06+00:00",
     "esito": "nessuna_novita",
-    "slot": "2026-10-22T21:37:00+02:00",
+    "slot": "2026-10-23T21:37:00+02:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": {
-     "quando": "2026-10-22T23:33:11+00:00",
-     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/39872371988",
+     "quando": "2026-10-23T23:26:44+00:00",
+     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/40039564590",
      "passo": "Genera e invia"
     },
-    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/ep.yml"
+    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/ep.yml",
+    "causa": "crediti_api",
+    "forzato": "2026-10-24T05:09:20.406391+00:00"
    },
    "imf-spglobal-wrap_/estat.yml": {
     "nomi": [
@@ -3048,8 +3104,8 @@
     "repo": "imf-spglobal-wrap_",
     "workflow": "estat.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-23T05:05:09+00:00",
-    "esito": "attesa",
+    "ultima_uscita": "2026-10-23T22:03:17+00:00",
+    "esito": "ritardo",
     "slot": "2026-10-23T20:07:00+02:00",
     "condizionale": true,
     "manuale": null,
@@ -3070,16 +3126,18 @@
     "stato_workflow": "active",
     "ultima_uscita": "2026-10-23T05:05:10+00:00",
     "esito": "nessuna_novita",
-    "slot": "2026-10-22T20:37:00+02:00",
+    "slot": "2026-10-23T20:37:00+02:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": {
-     "quando": "2026-10-22T22:39:39+00:00",
-     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/39866432848",
+     "quando": "2026-10-23T22:32:53+00:00",
+     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/40034208431",
      "passo": "Genera e invia"
     },
-    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/pc.yml"
+    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/pc.yml",
+    "causa": "crediti_api",
+    "forzato": "2026-10-24T05:09:20.406391+00:00"
    },
    "imf-spglobal-wrap_/istat.yml": {
     "nomi": [
@@ -3095,13 +3153,13 @@
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": {
-     "quando": "2026-10-23T16:11:28+00:00",
-     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/39984563694",
+     "quando": "2026-10-23T18:34:20+00:00",
+     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/40004251153",
      "passo": "Genera e invia"
     },
     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/istat.yml",
     "causa": "crediti_api",
-    "forzato": "2026-10-23T18:31:53.145875+00:00"
+    "forzato": "2026-10-24T05:09:20.406391+00:00"
    },
    "macro-wrap-bot/macro_wrap.yaml": {
     "nomi": [
@@ -3110,9 +3168,9 @@
     "repo": "macro-wrap-bot",
     "workflow": "macro_wrap.yaml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-22T22:46:08+00:00",
+    "ultima_uscita": "2026-10-23T22:38:07+00:00",
     "esito": "ritardo",
-    "slot": "2026-10-22T21:45:00+02:00",
+    "slot": "2026-10-23T21:45:00+02:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
@@ -3126,9 +3184,9 @@
     "repo": "imf-spglobal-wrap_",
     "workflow": "analysis-corner.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-23T00:30:57+00:00",
+    "ultima_uscita": "2026-10-24T00:26:30+00:00",
     "esito": "ritardo",
-    "slot": "2026-10-22T23:00:00+02:00",
+    "slot": "2026-10-23T23:00:00+02:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
@@ -3142,9 +3200,9 @@
     "repo": "fi-wrap",
     "workflow": "fi-giornaliero.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-22T23:54:33+00:00",
+    "ultima_uscita": "2026-10-23T23:45:35+00:00",
     "esito": "ritardo",
-    "slot": "2026-10-22T23:00:00+02:00",
+    "slot": "2026-10-23T23:00:00+02:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
@@ -3158,9 +3216,9 @@
     "repo": "desk",
     "workflow": "update-wrap.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-22T23:59:37+00:00",
+    "ultima_uscita": "2026-10-23T23:51:43+00:00",
     "esito": "ritardo",
-    "slot": "2026-10-22T23:15:00+02:00",
+    "slot": "2026-10-23T23:15:00+02:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
@@ -3278,9 +3336,9 @@
     "repo": "imf-spglobal-wrap_",
     "workflow": "cftc.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-18T22:56:32+00:00",
-    "esito": null,
-    "slot": null,
+    "ultima_uscita": "2026-10-23T21:54:07+00:00",
+    "esito": "ritardo",
+    "slot": "2026-10-23T21:40:00+02:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
@@ -3294,9 +3352,9 @@
     "repo": "imf-spglobal-wrap_",
     "workflow": "dts.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-20T23:58:07+00:00",
-    "esito": null,
-    "slot": null,
+    "ultima_uscita": "2026-10-23T23:54:12+00:00",
+    "esito": "ritardo",
+    "slot": "2026-10-23T23:20:00+02:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
@@ -3310,9 +3368,9 @@
     "repo": "imf-spglobal-wrap_",
     "workflow": "cbo.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-10-23T00:44:12+00:00",
+    "ultima_uscita": "2026-10-24T00:49:02+00:00",
     "esito": "ritardo",
-    "slot": "2026-10-22T21:20:00+02:00",
+    "slot": "2026-10-23T21:20:00+02:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
@@ -3391,25 +3449,31 @@
   "crediti": {
    "esauriti": true,
    "wrap": [
+    "ECB Wrap (schede)",
+    "EP Think Tank Wrap (schede)",
     "Gmail Wrap (News Corner)",
     "Istat Wrap",
     "Oil Wrap",
+    "Press corner Wrap",
     "S&P Global Wrap (News Corner)"
    ],
-   "dal": "2026-10-23T12:49:55+00:00"
+   "dal": "2026-10-23T18:34:20+00:00"
   },
   "forzati": [
    "gmail-wrap/gmail-wrap.yml",
+   "imf-spglobal-wrap_/ecb.yml",
+   "imf-spglobal-wrap_/ep.yml",
    "imf-spglobal-wrap_/istat.yml",
+   "imf-spglobal-wrap_/pc.yml",
    "imf-spglobal-wrap_/spg.yml",
    "oil-wrap/oil-wrap.yml"
   ]
  },
  "edizione": {
-  "nome": "sera",
-  "giorno": "2026-10-23",
-  "quando": "2026-10-23T19:59:51Z",
-  "aggiornati": 28,
+  "nome": "mattina",
+  "giorno": "2026-10-24",
+  "quando": "2026-10-24T06:32:27Z",
+  "aggiornati": 27,
   "mancanti": 0,
   "completa": false
  }
