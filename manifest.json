@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T07:33:26Z",
+ "generated_at": "2026-11-19T21:17:19Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -11,6 +11,17 @@
    "desc": "Wrap cross-asset del mattino e della sera.",
    "credit": null,
    "files": [
+    {
+     "name": "wrap_morning_20261119_2034.png",
+     "name_orig": "wrap_morning_20261119_2034.png",
+     "path": "assets/market-wrap/wrap_morning_20261119_2034.png",
+     "type": "png",
+     "date": "2026-11-19T19:36:54Z",
+     "size": 242653,
+     "sha": "9b2b1fe12f72c3ccd0dfec749bb9201032814f1e",
+     "source": "artifact:market-wrap-morning/wrap_morning_20261119_2034.png",
+     "artifact": 14567318079
+    },
     {
      "name": "wrap_evening_20261119_0346.png",
      "name_orig": "wrap_evening_20261119_0346.png",
@@ -56,15 +67,15 @@
      "artifact": 14363905276
     },
     {
-     "name": "wrap_evening_20261117_0510.png",
-     "name_orig": "wrap_evening_20261117_0510.png",
-     "path": "assets/market-wrap/wrap_evening_20261117_0510.png",
-     "type": "png",
-     "date": "2026-11-17T04:11:47Z",
-     "size": 259587,
-     "sha": "82c0bcd27b56af70147d3588f235eead6c8c5ebd",
-     "source": "artifact:market-wrap-evening/wrap_evening_20261117_0510.png",
-     "artifact": 14297693786
+     "name": "market-wrap-2026-11-19-2034.pdf",
+     "name_orig": "market-wrap-2026-11-19-2034.pdf",
+     "path": "assets/market-wrap/market-wrap-2026-11-19-2034.pdf",
+     "type": "pdf",
+     "date": "2026-11-19T19:36:54Z",
+     "size": 1027563,
+     "sha": "93f24989891cd6e163664ce8dde654a3f51f49e3",
+     "source": "artifact:market-wrap-morning/market-wrap-2026-11-19-2034.pdf",
+     "artifact": 14567318079
     },
     {
      "name": "market-wrap-2026-11-19-0346.pdf",
@@ -109,24 +120,13 @@
      "sha": "0697d46d475c7fff9eaad83017703f7b9b9edea4",
      "source": "artifact:market-wrap-morning/market-wrap-2026-11-17-2037.pdf",
      "artifact": 14363905276
-    },
-    {
-     "name": "market-wrap-2026-11-17-0510.pdf",
-     "name_orig": "market-wrap-2026-11-17-0510.pdf",
-     "path": "assets/market-wrap/market-wrap-2026-11-17-0510.pdf",
-     "type": "pdf",
-     "date": "2026-11-17T04:11:47Z",
-     "size": 1062572,
-     "sha": "207bbf8ed8c22d1c985d25a70d1ef02ba3b508b3",
-     "source": "artifact:market-wrap-evening/market-wrap-2026-11-17-0510.pdf",
-     "artifact": 14297693786
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
-   "hero": "assets/market-wrap/wrap_evening_20261119_0346.png",
-   "updated": "2026-11-19T02:47:55Z"
+   "hero": "assets/market-wrap/wrap_morning_20261119_2034.png",
+   "updated": "2026-11-19T19:36:54Z"
   },
   {
    "id": "headline-wrap",
@@ -136,6 +136,17 @@
    "desc": "Digest delle headline (08/13/18, giorni feriali).",
    "credit": null,
    "files": [
+    {
+     "name": "headline_20261119_1304.png",
+     "name_orig": "headline_20261119_1304.png",
+     "path": "assets/headline-wrap/headline_20261119_1304.png",
+     "type": "png",
+     "date": "2026-11-19T12:04:00Z",
+     "size": 207103,
+     "sha": "a3ddeb04fcb5567be3ac261a6e50b9f90877a53e",
+     "source": "uscite/headline/headline_20261119_1304.png",
+     "artifact": null
+    },
     {
      "name": "headline_20261119_0813.png",
      "name_orig": "headline_20261119_0813.png",
@@ -180,25 +191,13 @@
      "source": "uscite/headline/headline_20261020_1304.png",
      "artifact": null,
      "vecchio": true
-    },
-    {
-     "name": "headline_20261020_1156.png",
-     "name_orig": "headline_20261020_1156.png",
-     "path": "assets/headline-wrap/headline_20261020_1156.png",
-     "type": "png",
-     "date": "2026-10-20T09:56:00Z",
-     "size": 170812,
-     "sha": "2a2159e861baa4b8e91cc82137068caa925ff681",
-     "source": "uscite/headline/headline_20261020_1156.png",
-     "artifact": null,
-     "vecchio": true
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
-   "hero": "assets/headline-wrap/headline_20261119_0813.png",
-   "updated": "2026-11-19T07:13:00Z"
+   "hero": "assets/headline-wrap/headline_20261119_1304.png",
+   "updated": "2026-11-19T12:04:00Z"
   },
   {
    "id": "desk",
@@ -283,9 +282,9 @@
      "name_orig": "eurex_card.png",
      "path": "assets/tvol-wrap/eurex_card.png",
      "type": "png",
-     "date": "2026-11-18T23:38:11Z",
-     "size": 106753,
-     "sha": "ad3c071c5384c50f6a895e8d4a0d0121809ad811",
+     "date": "2026-11-19T17:00:35Z",
+     "size": 106316,
+     "sha": "c82cd2d2b73314dce557318c28cd2cdebf9f52d7",
      "source": "data/eurex_card.png",
      "artifact": null
     },
@@ -294,9 +293,9 @@
      "name_orig": "flussi_card.png",
      "path": "assets/tvol-wrap/flussi_card.png",
      "type": "png",
-     "date": "2026-11-18T16:56:18Z",
-     "size": 206980,
-     "sha": "633fe97581e3aa880141199a9bfa789333f124aa",
+     "date": "2026-11-19T17:00:35Z",
+     "size": 205744,
+     "sha": "e962bd281bf3e432b692149932b99a654b0458f0",
      "source": "data/flussi_card.png",
      "artifact": null
     },
@@ -305,9 +304,9 @@
      "name_orig": "last_card.png",
      "path": "assets/tvol-wrap/last_card.png",
      "type": "png",
-     "date": "2026-11-18T16:56:18Z",
-     "size": 216825,
-     "sha": "767601fc6d011dc94c1a9fcd78062f3e4020c07b",
+     "date": "2026-11-19T17:00:35Z",
+     "size": 211369,
+     "sha": "bb4ff995c3a990d2bf883245a8f10f207de313e8",
      "source": "data/last_card.png",
      "artifact": null
     },
@@ -316,9 +315,9 @@
      "name_orig": "smile_CL.png",
      "path": "assets/tvol-wrap/smile_CL.png",
      "type": "png",
-     "date": "2026-11-18T16:56:18Z",
-     "size": 147442,
-     "sha": "68622d07f88db8f589662761627b8f6915d0fed8",
+     "date": "2026-11-19T17:00:35Z",
+     "size": 148343,
+     "sha": "fafdf1221ed07ff14b65cf33f7a7bb7616861b04",
      "source": "data/smile_CL.png",
      "artifact": null
     },
@@ -327,32 +326,10 @@
      "name_orig": "smile_ES.png",
      "path": "assets/tvol-wrap/smile_ES.png",
      "type": "png",
-     "date": "2026-11-18T16:56:18Z",
-     "size": 147910,
-     "sha": "8b58eb6364e520c511fa84cf2813b94a18567a15",
+     "date": "2026-11-19T17:00:35Z",
+     "size": 146948,
+     "sha": "07a153e1c87e75c47aa43581f6a30a1d0e417e9e",
      "source": "data/smile_ES.png",
-     "artifact": null
-    },
-    {
-     "name": "smile_ZB.png",
-     "name_orig": "smile_ZB.png",
-     "path": "assets/tvol-wrap/smile_ZB.png",
-     "type": "png",
-     "date": "2026-11-18T16:56:18Z",
-     "size": 141306,
-     "sha": "bc5a82498b4dd641fc09c6f73f672516889e59ac",
-     "source": "data/smile_ZB.png",
-     "artifact": null
-    },
-    {
-     "name": "smile_ZN.png",
-     "name_orig": "smile_ZN.png",
-     "path": "assets/tvol-wrap/smile_ZN.png",
-     "type": "png",
-     "date": "2026-11-18T16:56:18Z",
-     "size": 141187,
-     "sha": "3fe518c6226ebf888c046bcf853645ecc59bc608",
-     "source": "data/smile_ZN.png",
      "artifact": null
     },
     {
@@ -360,9 +337,9 @@
      "name_orig": "last_chart.png",
      "path": "assets/tvol-wrap/last_chart.png",
      "type": "png",
-     "date": "2026-11-18T16:09:26Z",
-     "size": 84809,
-     "sha": "ef941af1054190f85ab452a4216b0a7a6bb46418",
+     "date": "2026-11-19T16:16:44Z",
+     "size": 84076,
+     "sha": "c5da6c2830ecb453cdbe7d6a3ec905bf7ca1f130",
      "source": "data/last_chart.png",
      "artifact": null
     },
@@ -371,10 +348,32 @@
      "name_orig": "multi_card.png",
      "path": "assets/tvol-wrap/multi_card.png",
      "type": "png",
-     "date": "2026-11-18T16:09:26Z",
-     "size": 404046,
-     "sha": "f4068e0944cf4a19cde02d1295924c4c9049a422",
+     "date": "2026-11-19T16:16:44Z",
+     "size": 402889,
+     "sha": "c5293858a4504c059aeb32c285a0059ca3078944",
      "source": "data/multi_card.png",
+     "artifact": null
+    },
+    {
+     "name": "smile_ZB.png",
+     "name_orig": "smile_ZB.png",
+     "path": "assets/tvol-wrap/smile_ZB.png",
+     "type": "png",
+     "date": "2026-11-19T16:16:44Z",
+     "size": 145312,
+     "sha": "c46269002c8a8b01b40d134edbafdb51e5b186ba",
+     "source": "data/smile_ZB.png",
+     "artifact": null
+    },
+    {
+     "name": "smile_ZN.png",
+     "name_orig": "smile_ZN.png",
+     "path": "assets/tvol-wrap/smile_ZN.png",
+     "type": "png",
+     "date": "2026-11-19T16:16:44Z",
+     "size": 140276,
+     "sha": "3995d301684aec62a90ef32f28b9226e79019ba5",
+     "source": "data/smile_ZN.png",
      "artifact": null
     },
     {
@@ -394,7 +393,7 @@
    "headlines": [],
    "error": null,
    "hero": "assets/tvol-wrap/last_card.png",
-   "updated": "2026-11-18T23:38:11Z"
+   "updated": "2026-11-19T17:00:35Z"
   },
   {
    "id": "fi-wrap",
@@ -546,51 +545,51 @@
      "name_orig": "market_wrap_analisi.png",
      "path": "assets/pun-wrap/market_wrap_analisi.png",
      "type": "png",
-     "date": "2026-11-19T02:47:20Z",
-     "size": 707252,
-     "sha": "7761a5b2aa20341d7dd13e302661ecbe9f53cbb9",
+     "date": "2026-11-19T16:46:59Z",
+     "size": 712219,
+     "sha": "2edc42c8f777532196ea5970f65335fdd6588e22",
      "source": "artifact:pun-wrap-immagini/market_wrap_analisi.png",
-     "artifact": 14493576797
+     "artifact": 14554217168
     },
     {
      "name": "market_wrap_bolletta.png",
      "name_orig": "market_wrap_bolletta.png",
      "path": "assets/pun-wrap/market_wrap_bolletta.png",
      "type": "png",
-     "date": "2026-11-19T02:47:20Z",
-     "size": 160503,
-     "sha": "d51abff08790541185a6eff65cadacb64e5bfa50",
+     "date": "2026-11-19T16:46:59Z",
+     "size": 160357,
+     "sha": "2b6b2f2b107bd67e687e05e4b86b800e230158cd",
      "source": "artifact:pun-wrap-immagini/market_wrap_bolletta.png",
-     "artifact": 14493576797
-    },
-    {
-     "name": "market_wrap_gme.png",
-     "name_orig": "market_wrap_gme.png",
-     "path": "assets/pun-wrap/market_wrap_gme.png",
-     "type": "png",
-     "date": "2026-11-19T02:47:20Z",
-     "size": 486281,
-     "sha": "7acc765d629c93787d999f75c0f067965c009628",
-     "source": "artifact:pun-wrap-immagini/market_wrap_gme.png",
-     "artifact": 14493576797
+     "artifact": 14554217168
     },
     {
      "name": "market_wrap_fondamentali.png",
      "name_orig": "market_wrap_fondamentali.png",
      "path": "assets/pun-wrap/market_wrap_fondamentali.png",
      "type": "png",
-     "date": "2026-11-18T16:43:33Z",
-     "size": 85175,
-     "sha": "d2b5e2478465982f3bec7a6c6d9d166b5587bd33",
+     "date": "2026-11-19T16:46:59Z",
+     "size": 84227,
+     "sha": "b0a4f92efc28e1e5592feb78c508468ee13ac17f",
      "source": "artifact:pun-wrap-immagini/market_wrap_fondamentali.png",
-     "artifact": 14448221953
+     "artifact": 14554217168
+    },
+    {
+     "name": "market_wrap_gme.png",
+     "name_orig": "market_wrap_gme.png",
+     "path": "assets/pun-wrap/market_wrap_gme.png",
+     "type": "png",
+     "date": "2026-11-19T16:46:59Z",
+     "size": 511990,
+     "sha": "bd96892da00f824aa66adcde3c75b826d3ad8ceb",
+     "source": "artifact:pun-wrap-immagini/market_wrap_gme.png",
+     "artifact": 14554217168
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": "assets/pun-wrap/market_wrap_analisi.png",
-   "updated": "2026-11-19T02:47:20Z"
+   "updated": "2026-11-19T16:46:59Z"
   },
   {
    "id": "pun-diagnosi",
@@ -986,6 +985,86 @@
    "papers": [],
    "headlines": [
     {
+     "title": "Air taxi firm vertical aerospace in talks with possible partners",
+     "date": "2026-11-19T11:00:00Z",
+     "url": null,
+     "credit": "Bloomberg",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-19-air-taxi-firm-vertical-aerospace-in-talks-with-possible-partners.pdf",
+     "search": "https://www.bloomberg.com/search?query=Air%20taxi%20firm%20vertical%20aerospace%20in%20talks%20with%20possible%20partners"
+    },
+    {
+     "title": "Climate talks edge toward deal on electrifying global economy",
+     "date": "2026-11-19T11:00:00Z",
+     "url": null,
+     "credit": "Bloomberg",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-19-climate-talks-edge-toward-deal-on-electrifying-global-economy.pdf",
+     "search": "https://www.bloomberg.com/search?query=Climate%20talks%20edge%20toward%20deal%20on%20electrifying%20global%20economy"
+    },
+    {
+     "title": "Eu plans oil reserve revamp to avert diesel jet fuel shortage",
+     "date": "2026-11-19T11:00:00Z",
+     "url": null,
+     "credit": "Bloomberg",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-19-eu-plans-oil-reserve-revamp-to-avert-diesel-jet-fuel-shortage.pdf",
+     "search": "https://www.bloomberg.com/search?query=Eu%20plans%20oil%20reserve%20revamp%20to%20avert%20diesel%20jet%20fuel%20shortage"
+    },
+    {
+     "title": "Eu reaches deal on longer delay to methane rules for importers",
+     "date": "2026-11-19T11:00:00Z",
+     "url": null,
+     "credit": "Bloomberg",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-19-eu-reaches-deal-on-longer-delay-to-methane-rules-for-importers.pdf",
+     "search": "https://www.bloomberg.com/search?query=Eu%20reaches%20deal%20on%20longer%20delay%20to%20methane%20rules%20for%20importers"
+    },
+    {
+     "title": "Fed tells regional staff to expect lower pay increases in 2027",
+     "date": "2026-11-19T11:00:00Z",
+     "url": null,
+     "credit": "Bloomberg",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-19-fed-tells-regional-staff-to-expect-lower-pay-increases-in-2027.pdf",
+     "search": "https://www.bloomberg.com/search?query=Fed%20tells%20regional%20staff%20to%20expect%20lower%20pay%20increases%20in%202027"
+    },
+    {
+     "title": "Mike lynch yacht crew unaware of wind risks uk probe finds",
+     "date": "2026-11-19T11:00:00Z",
+     "url": null,
+     "credit": "Bloomberg",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-19-mike-lynch-yacht-crew-unaware-of-wind-risks-uk-probe-finds.pdf",
+     "search": "https://www.bloomberg.com/search?query=Mike%20lynch%20yacht%20crew%20unaware%20of%20wind%20risks%20uk%20probe%20finds"
+    },
+    {
+     "title": "The us housing market's widening wealth gap comes down to luck and timing",
+     "date": "2026-11-19T11:00:00Z",
+     "url": null,
+     "credit": "Bloomberg",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-19-the-us-housing-market-s-widening-wealth-gap-comes-down-to-luck-and-timing.pdf",
+     "search": "https://www.bloomberg.com/search?query=The%20us%20housing%20market%27s%20widening%20wealth%20gap%20comes%20down%20to%20luck%20and%20timing"
+    },
+    {
+     "title": "Traders are betting on interest rates staying high for years",
+     "date": "2026-11-19T11:00:00Z",
+     "url": null,
+     "credit": "Bloomberg",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-19-traders-are-betting-on-interest-rates-staying-high-for-years.pdf",
+     "search": "https://www.bloomberg.com/search?query=Traders%20are%20betting%20on%20interest%20rates%20staying%20high%20for%20years"
+    },
+    {
+     "title": "Turkey's state oil producer tpao in talks for 1 billion loan",
+     "date": "2026-11-19T11:00:00Z",
+     "url": null,
+     "credit": "Bloomberg",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-19-turkey-s-state-oil-producer-tpao-in-talks-for-1-billion-loan.pdf",
+     "search": "https://www.bloomberg.com/search?query=Turkey%27s%20state%20oil%20producer%20tpao%20in%20talks%20for%201%20billion%20loan"
+    },
+    {
+     "title": "Us sour crude's war premium vanishes as supply surges",
+     "date": "2026-11-19T11:00:00Z",
+     "url": null,
+     "credit": "Bloomberg",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-19-us-sour-crude-s-war-premium-vanishes-as-supply-surges.pdf",
+     "search": "https://www.bloomberg.com/search?query=Us%20sour%20crude%27s%20war%20premium%20vanishes%20as%20supply%20surges"
+    },
+    {
      "title": "A 35 hour work week is a luxury mercedes and germany can't afford",
      "date": "2026-11-18T11:00:00Z",
      "url": null,
@@ -1064,91 +1143,11 @@
      "credit": "Bloomberg",
      "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-17-china-and-india-mask-a-growing-crisis-in-global-coal.pdf",
      "search": "https://www.bloomberg.com/search?query=China%20and%20india%20mask%20a%20growing%20crisis%20in%20global%20coal"
-    },
-    {
-     "title": "Fidelity says even at 6 treasuries fail to be massively cheap",
-     "date": "2026-11-17T11:00:00Z",
-     "url": null,
-     "credit": "Bloomberg",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-17-fidelity-says-even-at-6-treasuries-fail-to-be-massively-cheap.pdf",
-     "search": "https://www.bloomberg.com/search?query=Fidelity%20says%20even%20at%206%20treasuries%20fail%20to%20be%20massively%20cheap"
-    },
-    {
-     "title": "France to miss deficit goals as economic growth falters eu says",
-     "date": "2026-11-17T11:00:00Z",
-     "url": null,
-     "credit": "Bloomberg",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-17-france-to-miss-deficit-goals-as-economic-growth-falters-eu-says.pdf",
-     "search": "https://www.bloomberg.com/search?query=France%20to%20miss%20deficit%20goals%20as%20economic%20growth%20falters%20eu%20says"
-    },
-    {
-     "title": "Germany to propose markus brunnermeier as ecb chief economist",
-     "date": "2026-11-17T11:00:00Z",
-     "url": null,
-     "credit": "Bloomberg",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-17-germany-to-propose-markus-brunnermeier-as-ecb-chief-economist.pdf",
-     "search": "https://www.bloomberg.com/search?query=Germany%20to%20propose%20markus%20brunnermeier%20as%20ecb%20chief%20economist"
-    },
-    {
-     "title": "Gold steadies near 14 month low as rate hike pressure mounts",
-     "date": "2026-11-17T11:00:00Z",
-     "url": null,
-     "credit": "Bloomberg",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-17-gold-steadies-near-14-month-low-as-rate-hike-pressure-mounts.pdf",
-     "search": "https://www.bloomberg.com/search?query=Gold%20steadies%20near%2014%20month%20low%20as%20rate%20hike%20pressure%20mounts"
-    },
-    {
-     "title": "Russia's oil exports hit their highest since july as drones hit refineries",
-     "date": "2026-11-17T11:00:00Z",
-     "url": null,
-     "credit": "Bloomberg",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-17-russia-s-oil-exports-hit-their-highest-since-july-as-drones-hit-refineries.pdf",
-     "search": "https://www.bloomberg.com/search?query=Russia%27s%20oil%20exports%20hit%20their%20highest%20since%20july%20as%20drones%20hit%20refineries"
-    },
-    {
-     "title": "Sse to shut uk gas storage site deepening britain's supply risk",
-     "date": "2026-11-17T11:00:00Z",
-     "url": null,
-     "credit": "Bloomberg",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-17-sse-to-shut-uk-gas-storage-site-deepening-britain-s-supply-risk.pdf",
-     "search": "https://www.bloomberg.com/search?query=Sse%20to%20shut%20uk%20gas%20storage%20site%20deepening%20britain%27s%20supply%20risk"
-    },
-    {
-     "title": "T rowe sticks to bearish treasuries bet that fueled banner 2026",
-     "date": "2026-11-17T11:00:00Z",
-     "url": null,
-     "credit": "Bloomberg",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-17-t-rowe-sticks-to-bearish-treasuries-bet-that-fueled-banner-2026.pdf",
-     "search": "https://www.bloomberg.com/search?query=T%20rowe%20sticks%20to%20bearish%20treasuries%20bet%20that%20fueled%20banner%202026"
-    },
-    {
-     "title": "Treasuries rise as risk averse investors dump stocks buy bonds",
-     "date": "2026-11-17T11:00:00Z",
-     "url": null,
-     "credit": "Bloomberg",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-17-treasuries-rise-as-risk-averse-investors-dump-stocks-buy-bonds.pdf",
-     "search": "https://www.bloomberg.com/search?query=Treasuries%20rise%20as%20risk%20averse%20investors%20dump%20stocks%20buy%20bonds"
-    },
-    {
-     "title": "Trump says us looking into any iran attack plan for washington",
-     "date": "2026-11-17T11:00:00Z",
-     "url": null,
-     "credit": "Bloomberg",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-17-trump-says-us-looking-into-any-iran-attack-plan-for-washington.pdf",
-     "search": "https://www.bloomberg.com/search?query=Trump%20says%20us%20looking%20into%20any%20iran%20attack%20plan%20for%20washington"
-    },
-    {
-     "title": "Blackrock shifts ai bets adds equity risk in new model shakeup",
-     "date": "2026-11-16T11:00:00Z",
-     "url": null,
-     "credit": "Bloomberg",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/2026-11-16-blackrock-shifts-ai-bets-adds-equity-risk-in-new-model-shakeup.pdf",
-     "search": "https://www.bloomberg.com/search?query=Blackrock%20shifts%20ai%20bets%20adds%20equity%20risk%20in%20new%20model%20shakeup"
     }
    ],
    "error": null,
    "hero": null,
-   "updated": "2026-11-18T11:00:00Z"
+   "updated": "2026-11-19T11:00:00Z"
   },
   {
    "id": "spg",
@@ -1160,6 +1159,13 @@
    "files": [],
    "papers": [],
    "headlines": [
+    {
+     "title": "Big Picture 2027 Outlook The AI ROI Question",
+     "date": "2026-11-19T12:50:07Z",
+     "url": null,
+     "credit": "S&P Global",
+     "private": "https://github.com/guado77/market-desk-private/blob/main/spg/Big_Picture_2027_Outlook_The_AI_ROI_Question.pdf"
+    },
     {
      "title": "IMO faces challenges in net-zero compliance without emissions cost",
      "date": "2026-11-18T14:01:16Z",
@@ -1292,18 +1298,11 @@
      "url": null,
      "credit": "S&P Global",
      "private": "https://github.com/guado77/market-desk-private/blob/main/spg/Picture_This_Democrats_Take_Congress_in_US_Midterm_Elections.pdf"
-    },
-    {
-     "title": "Global PMI signals solid factory output growth in October but price growth accelerates amid shortages",
-     "date": "2026-11-05T12:41:41Z",
-     "url": null,
-     "credit": "S&P Global",
-     "private": "https://github.com/guado77/market-desk-private/blob/main/spg/Global_PMI_signals_solid_factory_output_growth_in_October_but_price_growth_accelerates_amid_shortages.pdf"
     }
    ],
    "error": null,
    "hero": null,
-   "updated": "2026-11-18T14:01:16Z"
+   "updated": "2026-11-19T12:50:07Z"
   },
   {
    "id": "analysis-corner",
@@ -1608,11 +1607,11 @@
      "name_orig": "serale-2026-11-18.pdf",
      "path": "assets/istat/serale-2026-11-18.pdf",
      "type": "pdf",
-     "date": "2026-11-19T06:04:59Z",
+     "date": "2026-11-19T19:47:29Z",
      "size": 261369,
      "sha": "0fb579e129ab2559b06a8defda153bcfe28af8b8",
      "source": "artifact:istat-wrap/serale/serale-2026-11-18.pdf",
-     "artifact": 14503159388
+     "artifact": 14567534561
     },
     {
      "name": "serale-2026-11-17.pdf",
@@ -1630,18 +1629,18 @@
      "name_orig": "serale-2026-11-16.pdf",
      "path": "assets/istat/serale-2026-11-16.pdf",
      "type": "pdf",
-     "date": "2026-11-17T20:17:18Z",
+     "date": "2026-11-16T11:00:00Z",
      "size": 252014,
      "sha": "304fac27c935c568584d4086bb2386bf40afe925",
      "source": "artifact:istat-wrap/serale/serale-2026-11-16.pdf",
-     "artifact": 14366072415
+     "artifact": 14567534561
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-19T06:04:59Z"
+   "updated": "2026-11-19T19:47:29Z"
   },
   {
    "id": "press-corner",
@@ -1700,6 +1699,28 @@
    "credit": null,
    "files": [
     {
+     "name": "serale-2026-11-18.pdf",
+     "name_orig": "serale-2026-11-18.pdf",
+     "path": "assets/zerohedge/serale-2026-11-18.pdf",
+     "type": "pdf",
+     "date": "2026-11-19T19:34:29Z",
+     "size": 261369,
+     "sha": "0fb579e129ab2559b06a8defda153bcfe28af8b8",
+     "source": "artifact:zh-wrap/serale/serale-2026-11-18.pdf",
+     "artifact": 14567417534
+    },
+    {
+     "name": "zerohedge-2026-11-19-manuale.pdf",
+     "name_orig": "zerohedge-2026-11-19-manuale.pdf",
+     "path": "assets/zerohedge/zerohedge-2026-11-19-manuale.pdf",
+     "type": "pdf",
+     "date": "2026-11-19T19:34:29Z",
+     "size": 36463,
+     "sha": "260be5807462d7dc4a86b3fabf662ee16fafd70a",
+     "source": "artifact:zh-wrap/zerohedge-2026-11-19-manuale.pdf",
+     "artifact": 14567417534
+    },
+    {
      "name": "zerohedge-2026-11-19-sera.pdf",
      "name_orig": "zerohedge-2026-11-19-sera.pdf",
      "path": "assets/zerohedge/zerohedge-2026-11-19-sera.pdf",
@@ -1709,35 +1730,13 @@
      "sha": "5c30a7a4bcffd1a5934fc436f2bfc929dfa8e53f",
      "source": "artifact:zh-wrap/zerohedge-2026-11-19-sera.pdf",
      "artifact": 14492343581
-    },
-    {
-     "name": "serale-2026-11-18.pdf",
-     "name_orig": "serale-2026-11-18.pdf",
-     "path": "assets/zerohedge/serale-2026-11-18.pdf",
-     "type": "pdf",
-     "date": "2026-11-19T02:30:56Z",
-     "size": 261369,
-     "sha": "0fb579e129ab2559b06a8defda153bcfe28af8b8",
-     "source": "artifact:zh-wrap/serale/serale-2026-11-18.pdf",
-     "artifact": 14492343581
-    },
-    {
-     "name": "serale-2026-11-17.pdf",
-     "name_orig": "serale-2026-11-17.pdf",
-     "path": "assets/zerohedge/serale-2026-11-17.pdf",
-     "type": "pdf",
-     "date": "2026-11-18T19:43:21Z",
-     "size": 257340,
-     "sha": "35636d1d507441d3677cf8bbe56ea3864c68ea7a",
-     "source": "artifact:zh-wrap/serale/serale-2026-11-17.pdf",
-     "artifact": 14463039682
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-19T02:30:56Z"
+   "updated": "2026-11-19T19:34:29Z"
   },
   {
    "id": "fed",
@@ -1748,146 +1747,6 @@
    "credit": "Federal Reserve",
    "files": [],
    "papers": [
-    {
-     "title": "atlantafed workforce currents better data better outcomes",
-     "path": "assets/fed/2026-11-17-atlantafed-workforce-currents-better-data-better-outcomes.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": null,
-     "pubdate": "2026-11-19",
-     "date": "2026-11-19T11:00:00Z",
-     "size": 868665,
-     "sha": "be03d2ce2aa77d324f54115c03d1fa2df4da4c16",
-     "source": "dati/pdf/ingresso/2026-11-17-atlantafed-workforce-currents-better-data-better-outcomes.pdf",
-     "name_orig": "2026-11-17-atlantafed-workforce-currents-better-data-better-outcomes.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "atlantafed bie monthly chart pack november 2026",
-     "path": "assets/fed/2026-11-18-atlantafed-bie-monthly-chart-pack-november-2026.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": null,
-     "pubdate": "2026-11-19",
-     "date": "2026-11-19T11:00:00Z",
-     "size": 3470644,
-     "sha": "fc4c5570c93937589bfa8a8f106189531e18062f",
-     "source": "dati/pdf/ingresso/2026-11-18-atlantafed-bie-monthly-chart-pack-november-2026.pdf",
-     "name_orig": "2026-11-18-atlantafed-bie-monthly-chart-pack-november-2026.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "atlantafed new orleans branch board appointment",
-     "path": "assets/fed/2026-11-18-atlantafed-new-orleans-branch-board-appointment.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": null,
-     "pubdate": "2026-11-19",
-     "date": "2026-11-19T11:00:00Z",
-     "size": 172339,
-     "sha": "1280f71bd8681d30cf9691336b45de9265b724e2",
-     "source": "dati/pdf/ingresso/2026-11-18-atlantafed-new-orleans-branch-board-appointment.pdf",
-     "name_orig": "2026-11-18-atlantafed-new-orleans-branch-board-appointment.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "chicagofed letter 532 intergovernmental transfers arpa employment",
-     "path": "assets/fed/2026-11-18-chicagofed-letter-532-intergovernmental-transfers-arpa-employment.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": null,
-     "pubdate": "2026-11-19",
-     "date": "2026-11-19T11:00:00Z",
-     "size": 883862,
-     "sha": "c629be132b84a1a14a19abb1d066e340f545fdec",
-     "source": "dati/pdf/ingresso/2026-11-18-chicagofed-letter-532-intergovernmental-transfers-arpa-employment.pdf",
-     "name_orig": "2026-11-18-chicagofed-letter-532-intergovernmental-transfers-arpa-employment.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "fed barr investing in americas underserved communities",
-     "path": "assets/fed/2026-11-18-fed-barr-investing-in-americas-underserved-communities.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": null,
-     "pubdate": "2026-11-19",
-     "date": "2026-11-19T11:00:00Z",
-     "size": 135180,
-     "sha": "527bb8f7efaee9453a2bbd536d267a667fca494d",
-     "source": "dati/pdf/ingresso/2026-11-18-fed-barr-investing-in-americas-underserved-communities.pdf",
-     "name_orig": "2026-11-18-fed-barr-investing-in-americas-underserved-communities.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "fed fomc minutes october 27 28 2026",
-     "path": "assets/fed/2026-11-18-fed-fomc-minutes-october-27-28-2026.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": null,
-     "pubdate": "2026-11-19",
-     "date": "2026-11-19T11:00:00Z",
-     "size": 450936,
-     "sha": "4984504d3210bab02a860a941740e6876be6914a",
-     "source": "dati/pdf/ingresso/2026-11-18-fed-fomc-minutes-october-27-28-2026.pdf",
-     "name_orig": "2026-11-18-fed-fomc-minutes-october-27-28-2026.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "philadelphiafed banking deserts dashboard 2026",
-     "path": "assets/fed/2026-11-18-philadelphiafed-banking-deserts-dashboard-2026.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": null,
-     "pubdate": "2026-11-19",
-     "date": "2026-11-19T11:00:00Z",
-     "size": 189917,
-     "sha": "f01b6691a2bf81fb72231847edab068d8ba35218",
-     "source": "dati/pdf/ingresso/2026-11-18-philadelphiafed-banking-deserts-dashboard-2026.pdf",
-     "name_orig": "2026-11-18-philadelphiafed-banking-deserts-dashboard-2026.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "richmondfed eb 26 38 relative price shocks and inflation",
-     "path": "assets/fed/2026-11-18-richmondfed-eb-26-38-relative-price-shocks-and-inflation.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": null,
-     "pubdate": "2026-11-19",
-     "date": "2026-11-19T11:00:00Z",
-     "size": 346808,
-     "sha": "0e5543af4c46f7b8683349c80b622d06e050065c",
-     "source": "dati/pdf/ingresso/2026-11-18-richmondfed-eb-26-38-relative-price-shocks-and-inflation.pdf",
-     "name_orig": "2026-11-18-richmondfed-eb-26-38-relative-price-shocks-and-inflation.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "stlouisfed mpi pce inflation drivers",
-     "path": "assets/fed/2026-11-18-stlouisfed-mpi-pce-inflation-drivers.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": null,
-     "pubdate": "2026-11-19",
-     "date": "2026-11-19T11:00:00Z",
-     "size": 256080,
-     "sha": "56f63585234d786545be8ea1b91616d2c827de47",
-     "source": "dati/pdf/ingresso/2026-11-18-stlouisfed-mpi-pce-inflation-drivers.pdf",
-     "name_orig": "2026-11-18-stlouisfed-mpi-pce-inflation-drivers.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "stlouisfed mpi unemployment rate labor force",
-     "path": "assets/fed/2026-11-18-stlouisfed-mpi-unemployment-rate-labor-force.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": null,
-     "pubdate": "2026-11-19",
-     "date": "2026-11-19T11:00:00Z",
-     "size": 243632,
-     "sha": "0f2a794bb9a007ece34c3b75c5f07223e0732a67",
-     "source": "dati/pdf/ingresso/2026-11-18-stlouisfed-mpi-unemployment-rate-labor-force.pdf",
-     "name_orig": "2026-11-18-stlouisfed-mpi-unemployment-rate-labor-force.pdf",
-     "credit": "Federal Reserve"
-    },
     {
      "title": "Beige Book: GLP-1s Affecting Demand for Poultry, Alcohol - Federal Reserve Bank of Atlanta",
      "path": "assets/fed/2026-10-14-atlantafed-beige-book-glp-1s-demand-poultry-alcohol.pdf",
@@ -2027,12 +1886,152 @@
      "source": "dati/pdf/elaborati/2026-10-06-nyfed-global-supply-chain-pressure-index-september-2026.pdf",
      "name_orig": "2026-10-06-nyfed-global-supply-chain-pressure-index-september-2026.pdf",
      "credit": "Federal Reserve"
+    },
+    {
+     "title": "How Fast Do Tariffs Pass Through into Consumer Prices? - Liberty Street Economics",
+     "path": "assets/fed/2026-10-06-nyfed-lse-how-fast-tariffs-pass-through-consumer-prices.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "",
+     "pubdate": "2026-10-07",
+     "date": "2026-10-07T10:00:00Z",
+     "size": 2023367,
+     "sha": "75e80b7fc797ac55dba9d56dbe2863ceb2c1a021",
+     "source": "dati/pdf/elaborati/2026-10-06-nyfed-lse-how-fast-tariffs-pass-through-consumer-prices.pdf",
+     "name_orig": "2026-10-06-nyfed-lse-how-fast-tariffs-pass-through-consumer-prices.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "Silos, Storefronts, and Skills: A Two-Day Look at North Central Pennsylvania's Economy",
+     "path": "assets/fed/2026-10-06-philadelphiafed-north-central-pennsylvania-economy-tour.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "",
+     "pubdate": "2026-10-07",
+     "date": "2026-10-07T10:00:00Z",
+     "size": 2134524,
+     "sha": "f891eedcad6ba4489d42c6f69c2ff16ca37a59de",
+     "source": "dati/pdf/elaborati/2026-10-06-philadelphiafed-north-central-pennsylvania-economy-tour.pdf",
+     "name_orig": "2026-10-06-philadelphiafed-north-central-pennsylvania-economy-tour.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "Eighth District Firms Expect Steady Inflation in Upcoming Months | St. Louis Fed",
+     "path": "assets/fed/2026-10-06-stlouisfed-eighth-district-firms-steady-inflation.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "",
+     "pubdate": "2026-10-07",
+     "date": "2026-10-07T10:00:00Z",
+     "size": 337257,
+     "sha": "5a32068fb85e283d752dbe6f9c946ba8aa242797",
+     "source": "dati/pdf/elaborati/2026-10-06-stlouisfed-eighth-district-firms-steady-inflation.pdf",
+     "name_orig": "2026-10-06-stlouisfed-eighth-district-firms-steady-inflation.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "Order Approving the Acquisition of a Bank Holding Company, the Merger of Banks, and the Establishment of Branches",
+     "path": "assets/fed/2026-10-05-fed-isabella-bank-corporation-approval.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "Federal Reserve Board",
+     "pubdate": "2026-10-06",
+     "date": "2026-10-06T10:00:00Z",
+     "size": 228017,
+     "sha": "1af624d2d933361896ca5bd23c0eff93fac36d93",
+     "source": "dati/pdf/elaborati/2026-10-05-fed-isabella-bank-corporation-approval.pdf",
+     "name_orig": "2026-10-05-fed-isabella-bank-corporation-approval.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "Federal Reserve Board - Federal Reserve Board announces approval of application by Isabella Bank Corporation",
+     "path": "assets/fed/2026-10-05-fed-isabella-bank-corporation-press-release.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "",
+     "pubdate": "2026-10-06",
+     "date": "2026-10-06T10:00:00Z",
+     "size": 107783,
+     "sha": "9874aa390b886f624f7d2498cfc36e2a8c661442",
+     "source": "dati/pdf/elaborati/2026-10-05-fed-isabella-bank-corporation-press-release.pdf",
+     "name_orig": "2026-10-05-fed-isabella-bank-corporation-press-release.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "Insured, but Still on the Hook: Who Bears the Most Risk in Homeowner's Insurance? - Liberty Street Economics",
+     "path": "assets/fed/2026-10-05-nyfed-lse-insured-but-still-on-the-hook-homeowners-insurance.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "",
+     "pubdate": "2026-10-06",
+     "date": "2026-10-06T10:00:00Z",
+     "size": 1106219,
+     "sha": "3c321406fb4c09528485092bc248ac47024d5515",
+     "source": "dati/pdf/elaborati/2026-10-05-nyfed-lse-insured-but-still-on-the-hook-homeowners-insurance.pdf",
+     "name_orig": "2026-10-05-nyfed-lse-insured-but-still-on-the-hook-homeowners-insurance.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "Consumption, Savings, and Earnings Responses to Financial Windfalls",
+     "path": "assets/fed/2026-10-05-nyfed-sr1208-financial-windfalls-consumption-savings.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "Rajashri Chakrabarti",
+     "pubdate": "2026-10-06",
+     "date": "2026-10-06T10:00:00Z",
+     "size": 1957898,
+     "sha": "06bfe50764a0a660f6d8db80f81c047ad0a44719",
+     "source": "dati/pdf/elaborati/2026-10-05-nyfed-sr1208-financial-windfalls-consumption-savings.pdf",
+     "name_orig": "2026-10-05-nyfed-sr1208-financial-windfalls-consumption-savings.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "From Moore's Law to Eroom's Law: Power Constraints and Economic Growth",
+     "path": "assets/fed/2026-10-05-nyfed-sr1209-moores-law-to-erooms-law-power-constraints.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "Pablo D. Azar",
+     "pubdate": "2026-10-06",
+     "date": "2026-10-06T10:00:00Z",
+     "size": 1094798,
+     "sha": "8c45ce21f52e7252f89988be9d7cbdb0ec2b76e1",
+     "source": "dati/pdf/elaborati/2026-10-05-nyfed-sr1209-moores-law-to-erooms-law-power-constraints.pdf",
+     "name_orig": "2026-10-05-nyfed-sr1209-moores-law-to-erooms-law-power-constraints.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "How Much Do Young Adults Benefit from Tight Labor Markets?",
+     "path": "assets/fed/2026-10-05-stlouisfed-young-adults-tight-labor-markets.pdf",
+     "url": "https://www.stlouisfed.org/on-the-economy/2026/oct/how-much-do-young-adults-benefit-tight-labor-markets",
+     "fonte": "FED St. Louis - On the Economy",
+     "authors": "",
+     "pubdate": "2026-10-05",
+     "date": "2026-10-06T10:00:00Z",
+     "size": 393653,
+     "sha": "7d909ec143b73fc1937824dd0101b8c715a07529",
+     "source": "dati/pdf/elaborati/2026-10-05-stlouisfed-young-adults-tight-labor-markets.pdf",
+     "name_orig": "2026-10-05-stlouisfed-young-adults-tight-labor-markets.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "Labor Report First Look - Federal Reserve Bank of Atlanta",
+     "path": "assets/fed/2026-10-02-atlantafed-labor-report-first-look.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": "",
+     "pubdate": "2026-10-03",
+     "date": "2026-10-03T10:00:00Z",
+     "size": 511210,
+     "sha": "33f2309eec0d14423d783eedd0e0e8e6f2653cdf",
+     "source": "dati/pdf/elaborati/2026-10-02-atlantafed-labor-report-first-look.pdf",
+     "name_orig": "2026-10-02-atlantafed-labor-report-first-look.pdf",
+     "credit": "Federal Reserve"
     }
    ],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-19T11:00:00Z"
+   "updated": "2026-10-20T10:00:00Z"
   },
   {
    "id": "bis",
@@ -2633,8 +2632,6 @@
  },
  "artifacts_seen": {
   "empty": [
-   12276509211,
-   12287697442,
    12357751758,
    12370006329,
    12438666752,
@@ -2659,9 +2656,6 @@
    13351039073,
    13362470503,
    13441132134,
-   13446100356,
-   13448165300,
-   13452256527,
    13452457150,
    13463206697,
    13463944212,
@@ -2788,13 +2782,10 @@
    13920616111,
    13920690706,
    13951035635,
-   13961881189,
-   13972943867,
    13972997938,
    13973854034,
    13974809953,
    13977756264,
-   13978145903,
    13983183926,
    13992355118,
    13993174201,
@@ -2830,6 +2821,7 @@
    14088187045,
    14088402616,
    14088577833,
+   14089667579,
    14090046988,
    14090417963,
    14090816988,
@@ -2870,6 +2862,7 @@
    14201592090,
    14231491652,
    14250831934,
+   14261868984,
    14262962277,
    14264821807,
    14271330987,
@@ -2893,17 +2886,24 @@
    14362858769,
    14362997303,
    14363286811,
+   14366072415,
    14374221359,
    14382033413,
    14394480477,
+   14403181532,
    14435085133,
+   14448221953,
    14461932726,
+   14463351068,
    14472398367,
-   14482026911
+   14482026911,
+   14493576797,
+   14540156446,
+   14567340827
   ]
  },
  "monitor": {
-  "generato": "2026-11-19T06:02:16.824993+00:00",
+  "generato": "2026-11-19T19:31:02.281119+00:00",
   "workflow": {
    "market-wrap/market-wrap.yml": {
     "nomi": [
@@ -2913,13 +2913,14 @@
     "workflow": "market-wrap.yml",
     "stato_workflow": "active",
     "ultima_uscita": "2026-11-19T02:47:52+00:00",
-    "esito": "attesa",
+    "esito": "mancata",
     "slot": "2026-11-19T06:00:00+01:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": null,
-    "url": "https://github.com/guado77/market-wrap/actions/workflows/market-wrap.yml"
+    "url": "https://github.com/guado77/market-wrap/actions/workflows/market-wrap.yml",
+    "forzato": "2026-11-19T19:31:02.281119+00:00"
    },
    "basis-trade-wrap/basis.yml": {
     "nomi": [
@@ -2944,9 +2945,9 @@
     "repo": "imf-spglobal-wrap_",
     "workflow": "imf.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-18T23:27:47+00:00",
+    "ultima_uscita": "2026-11-19T14:31:09+00:00",
     "esito": "ritardo",
-    "slot": "2026-11-18T07:20:00+01:00",
+    "slot": "2026-11-19T07:20:00+01:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
@@ -2962,17 +2963,17 @@
     "stato_workflow": "active",
     "ultima_uscita": "2026-10-20T12:57:32+00:00",
     "esito": "mancata",
-    "slot": "2026-11-18T22:00:00+01:00",
+    "slot": "2026-11-19T08:00:00+01:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": {
-     "quando": "2026-11-19T02:46:10+00:00",
-     "url": "https://github.com/guado77/gmail-wrap/actions/runs/44446647488",
+     "quando": "2026-11-19T16:45:52+00:00",
+     "url": "https://github.com/guado77/gmail-wrap/actions/runs/44569670491",
      "passo": "Genera e invia il digest"
     },
     "url": "https://github.com/guado77/gmail-wrap/actions/workflows/gmail-wrap.yml",
-    "forzato": "2026-11-19T06:02:16.824993+00:00"
+    "forzato": "2026-11-19T19:31:02.281119+00:00"
    },
    "chat-wrap/chat-wrap.yml": {
     "nomi": [
@@ -2982,8 +2983,8 @@
     "workflow": "chat-wrap.yml",
     "stato_workflow": "active",
     "ultima_uscita": "2026-11-19T00:17:52+00:00",
-    "esito": "ritardo",
-    "slot": "2026-11-18T20:00:00+01:00",
+    "esito": "attesa",
+    "slot": "2026-11-19T20:00:00+01:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
@@ -2997,9 +2998,9 @@
     "repo": "FED-Wrap",
     "workflow": "fed_wrap_quotidiano.yaml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-18T16:11:11+00:00",
+    "ultima_uscita": "2026-11-19T16:18:08+00:00",
     "esito": "nessuna_novita",
-    "slot": "2026-11-18T08:00:00+01:00",
+    "slot": "2026-11-19T08:00:00+01:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
@@ -3013,9 +3014,9 @@
     "repo": "Bis-Wrap",
     "workflow": "bis_wrap_quotidiano.yaml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-18T16:39:46+00:00",
+    "ultima_uscita": "2026-11-19T16:42:58+00:00",
     "esito": "nessuna_novita",
-    "slot": "2026-11-18T08:30:00+01:00",
+    "slot": "2026-11-19T08:30:00+01:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
@@ -3030,9 +3031,9 @@
     "repo": "tvol-wrap",
     "workflow": "tvol.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-18T23:30:48+00:00",
-    "esito": "ritardo",
-    "slot": "2026-11-18T18:30:00+01:00",
+    "ultima_uscita": "2026-11-19T16:55:49+00:00",
+    "esito": "ok",
+    "slot": "2026-11-19T18:30:00+01:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
@@ -3048,17 +3049,17 @@
     "stato_workflow": "active",
     "ultima_uscita": "2026-10-20T00:16:06+00:00",
     "esito": "mancata",
-    "slot": "2026-11-18T23:00:00+01:00",
+    "slot": "2026-11-19T10:00:00+01:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": {
-     "quando": "2026-11-19T02:46:53+00:00",
-     "url": "https://github.com/guado77/oil-wrap/actions/runs/44446684821",
+     "quando": "2026-11-19T16:46:45+00:00",
+     "url": "https://github.com/guado77/oil-wrap/actions/runs/44569738200",
      "passo": "Genera e invia"
     },
     "url": "https://github.com/guado77/oil-wrap/actions/workflows/oil-wrap.yml",
-    "forzato": "2026-11-19T06:02:16.824993+00:00"
+    "forzato": "2026-11-19T19:31:02.281119+00:00"
    },
    "pun-wrap/pun-wrap.yml": {
     "nomi": [
@@ -3067,9 +3068,9 @@
     "repo": "pun-wrap",
     "workflow": "pun-wrap.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-19T02:47:18+00:00",
+    "ultima_uscita": "2026-11-19T16:46:57+00:00",
     "esito": "mancata",
-    "slot": "2026-11-18T23:00:00+01:00",
+    "slot": "2026-11-19T10:00:00+01:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
@@ -3087,9 +3088,9 @@
     "repo": "hicp-wrap",
     "workflow": "aggiorna.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-18T21:38:33+00:00",
+    "ultima_uscita": "2026-11-19T19:22:52+00:00",
     "esito": "nessuna_novita",
-    "slot": "2026-11-18T12:30:00+01:00",
+    "slot": "2026-11-19T12:30:00+01:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
@@ -3108,13 +3109,14 @@
     "workflow": "zh.yml",
     "stato_workflow": "active",
     "ultima_uscita": "2026-11-19T02:30:52+00:00",
-    "esito": "ritardo",
-    "slot": "2026-11-18T23:00:00+01:00",
+    "esito": "mancata",
+    "slot": "2026-11-19T13:00:00+01:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": null,
-    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/zh.yml"
+    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/zh.yml",
+    "forzato": "2026-11-19T19:31:02.281119+00:00"
    },
    "imf-spglobal-wrap_/spg.yml": {
     "nomi": [
@@ -3124,19 +3126,19 @@
     "workflow": "spg.yml",
     "stato_workflow": "active",
     "ultima_uscita": "2026-11-10T00:51:03+00:00",
-    "esito": "nessuna_novita",
-    "slot": "2026-11-18T15:35:00+01:00",
+    "esito": "attesa",
+    "slot": "2026-11-19T15:35:00+01:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": {
-     "quando": "2026-11-18T23:32:26+00:00",
-     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/44421382205",
+     "quando": "2026-11-19T06:06:09+00:00",
+     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/44469470397",
      "passo": "Genera e invia"
     },
     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/spg.yml",
     "causa": "crediti_api",
-    "forzato": "2026-11-19T06:02:16.824993+00:00"
+    "forzato": "2026-11-19T19:31:02.281119+00:00"
    },
    "ice-evening-wrap/wrap.yml": {
     "nomi": [
@@ -3146,8 +3148,8 @@
     "workflow": "wrap.yml",
     "stato_workflow": "active",
     "ultima_uscita": "2026-11-18T23:59:00+00:00",
-    "esito": "ritardo",
-    "slot": "2026-11-18T20:00:00+01:00",
+    "esito": "attesa",
+    "slot": "2026-11-19T20:00:00+01:00",
     "condizionale": false,
     "manuale": "richiede il captcha ICE dal PC: si avvia a mano",
     "run_in_corso": 0,
@@ -3181,7 +3183,7 @@
     "repo": "imf-spglobal-wrap_",
     "workflow": "ecb.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-18T06:11:49+00:00",
+    "ultima_uscita": "2026-11-19T06:04:55+00:00",
     "esito": "nessuna_novita",
     "slot": "2026-11-18T21:07:00+01:00",
     "condizionale": true,
@@ -3192,9 +3194,7 @@
      "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/44439960394",
      "passo": "Genera e invia"
     },
-    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/ecb.yml",
-    "causa": "crediti_api",
-    "forzato": "2026-11-19T06:02:16.824993+00:00"
+    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/ecb.yml"
    },
    "imf-spglobal-wrap_/ep.yml": {
     "nomi": [
@@ -3223,9 +3223,9 @@
     "repo": "imf-spglobal-wrap_",
     "workflow": "estat.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-18T06:11:51+00:00",
-    "esito": "nessuna_novita",
-    "slot": "2026-11-18T20:07:00+01:00",
+    "ultima_uscita": "2026-11-19T06:05:11+00:00",
+    "esito": "attesa",
+    "slot": "2026-11-19T20:07:00+01:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
@@ -3234,9 +3234,7 @@
      "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/44434216961",
      "passo": "Genera e invia"
     },
-    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/estat.yml",
-    "causa": "crediti_api",
-    "forzato": "2026-11-19T06:02:16.824993+00:00"
+    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/estat.yml"
    },
    "imf-spglobal-wrap_/pc.yml": {
     "nomi": [
@@ -3245,7 +3243,7 @@
     "repo": "imf-spglobal-wrap_",
     "workflow": "pc.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-18T06:11:51+00:00",
+    "ultima_uscita": "2026-11-19T06:04:57+00:00",
     "esito": "nessuna_novita",
     "slot": "2026-11-18T20:37:00+01:00",
     "condizionale": true,
@@ -3256,9 +3254,7 @@
      "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/44436474129",
      "passo": "Genera e invia"
     },
-    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/pc.yml",
-    "causa": "crediti_api",
-    "forzato": "2026-11-19T06:02:16.824993+00:00"
+    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/pc.yml"
    },
    "imf-spglobal-wrap_/istat.yml": {
     "nomi": [
@@ -3267,20 +3263,20 @@
     "repo": "imf-spglobal-wrap_",
     "workflow": "istat.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-18T06:11:52+00:00",
+    "ultima_uscita": "2026-11-19T06:04:57+00:00",
     "esito": "nessuna_novita",
-    "slot": "2026-11-18T13:00:00+01:00",
+    "slot": "2026-11-19T13:00:00+01:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": {
-     "quando": "2026-11-18T19:47:15+00:00",
-     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/44383717101",
+     "quando": "2026-11-19T19:27:49+00:00",
+     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/44598353097",
      "passo": "Genera e invia"
     },
     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/istat.yml",
     "causa": "crediti_api",
-    "forzato": "2026-11-19T06:02:16.824993+00:00"
+    "forzato": "2026-11-19T19:31:02.281119+00:00"
    },
    "macro-wrap-bot/macro_wrap.yaml": {
     "nomi": [
@@ -3376,12 +3372,12 @@
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": {
-     "quando": "2026-11-18T19:41:35+00:00",
-     "url": "https://github.com/guado77/fi-wrap/actions/runs/44382872580",
+     "quando": "2026-11-19T06:04:28+00:00",
+     "url": "https://github.com/guado77/fi-wrap/actions/runs/44469484895",
      "passo": "Dipendenze di sistema (WeasyPrint + conversione PNG)"
     },
     "url": "https://github.com/guado77/fi-wrap/actions/workflows/fi-wrap.yml",
-    "forzato": "2026-11-19T06:02:16.824993+00:00"
+    "forzato": "2026-11-19T19:31:02.281119+00:00"
    },
    "macro-wrap-bot/macro_wrap_settimanale.yaml": {
     "nomi": [
@@ -3397,12 +3393,12 @@
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": {
-     "quando": "2026-11-18T19:41:40+00:00",
-     "url": "https://github.com/guado77/macro-wrap-bot/actions/runs/44382877711",
+     "quando": "2026-11-19T06:04:33+00:00",
+     "url": "https://github.com/guado77/macro-wrap-bot/actions/runs/44469488750",
      "passo": "Dipendenze di sistema per weasyprint"
     },
     "url": "https://github.com/guado77/macro-wrap-bot/actions/workflows/macro_wrap_settimanale.yaml",
-    "forzato": "2026-11-19T06:02:16.824993+00:00"
+    "forzato": "2026-11-19T19:31:02.281119+00:00"
    },
    "FED-Wrap/fed_wrap_settimanale.yaml": {
     "nomi": [
@@ -3418,13 +3414,13 @@
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": {
-     "quando": "2026-11-18T19:43:07+00:00",
-     "url": "https://github.com/guado77/FED-Wrap/actions/runs/44382885580",
+     "quando": "2026-11-19T06:05:59+00:00",
+     "url": "https://github.com/guado77/FED-Wrap/actions/runs/44469492390",
      "passo": "Genera e invia"
     },
     "url": "https://github.com/guado77/FED-Wrap/actions/workflows/fed_wrap_settimanale.yaml",
     "causa": "crediti_api",
-    "forzato": "2026-11-19T06:02:16.824993+00:00"
+    "forzato": "2026-11-19T19:31:02.281119+00:00"
    },
    "Bis-Wrap/bis_wrap_settimanale.yaml": {
     "nomi": [
@@ -3440,13 +3436,13 @@
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": {
-     "quando": "2026-11-18T19:46:03+00:00",
-     "url": "https://github.com/guado77/Bis-Wrap/actions/runs/44382893162",
+     "quando": "2026-11-19T06:07:39+00:00",
+     "url": "https://github.com/guado77/Bis-Wrap/actions/runs/44469496000",
      "passo": "Genera e invia"
     },
     "url": "https://github.com/guado77/Bis-Wrap/actions/workflows/bis_wrap_settimanale.yaml",
     "causa": "crediti_api",
-    "forzato": "2026-11-19T06:02:16.824993+00:00"
+    "forzato": "2026-11-19T19:31:02.281119+00:00"
    },
    "wrap-monitor/consumi.yml": {
     "nomi": [
@@ -3499,7 +3495,7 @@
     "run_in_corso": 0,
     "ultimo_fallimento": null,
     "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/dts.yml",
-    "forzato": "2026-11-19T06:02:16.824993+00:00"
+    "forzato": "2026-11-19T19:31:02.281119+00:00"
    },
    "imf-spglobal-wrap_/cbo.yml": {
     "nomi": [
@@ -3525,8 +3521,8 @@
     "workflow": "wpsr.yml",
     "stato_workflow": "active",
     "ultima_uscita": "2026-11-18T22:11:05+00:00",
-    "esito": "nessuna_novita",
-    "slot": "2026-11-18T16:25:00+01:00",
+    "esito": null,
+    "slot": null,
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
@@ -3584,9 +3580,9 @@
     "repo": "market-wrap",
     "workflow": "headline-wrap.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-18T17:09:04+00:00",
+    "ultima_uscita": "2026-11-19T17:04:35+00:00",
     "esito": "ok",
-    "slot": "2026-11-18T18:00:00+01:00",
+    "slot": "2026-11-19T18:00:00+01:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
@@ -3602,14 +3598,11 @@
    "esauriti": true,
    "wrap": [
     "BIS Wrap settimanale",
-    "ECB Wrap (schede)",
-    "Eurostat Wrap",
     "Fed Wrap settimanale",
     "Istat Wrap",
-    "Press corner Wrap",
     "S&P Global Wrap (News Corner)"
    ],
-   "dal": "2026-11-18T19:43:07+00:00"
+   "dal": "2026-11-19T06:05:59+00:00"
   },
   "forzati": [
    "Bis-Wrap/bis_wrap_settimanale.yaml",
@@ -3617,20 +3610,19 @@
    "fi-wrap/fi-wrap.yml",
    "gmail-wrap/gmail-wrap.yml",
    "imf-spglobal-wrap_/dts.yml",
-   "imf-spglobal-wrap_/ecb.yml",
-   "imf-spglobal-wrap_/estat.yml",
    "imf-spglobal-wrap_/istat.yml",
-   "imf-spglobal-wrap_/pc.yml",
    "imf-spglobal-wrap_/spg.yml",
+   "imf-spglobal-wrap_/zh.yml",
    "macro-wrap-bot/macro_wrap_settimanale.yaml",
+   "market-wrap/market-wrap.yml",
    "oil-wrap/oil-wrap.yml"
   ]
  },
  "edizione": {
-  "nome": "mattina",
+  "nome": "sera",
   "giorno": "2026-11-19",
-  "quando": "2026-11-19T07:33:26Z",
-  "aggiornati": 21,
+  "quando": "2026-11-19T21:17:19Z",
+  "aggiornati": 22,
   "mancanti": 0,
   "completa": false
  }
