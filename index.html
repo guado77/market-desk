@@ -567,5 +567,6 @@ fetch("manifest.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("HTT
   setInterval(()=>{if(!$("#modal").classList.contains("on")&&document.visibilityState==="visible")fetch("manifest.json",{cache:"no-store"}).then(r=>r.json()).then(n=>{if(n.generated_at!==M.generated_at){M=n;BY=Object.fromEntries(n.sections.map(s=>[s.id,s]));MON=(n.monitor&&n.monitor.workflow)||{};render();buildIndex();avvisoCrediti()}}).catch(()=>{})},10*60*1000);
 }).catch(e=>{$("#main").innerHTML=`<div class="empty">manifest.json non disponibile (${esc(e.message)})</div>`});
 </script>
+<script data-goatcounter="https://marketdesk.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
