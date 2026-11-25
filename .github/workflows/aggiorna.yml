@@ -7,7 +7,12 @@ name: Aggiorna il cruscotto
 # La scrittura su questo repo usa il GITHUB_TOKEN del workflow.
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # GitHub scarta molti cron sul piano gratuito, soprattutto quelli sui minuti
+    # tondi (:00, :15, :30, :45): il 24-25/11 ne sono partiti 3 al giorno invece
+    # di 96. Minuti sfalsati e due righe ridondanti: il giro e' idempotente
+    # (senza novita' non committa), quindi un doppione non costa nulla.
+    - cron: "4,19,34,49 * * * *"
+    - cron: "11,26,41,56 * * * *"
   workflow_dispatch:
   repository_dispatch:
     types: [wrap-updated]
