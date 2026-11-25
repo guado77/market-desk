@@ -62,7 +62,7 @@ main{max-width:1500px;margin:0 auto;padding:18px}
 .pane{display:none}.pane.on{display:block}
 .bar-saga{margin:0 0 12px;font:600 13px var(--mono);color:var(--amber2);letter-spacing:.04em;text-transform:uppercase}
 .bar-vid{display:block;width:100%;background:#000;max-height:78vh}.bar-vid.v{max-width:440px;margin:0 auto}
-.bar-dur{margin-left:auto;font:11px var(--mono);color:var(--dim)}.bar-sub{margin:0;color:var(--dim);font-size:13px}.bar-nota{margin-top:14px;color:var(--dim);font-size:12px}
+.bar-dur{margin-left:auto;font:11px var(--mono);color:var(--dim)}.bar-sub{margin:0;color:var(--dim);font-size:13px}.bar-intro{margin:0 0 16px;max-width:900px;font-size:15px;line-height:1.55;color:var(--text)}.bar-nota{margin-top:14px;color:var(--dim);font-size:12px}
 .ptitle{display:flex;align-items:baseline;gap:12px;margin:2px 0 14px}
 .ptitle h1{margin:0;font:600 20px var(--mono);letter-spacing:.08em;color:var(--amber)}
 .ptitle p{margin:0;color:var(--dim);font-size:13px}
@@ -316,7 +316,7 @@ let M=null,BY={},MON={},BAR=null;
 /* ---------------------------------------------------------------- bar (video amatoriali, da bar/bar.json) */
 function paneBar(){
   if(!BAR||!(BAR.video||[]).length)return`<div class="empty">Il bar è chiuso: nessun video in bar/bar.json.</div>`;
-  return`${BAR.titolo?`<p class="bar-saga">${esc(BAR.titolo)}</p>`:""}<div class="grid bar-grid">${BAR.video.map((v,i)=>`<section class="card" data-id="bar-${i+1}"><div class="ch"><b>${i+1}. ${esc(v.titolo)}</b>${v.durata?`<span class="bar-dur">${esc(v.durata)}</span>`:""}</div><div class="cb"><video class="bar-vid${v.verticale?" v":""}" controls playsinline preload="none" poster="bar/${enc(v.poster||"")}" src="bar/${enc(v.file)}"></video>${v.sottotitolo?`<p class="bar-sub">${esc(v.sottotitolo)}</p>`:""}</div></section>`).join("")}</div>${BAR.nota?`<p class="bar-nota">${esc(BAR.nota)}</p>`:""}`;
+  return`${BAR.titolo?`<p class="bar-saga">${esc(BAR.titolo)}</p>`:""}${BAR.intro?`<p class="bar-intro">${esc(BAR.intro)}</p>`:""}<div class="grid bar-grid">${BAR.video.map((v,i)=>`<section class="card" data-id="bar-${i+1}"><div class="ch"><b>${i+1}. ${esc(v.titolo)}</b>${v.durata?`<span class="bar-dur">${esc(v.durata)}</span>`:""}</div><div class="cb"><video class="bar-vid${v.verticale?" v":""}" controls playsinline preload="none" poster="bar/${enc(v.poster||"")}" src="bar/${enc(v.file)}"></video>${v.sottotitolo?`<p class="bar-sub">${esc(v.sottotitolo)}</p>`:""}</div></section>`).join("")}</div>${BAR.nota?`<p class="bar-nota">${esc(BAR.nota)}</p>`:""}`;
 }
 const meta=s=>META[s.id]||{g:s.kind==="papers"?"ricerca":s.kind==="headlines"?"notizie":"mercati",v:s.kind==="papers"?"papers":s.kind==="headlines"?"news":"img",cad:48};
 const files=s=>(s.files||[]).slice().sort((a,b)=>new Date(b.date)-new Date(a.date));

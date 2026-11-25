@@ -1,15 +1,31 @@
 {
  "titolo": "La saga del colonnello Tapini e delle maglie tarocche",
- "nota": "Fuori listino: filmati amatoriali fatti per gioco. Nessun dato di mercato, nessuna pretesa.",
+ "nota": "Filmati amatoriali fatti per gioco con l'IA. Personaggi e fatti inventati: ogni riferimento a maglie, divise o persone reali è puramente casuale.",
  "video": [
-  {"file": "01_maglie_tarocche_il_film.mp4", "poster": "01_maglie_tarocche_il_film.jpg",
-   "titolo": "Maglie tarocche – il film", "sottotitolo": "Miglior film straniero 2026. Girato tra Torrevecchia, Pechino e Regina Coeli. Budget: zero euro.",
-   "durata": "3:43", "verticale": true},
-  {"file": "02_la_sala_delle_maglie.mp4", "poster": "02_la_sala_delle_maglie.jpg",
-   "titolo": "La sala delle maglie", "sottotitolo": "La trattativa davanti alla parete delle numero 10.",
-   "durata": "0:10", "verticale": true},
-  {"file": "03_colonnello_tapini_lambro_77.mp4", "poster": "03_colonnello_tapini_lambro_77.jpg",
-   "titolo": "Il colonnello Tapini e la maglia LAMBRO 77", "sottotitolo": "Il reperto viene mostrato alla stampa.",
-   "durata": "0:08", "verticale": false}
- ]
+  {
+   "file": "01_maglie_tarocche_il_film.mp4",
+   "poster": "01_maglie_tarocche_il_film.jpg",
+   "titolo": "Maglie tarocche – il film",
+   "sottotitolo": "Miglior film straniero 2026. Girato tra Torrevecchia, Pechino e Regina Coeli. Budget: zero euro.",
+   "durata": "3:43",
+   "verticale": true
+  },
+  {
+   "file": "02_la_sala_delle_maglie.mp4",
+   "poster": "02_la_sala_delle_maglie.jpg",
+   "titolo": "La sala delle maglie",
+   "sottotitolo": "La trattativa davanti alla parete delle numero 10.",
+   "durata": "0:10",
+   "verticale": true
+  },
+  {
+   "file": "03_colonnello_tapini_lambro_77.mp4",
+   "poster": "03_colonnello_tapini_lambro_77.jpg",
+   "titolo": "Il colonnello Tapini e la maglia LAMBRO 77",
+   "sottotitolo": "Il reperto viene mostrato alla stampa.",
+   "durata": "0:08",
+   "verticale": false
+  }
+ ],
+ "intro": "L'intelligenza artificiale non è solo numeri, curve dei tassi, righe di codice e sistemi che girano di notte. A volte è un colonnello della Finanza che non esiste, una maglia LAMBRO 77 mai cucita e un film girato tra Torrevecchia, Pechino e Regina Coeli con budget zero. Qui si spegne il terminale e si apre il bar: niente dati, niente wrap, solo la saga delle maglie tarocche. Ordinate un caffè: il resto lo offre la casa (finché ci sono crediti)."
 }
