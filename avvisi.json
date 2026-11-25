@@ -1,5 +1,5 @@
 {
- "crediti": "ok",
- "nota_uso": "ok = avviso crediti spento a mano (25/11: crediti ricaricati, ma il cruscotto non si aggiorna da solo per il secret WRAPS_READ_TOKEN mancante). Rimettere \"auto\" quando l'aggiornamento automatico riparte; \"esauriti\" lo accende a mano.",
- "ultima_modifica": "2026-11-25T13:58:00Z"
+ "crediti": "auto",
+ "nota_uso": "auto = l'avviso crediti si accende e si spegne da solo seguendo il Wrap Monitor. Per forzarlo a mano: \"esauriti\" (acceso) oppure \"ok\" (spento).",
+ "ultima_modifica": "2026-11-25T15:20:00Z"
 }
