@@ -1,5 +1,5 @@
 {
- "crediti": "esauriti",
- "impostato": "2026-10-21T16:30:00Z",
- "dal": "2026-10-20T18:36:00Z"
+ "crediti": "auto",
+ "nota_uso": "auto = l'avviso crediti si accende e si spegne da solo seguendo il Wrap Monitor. Per forzarlo a mano: \"esauriti\" (acceso) oppure \"ok\" (spento).",
+ "ultima_modifica": "2026-11-25T10:06:00Z"
 }
