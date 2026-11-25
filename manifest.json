@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T15:16:19Z",
+ "generated_at": "2026-11-25T18:49:59Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -137,6 +137,17 @@
    "credit": null,
    "files": [
     {
+     "name": "headline_20261125_1804.png",
+     "name_orig": "headline_20261125_1804.png",
+     "path": "assets/headline-wrap/headline_20261125_1804.png",
+     "type": "png",
+     "date": "2026-11-25T17:04:00Z",
+     "size": 167139,
+     "sha": "862a8bae4b0c9fd4ca5adc3ab3e00485517f0b92",
+     "source": "uscite/headline/headline_20261125_1804.png",
+     "artifact": null
+    },
+    {
      "name": "headline_20261125_1304.png",
      "name_orig": "headline_20261125_1304.png",
      "path": "assets/headline-wrap/headline_20261125_1304.png",
@@ -179,24 +190,13 @@
      "sha": "a3ddeb04fcb5567be3ac261a6e50b9f90877a53e",
      "source": "uscite/headline/headline_20261119_1304.png",
      "artifact": null
-    },
-    {
-     "name": "headline_20261119_0813.png",
-     "name_orig": "headline_20261119_0813.png",
-     "path": "assets/headline-wrap/headline_20261119_0813.png",
-     "type": "png",
-     "date": "2026-11-19T07:13:00Z",
-     "size": 196233,
-     "sha": "7c9d89aad67d1ca855db808b832966aa96844fd2",
-     "source": "uscite/headline/headline_20261119_0813.png",
-     "artifact": null
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
-   "hero": "assets/headline-wrap/headline_20261125_1304.png",
-   "updated": "2026-11-25T12:04:00Z"
+   "hero": "assets/headline-wrap/headline_20261125_1804.png",
+   "updated": "2026-11-25T17:04:00Z"
   },
   {
    "id": "desk",
@@ -277,24 +277,13 @@
    "credit": null,
    "files": [
     {
-     "name": "eurex_card.png",
-     "name_orig": "eurex_card.png",
-     "path": "assets/tvol-wrap/eurex_card.png",
-     "type": "png",
-     "date": "2026-11-25T01:35:59Z",
-     "size": 106518,
-     "sha": "b3a2d717b4ee143cfc97ac6401bb252d53b1e0b6",
-     "source": "data/eurex_card.png",
-     "artifact": null
-    },
-    {
      "name": "smile_CL.png",
      "name_orig": "smile_CL.png",
      "path": "assets/tvol-wrap/smile_CL.png",
      "type": "png",
-     "date": "2026-11-24T19:17:28Z",
-     "size": 148345,
-     "sha": "e4c7a535d1890fe7655e66d88f8681a688ea43d6",
+     "date": "2026-11-25T18:24:06Z",
+     "size": 147282,
+     "sha": "9666c0174dbe98224eeab5cda93138e07cc2c04e",
      "source": "data/smile_CL.png",
      "artifact": null
     },
@@ -303,9 +292,9 @@
      "name_orig": "smile_ES.png",
      "path": "assets/tvol-wrap/smile_ES.png",
      "type": "png",
-     "date": "2026-11-24T19:17:28Z",
-     "size": 149050,
-     "sha": "3387460c25c165cb4e172312746b452fbbe1c3af",
+     "date": "2026-11-25T18:24:06Z",
+     "size": 148248,
+     "sha": "18e1b50b092eb014911b80ec6ae25fea805864ac",
      "source": "data/smile_ES.png",
      "artifact": null
     },
@@ -314,9 +303,9 @@
      "name_orig": "smile_ZB.png",
      "path": "assets/tvol-wrap/smile_ZB.png",
      "type": "png",
-     "date": "2026-11-24T19:17:28Z",
-     "size": 143076,
-     "sha": "347715a57187f5620c836fc2f4a9ce7453e2a819",
+     "date": "2026-11-25T18:24:06Z",
+     "size": 142712,
+     "sha": "4c7556401217679629d5d3bf52aad1f08985bdd5",
      "source": "data/smile_ZB.png",
      "artifact": null
     },
@@ -325,10 +314,21 @@
      "name_orig": "smile_ZN.png",
      "path": "assets/tvol-wrap/smile_ZN.png",
      "type": "png",
-     "date": "2026-11-24T19:17:28Z",
-     "size": 140955,
-     "sha": "0be58668efbe0149f7b6217ce4e29c2c25c595ef",
+     "date": "2026-11-25T18:24:06Z",
+     "size": 144750,
+     "sha": "872cee5e72148203e57711bd9f45ba3f30a11270",
      "source": "data/smile_ZN.png",
+     "artifact": null
+    },
+    {
+     "name": "eurex_card.png",
+     "name_orig": "eurex_card.png",
+     "path": "assets/tvol-wrap/eurex_card.png",
+     "type": "png",
+     "date": "2026-11-25T17:47:27Z",
+     "size": 106944,
+     "sha": "b6e1c14f838132ddbc09fc1b0994accf47249bed",
+     "source": "data/eurex_card.png",
      "artifact": null
     },
     {
@@ -336,9 +336,9 @@
      "name_orig": "flussi_card.png",
      "path": "assets/tvol-wrap/flussi_card.png",
      "type": "png",
-     "date": "2026-11-24T18:34:30Z",
-     "size": 206468,
-     "sha": "3e33e67cadbe23363f5fc4d4a2130d20b276d2f2",
+     "date": "2026-11-25T17:47:27Z",
+     "size": 208372,
+     "sha": "46aa6aec4acf6bfb412c5b8ab2edd1d2fc725352",
      "source": "data/flussi_card.png",
      "artifact": null
     },
@@ -347,9 +347,9 @@
      "name_orig": "last_card.png",
      "path": "assets/tvol-wrap/last_card.png",
      "type": "png",
-     "date": "2026-11-24T18:34:30Z",
-     "size": 213181,
-     "sha": "e1d565fea515851720edc0fca62c862a3d10843f",
+     "date": "2026-11-25T17:47:27Z",
+     "size": 209921,
+     "sha": "21aebe67c2890f2f7dc3e9bd16abe9ca26d9ec62",
      "source": "data/last_card.png",
      "artifact": null
     },
@@ -358,9 +358,9 @@
      "name_orig": "last_chart.png",
      "path": "assets/tvol-wrap/last_chart.png",
      "type": "png",
-     "date": "2026-11-24T18:34:30Z",
-     "size": 76817,
-     "sha": "91bed3b0a3fb276319f9216c6cf358310432206a",
+     "date": "2026-11-25T17:47:27Z",
+     "size": 77895,
+     "sha": "482fa1871be1d6b0f1333e564ed20d5c67804b99",
      "source": "data/last_chart.png",
      "artifact": null
     },
@@ -369,9 +369,9 @@
      "name_orig": "multi_card.png",
      "path": "assets/tvol-wrap/multi_card.png",
      "type": "png",
-     "date": "2026-11-24T18:34:30Z",
-     "size": 399659,
-     "sha": "f160cdb2a3c72a9bb4c890325113e0ba97be479c",
+     "date": "2026-11-25T17:47:27Z",
+     "size": 382414,
+     "sha": "422c864455f1befacdce17bb6dceecc32b122e7a",
      "source": "data/multi_card.png",
      "artifact": null
     },
@@ -392,7 +392,7 @@
    "headlines": [],
    "error": null,
    "hero": "assets/tvol-wrap/last_card.png",
-   "updated": "2026-11-25T01:35:59Z"
+   "updated": "2026-11-25T18:24:06Z"
   },
   {
    "id": "fi-wrap",
@@ -2723,7 +2723,6 @@
  },
  "artifacts_seen": {
   "empty": [
-   12669757044,
    12681078478,
    12748937202,
    12761333758,
@@ -2750,7 +2749,6 @@
    13790763669,
    13802126107,
    13880411976,
-   13888295630,
    13890242129,
    13904500353,
    13905067891,
@@ -2878,7 +2876,6 @@
    14403615457,
    14403865012,
    14435085133,
-   14448221953,
    14461932726,
    14462594577,
    14463039682,
@@ -2907,6 +2904,7 @@
    14540156446,
    14554217168,
    14567151915,
+   14567318079,
    14567337455,
    14567340827,
    14567417534,
@@ -2991,11 +2989,12 @@
    14964231882,
    14974307555,
    14982810765,
-   14993025082
+   14993025082,
+   15037504921
   ]
  },
  "monitor": {
-  "generato": "2026-11-25T13:58:11.538717+00:00",
+  "generato": "2026-11-25T18:08:27.132524+00:00",
   "workflow": {
    "market-wrap/market-wrap.yml": {
     "nomi": [
@@ -3036,8 +3035,8 @@
     "repo": "imf-spglobal-wrap_",
     "workflow": "imf.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-25T01:29:24+00:00",
-    "esito": "attesa",
+    "ultima_uscita": "2026-11-25T15:39:40+00:00",
+    "esito": "ritardo",
     "slot": "2026-11-25T07:20:00+01:00",
     "condizionale": true,
     "manuale": null,
@@ -3088,7 +3087,7 @@
     "repo": "FED-Wrap",
     "workflow": "fed_wrap_quotidiano.yaml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-24T18:37:49+00:00",
+    "ultima_uscita": "2026-11-25T17:48:28+00:00",
     "esito": "nessuna_novita",
     "slot": "2026-11-25T08:00:00+01:00",
     "condizionale": true,
@@ -3104,7 +3103,7 @@
     "repo": "Bis-Wrap",
     "workflow": "bis_wrap_quotidiano.yaml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-24T19:00:30+00:00",
+    "ultima_uscita": "2026-11-25T18:05:50+00:00",
     "esito": "nessuna_novita",
     "slot": "2026-11-25T08:30:00+01:00",
     "condizionale": true,
@@ -3121,9 +3120,9 @@
     "repo": "tvol-wrap",
     "workflow": "tvol.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-25T01:31:22+00:00",
-    "esito": "attesa",
-    "slot": "2026-11-25T10:00:00+01:00",
+    "ultima_uscita": "2026-11-25T17:42:18+00:00",
+    "esito": "ok",
+    "slot": "2026-11-25T18:30:00+01:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
@@ -3178,7 +3177,7 @@
     "workflow": "aggiorna.yml",
     "stato_workflow": "active",
     "ultima_uscita": "2026-11-24T23:18:07+00:00",
-    "esito": "attesa",
+    "esito": "nessuna_novita",
     "slot": "2026-11-25T12:30:00+01:00",
     "condizionale": true,
     "manuale": null,
@@ -3214,8 +3213,8 @@
     "workflow": "spg.yml",
     "stato_workflow": "active",
     "ultima_uscita": "2026-11-25T10:51:56+00:00",
-    "esito": "nessuna_novita",
-    "slot": "2026-11-24T15:35:00+01:00",
+    "esito": "attesa",
+    "slot": "2026-11-25T15:35:00+01:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
@@ -3350,7 +3349,7 @@
     "workflow": "istat.yml",
     "stato_workflow": "active",
     "ultima_uscita": "2026-11-25T10:05:07+00:00",
-    "esito": "attesa",
+    "esito": "nessuna_novita",
     "slot": "2026-11-25T13:00:00+01:00",
     "condizionale": true,
     "manuale": null,
@@ -3598,8 +3597,8 @@
     "workflow": "wpsr.yml",
     "stato_workflow": "active",
     "ultima_uscita": "2026-11-18T22:11:05+00:00",
-    "esito": null,
-    "slot": null,
+    "esito": "attesa",
+    "slot": "2026-11-25T16:25:00+01:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
@@ -3657,9 +3656,9 @@
     "repo": "market-wrap",
     "workflow": "headline-wrap.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-25T12:04:26+00:00",
+    "ultima_uscita": "2026-11-25T17:04:48+00:00",
     "esito": "ok",
-    "slot": "2026-11-25T13:00:00+01:00",
+    "slot": "2026-11-25T18:00:00+01:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
