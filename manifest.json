@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T18:49:59Z",
+ "generated_at": "2026-11-25T21:15:02Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -940,29 +940,29 @@
      "name_orig": "inflazione-2026-10.pdf",
      "path": "assets/hicp-wrap/inflazione-2026-10.pdf",
      "type": "pdf",
-     "date": "2026-11-24T19:46:59Z",
+     "date": "2026-11-25T19:48:36Z",
      "size": 5988086,
-     "sha": "d84b2504f5d419658fd5677ff437bbca99b30c38",
+     "sha": "9b864a4c3f134d658030ea2760487df40ba43444",
      "source": "artifact:uscita/uscita/inflazione-2026-10.pdf",
-     "artifact": 14957398896
+     "artifact": 15057417829
     },
     {
      "name": "inflazione-2026-10.xlsx",
      "name_orig": "inflazione-2026-10.xlsx",
      "path": "assets/hicp-wrap/inflazione-2026-10.xlsx",
      "type": "xlsx",
-     "date": "2026-11-24T19:46:59Z",
+     "date": "2026-11-25T19:48:36Z",
      "size": 541904,
-     "sha": "ea1c0415d3771d62ffd074fb68d2ff94379430ae",
+     "sha": "c6a039e0584ed71a65ce8da2aef792c859f47fcc",
      "source": "artifact:uscita/uscita/inflazione-2026-10.xlsx",
-     "artifact": 14957398896
+     "artifact": 15057417829
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-24T19:46:59Z"
+   "updated": "2026-11-25T19:48:36Z"
   },
   {
    "id": "blas-weekly",
@@ -1056,7 +1056,7 @@
      "date": "2026-11-25T13:15:24Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/A_2018_Playbook_Would_Not_Bode_Well_for_Markets_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=A%202018%20Playbook%20Would%20Not%20Bode%20Well%20for%20Markets"
     },
     {
@@ -1064,7 +1064,7 @@
      "date": "2026-11-25T13:15:24Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Asia_Finds_a_Surprise_Currency_Haven_in_AI-Defying_Rupee_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=Asia%20Finds%20a%20Surprise%20Currency%20Haven%20in%20AI-Defying%20Rupee"
     },
     {
@@ -1072,7 +1072,7 @@
      "date": "2026-11-25T13:15:24Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Aussie_Set_for_Worst_Month_Since_2013_on_Risk-Averse_Selling_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=Aussie%20Set%20for%20Worst%20Month%20Since%202013%20on%20Risk-Averse%20Selling"
     },
     {
@@ -1080,7 +1080,7 @@
      "date": "2026-11-25T13:15:24Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Europe_Beats_Asia_in_Fight_for_Gas_Supply_Disrupted_by_War_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=Europe%20Beats%20Asia%20in%20Fight%20for%20Gas%20Supply%20Disrupted%20by%20War"
     },
     {
@@ -1088,7 +1088,7 @@
      "date": "2026-11-25T13:15:24Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/German_Economic_Growth_Revised_Down_as_Investment_Sinks_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=German%20Economic%20Growth%20Revised%20Down%20as%20Investment%20Sinks"
     },
     {
@@ -1096,7 +1096,7 @@
      "date": "2026-11-25T13:15:24Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Nasdaq_Futures_Tumble_as_Tech_Selloff_Rolls_On_Markets_Wrap_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=Nasdaq%20Futures%20Tumble%20as%20Tech%20Selloff%20Rolls%20On%20Markets%20Wrap"
     },
     {
@@ -1104,7 +1104,7 @@
      "date": "2026-11-25T13:15:24Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Russia_Oil_Loses_Price_Edge_in_India_as_Middle_East_Exports_Rise_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=Russia%20Oil%20Loses%20Price%20Edge%20in%20India%20as%20Middle%20East%20Exports%20Rise"
     },
     {
@@ -1112,7 +1112,7 @@
      "date": "2026-11-25T13:15:24Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Russias_Elevated_Crude_Shipments_Stoke_Global_Supply_Surplus_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=Russia%E2%80%99s%20Elevated%20Crude%20Shipments%20Stoke%20Global%20Supply%20Surplus"
     },
     {
@@ -1120,7 +1120,7 @@
      "date": "2026-11-25T13:15:24Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Treasury_Rally_Picks_Up_as_Stock_Selloff_Dents_Risk_Appetite_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=Treasury%20Rally%20Picks%20Up%20as%20Stock%20Selloff%20Dents%20Risk%20Appetite"
     },
     {
@@ -1128,7 +1128,7 @@
      "date": "2026-11-25T13:15:24Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/UK_Energy_Bills_Rise_26_as_War_Fuels_Cost-of-Living_Squeeze_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=UK%20Energy%20Bills%20Rise%2026%25%20as%20War%20Fuels%20Cost-of-Living%20Squeeze"
     },
     {
@@ -1136,7 +1136,7 @@
      "date": "2026-11-25T06:04:26Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/European_Natural_Gas_Climbs_as_Cold_Snap_Spreads_Across_Region_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=European%20Natural%20Gas%20Climbs%20as%20Cold%20Snap%20Spreads%20Across%20Region"
     },
     {
@@ -1231,7 +1231,7 @@
      "date": "2026-11-25T11:00:00Z",
      "url": null,
      "credit": "S&P Global",
-     "private": null
+     "private": "https://github.com/guado77/market-desk-private/blob/main/spg/AI_Anxiety_or_Opportunity.pdf"
     },
     {
      "title": "AI Development and Its Role in Eurozone Capital Investment",
@@ -1266,7 +1266,7 @@
      "date": "2026-11-25T11:00:00Z",
      "url": null,
      "credit": "S&P Global",
-     "private": null
+     "private": "https://github.com/guado77/market-desk-private/blob/main/spg/COP17_Corporate_nature_commitments_have_more_than_doubled_since_landmark_biodiversity_agreement.pdf"
     },
     {
      "title": "Capitalizing on West Africa’s high growth potential",
@@ -1294,77 +1294,77 @@
      "date": "2026-11-25T11:00:00Z",
      "url": null,
      "credit": "S&P Global",
-     "private": null
+     "private": "https://github.com/guado77/market-desk-private/blob/main/spg/Digital_Assets_Brief_HSBCs_Retail_Franchise_Will_Accelerate_Hong_Kong_Stablecoin_Adoption.pdf"
     },
     {
      "title": "Emissions disclosure is becoming the norm, but quality gaps remain",
      "date": "2026-11-25T11:00:00Z",
      "url": null,
      "credit": "S&P Global",
-     "private": null
+     "private": "https://github.com/guado77/market-desk-private/blob/main/spg/Emissions_disclosure_is_becoming_the_norm_but_quality_gaps_remain.pdf"
     },
     {
      "title": "Energy disruption and El Niño Leading to a global food crisis",
      "date": "2026-11-25T11:00:00Z",
      "url": null,
      "credit": "S&P Global",
-     "private": null
+     "private": "https://github.com/guado77/market-desk-private/blob/main/spg/Energy_disruption_and_El_Nino_Leading_to_a_global_food_crisis.pdf"
     },
     {
      "title": "Export markets buoy US coal prices",
      "date": "2026-11-25T11:00:00Z",
      "url": null,
      "credit": "S&P Global",
-     "private": null
+     "private": "https://github.com/guado77/market-desk-private/blob/main/spg/Export_markets_buoy_US_coal_prices.pdf"
     },
     {
      "title": "FACTBOX Affordability, energy transition on ballot in US state elections",
      "date": "2026-11-25T11:00:00Z",
      "url": null,
      "credit": "S&P Global",
-     "private": null
+     "private": "https://github.com/guado77/market-desk-private/blob/main/spg/FACTBOX_Affordability_energy_transition_on_ballot_in_US_state_elections.pdf"
     },
     {
      "title": "FiberConnect APAC 2026 Fiber and AI intertwined, powering next-gen connectivity",
      "date": "2026-11-25T11:00:00Z",
      "url": null,
      "credit": "S&P Global",
-     "private": null
+     "private": "https://github.com/guado77/market-desk-private/blob/main/spg/FiberConnect_APAC_2026_Fiber_and_AI_intertwined_powering_next-gen_connectivity.pdf"
     },
     {
      "title": "FutureNet Asia 2026 Can AI unlock the next wave of telco value",
      "date": "2026-11-25T11:00:00Z",
      "url": null,
      "credit": "S&P Global",
-     "private": null
+     "private": "https://github.com/guado77/market-desk-private/blob/main/spg/FutureNet_Asia_2026_Can_AI_unlock_the_next_wave_of_telco_value.pdf"
     },
     {
      "title": "FutureNet Asia 2026 From AI experimentation to autonomous network operations",
      "date": "2026-11-25T11:00:00Z",
      "url": null,
      "credit": "S&P Global",
-     "private": null
+     "private": "https://github.com/guado77/market-desk-private/blob/main/spg/FutureNet_Asia_2026_From_AI_experimentation_to_autonomous_network_operations.pdf"
     },
     {
      "title": "Global Economic Outlook October 2026",
      "date": "2026-11-25T11:00:00Z",
      "url": null,
      "credit": "S&P Global",
-     "private": null
+     "private": "https://github.com/guado77/market-desk-private/blob/main/spg/Global_Economic_Outlook_October_2026.pdf"
     },
     {
      "title": "Global PMI signals solid factory output growth in October but price growth accelerates amid shortages",
      "date": "2026-11-25T11:00:00Z",
      "url": null,
      "credit": "S&P Global",
-     "private": null
+     "private": "https://github.com/guado77/market-desk-private/blob/main/spg/Global_PMI_signals_solid_factory_output_growth_in_October_but_price_growth_accelerates_amid_shortages.pdf"
     },
     {
      "title": "Global nonferrous exploration budgets to climb to $16.5B in 2026",
      "date": "2026-11-25T11:00:00Z",
      "url": null,
      "credit": "S&P Global",
-     "private": null
+     "private": "https://github.com/guado77/market-desk-private/blob/main/spg/Global_nonferrous_exploration_budgets_to_climb_to_16.5B_in_2026.pdf"
     }
    ],
    "error": null,
@@ -1670,6 +1670,17 @@
    "credit": null,
    "files": [
     {
+     "name": "serale-2026-11-24.pdf",
+     "name_orig": "serale-2026-11-24.pdf",
+     "path": "assets/istat/serale-2026-11-24.pdf",
+     "type": "pdf",
+     "date": "2026-11-25T20:53:34Z",
+     "size": 286460,
+     "sha": "fa7d000f546bf9cce45b7965a66bcb18df8f3b32",
+     "source": "artifact:istat-wrap/serale/serale-2026-11-24.pdf",
+     "artifact": 15062975170
+    },
+    {
      "name": "istat-2026-11-25.pdf",
      "name_orig": "istat-2026-11-25.pdf",
      "path": "assets/istat/istat-2026-11-25.pdf",
@@ -1681,33 +1692,22 @@
      "artifact": 15011247076
     },
     {
-     "name": "serale-2026-11-24.pdf",
-     "name_orig": "serale-2026-11-24.pdf",
-     "path": "assets/istat/serale-2026-11-24.pdf",
-     "type": "pdf",
-     "date": "2026-11-25T10:05:12Z",
-     "size": 286460,
-     "sha": "fa7d000f546bf9cce45b7965a66bcb18df8f3b32",
-     "source": "artifact:istat-wrap/serale/serale-2026-11-24.pdf",
-     "artifact": 15011247076
-    },
-    {
      "name": "serale-2026-11-23.pdf",
      "name_orig": "serale-2026-11-23.pdf",
      "path": "assets/istat/serale-2026-11-23.pdf",
      "type": "pdf",
-     "date": "2026-11-24T21:46:58Z",
+     "date": "2026-11-23T11:00:00Z",
      "size": 281229,
      "sha": "03e04686c1d65c3f9b4023931bf68047941ab167",
      "source": "artifact:istat-wrap/serale/serale-2026-11-23.pdf",
-     "artifact": 14966338728
+     "artifact": 15062975170
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-25T10:05:12Z"
+   "updated": "2026-11-25T20:53:34Z"
   },
   {
    "id": "press-corner",
@@ -1766,6 +1766,28 @@
    "credit": null,
    "files": [
     {
+     "name": "serale-2026-11-24.pdf",
+     "name_orig": "serale-2026-11-24.pdf",
+     "path": "assets/zerohedge/serale-2026-11-24.pdf",
+     "type": "pdf",
+     "date": "2026-11-25T19:49:56Z",
+     "size": 286460,
+     "sha": "fa7d000f546bf9cce45b7965a66bcb18df8f3b32",
+     "source": "artifact:zh-wrap/serale/serale-2026-11-24.pdf",
+     "artifact": 15058046795
+    },
+    {
+     "name": "zerohedge-2026-11-25-manuale.pdf",
+     "name_orig": "zerohedge-2026-11-25-manuale.pdf",
+     "path": "assets/zerohedge/zerohedge-2026-11-25-manuale.pdf",
+     "type": "pdf",
+     "date": "2026-11-25T19:49:56Z",
+     "size": 127277,
+     "sha": "5d66d68327bc3f3cd65a921d3d3ab1622b09b0c9",
+     "source": "artifact:zh-wrap/zerohedge-2026-11-25-manuale.pdf",
+     "artifact": 15058046795
+    },
+    {
      "name": "serale-2026-11-23.pdf",
      "name_orig": "serale-2026-11-23.pdf",
      "path": "assets/zerohedge/serale-2026-11-23.pdf",
@@ -1775,35 +1797,13 @@
      "sha": "03e04686c1d65c3f9b4023931bf68047941ab167",
      "source": "artifact:zh-wrap/serale/serale-2026-11-23.pdf",
      "artifact": 14969479518
-    },
-    {
-     "name": "serale-2026-11-24.pdf",
-     "name_orig": "serale-2026-11-24.pdf",
-     "path": "assets/zerohedge/serale-2026-11-24.pdf",
-     "type": "pdf",
-     "date": "2026-11-24T22:18:54Z",
-     "size": 286460,
-     "sha": "fa7d000f546bf9cce45b7965a66bcb18df8f3b32",
-     "source": "artifact:zh-wrap/serale/serale-2026-11-24.pdf",
-     "artifact": 14969479518
-    },
-    {
-     "name": "zerohedge-2026-11-24-sera.pdf",
-     "name_orig": "zerohedge-2026-11-24-sera.pdf",
-     "path": "assets/zerohedge/zerohedge-2026-11-24-sera.pdf",
-     "type": "pdf",
-     "date": "2026-11-24T22:18:54Z",
-     "size": 26209,
-     "sha": "c8a54f56052ea870e8cd0f5597d070a2de09dba9",
-     "source": "artifact:zh-wrap/zerohedge-2026-11-24-sera.pdf",
-     "artifact": 14969479518
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-24T22:18:54Z"
+   "updated": "2026-11-25T19:49:56Z"
   },
   {
    "id": "fed",
@@ -2723,7 +2723,6 @@
  },
  "artifacts_seen": {
   "empty": [
-   12681078478,
    12748937202,
    12761333758,
    12835305270,
@@ -2749,8 +2748,6 @@
    13790763669,
    13802126107,
    13880411976,
-   13890242129,
-   13904500353,
    13905067891,
    13906288464,
    13906826789,
@@ -2878,10 +2875,8 @@
    14435085133,
    14461932726,
    14462594577,
-   14463039682,
    14463351068,
    14463714759,
-   14464267968,
    14472398367,
    14482026911,
    14485191462,
@@ -2961,6 +2956,7 @@
    14741618992,
    14741833080,
    14756421845,
+   14767485844,
    14775878558,
    14779340348,
    14779504478,
@@ -2971,6 +2967,7 @@
    14793937447,
    14835952730,
    14855476652,
+   14856377801,
    14856741169,
    14868273549,
    14870140020,
@@ -2985,16 +2982,20 @@
    14893545515,
    14895775264,
    14938173244,
+   14958371497,
    14958925024,
+   14963348590,
    14964231882,
+   14966338728,
    14974307555,
    14982810765,
    14993025082,
-   15037504921
+   15037504921,
+   15057609557
   ]
  },
  "monitor": {
-  "generato": "2026-11-25T18:08:27.132524+00:00",
+  "generato": "2026-11-25T19:38:15.327792+00:00",
   "workflow": {
    "market-wrap/market-wrap.yml": {
     "nomi": [
@@ -3072,8 +3073,8 @@
     "workflow": "chat-wrap.yml",
     "stato_workflow": "active",
     "ultima_uscita": "2026-11-22T23:36:27+00:00",
-    "esito": "mancata",
-    "slot": "2026-11-25T08:00:00+01:00",
+    "esito": "attesa",
+    "slot": "2026-11-25T20:00:00+01:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
@@ -3120,7 +3121,7 @@
     "repo": "tvol-wrap",
     "workflow": "tvol.yml",
     "stato_workflow": "active",
-    "ultima_uscita": "2026-11-25T17:42:18+00:00",
+    "ultima_uscita": "2026-11-25T18:16:28+00:00",
     "esito": "ok",
     "slot": "2026-11-25T18:30:00+01:00",
     "condizionale": false,
@@ -3187,7 +3188,8 @@
      "url": "https://github.com/guado77/hicp-wrap/actions/runs/43094844402",
      "passo": "Run actions/upload-artifact@v4"
     },
-    "url": "https://github.com/guado77/hicp-wrap/actions/workflows/aggiorna.yml"
+    "url": "https://github.com/guado77/hicp-wrap/actions/workflows/aggiorna.yml",
+    "forzato": "2026-11-25T19:38:15.327792+00:00"
    },
    "imf-spglobal-wrap_/zh.yml": {
     "nomi": [
@@ -3197,13 +3199,14 @@
     "workflow": "zh.yml",
     "stato_workflow": "active",
     "ultima_uscita": "2026-11-24T22:18:49+00:00",
-    "esito": "attesa",
+    "esito": "mancata",
     "slot": "2026-11-25T13:00:00+01:00",
     "condizionale": false,
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": null,
-    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/zh.yml"
+    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/zh.yml",
+    "forzato": "2026-11-25T19:38:15.327792+00:00"
    },
    "imf-spglobal-wrap_/spg.yml": {
     "nomi": [
@@ -3233,8 +3236,8 @@
     "workflow": "wrap.yml",
     "stato_workflow": "active",
     "ultima_uscita": "2026-11-25T01:58:08+00:00",
-    "esito": "mancata",
-    "slot": "2026-11-24T20:00:00+01:00",
+    "esito": "attesa",
+    "slot": "2026-11-25T20:00:00+01:00",
     "condizionale": false,
     "manuale": "richiede il captcha ICE dal PC: si avvia a mano",
     "run_in_corso": 0,
@@ -3309,8 +3312,8 @@
     "workflow": "estat.yml",
     "stato_workflow": "active",
     "ultima_uscita": "2026-11-25T03:01:00+00:00",
-    "esito": "nessuna_novita",
-    "slot": "2026-11-24T20:07:00+01:00",
+    "esito": "attesa",
+    "slot": "2026-11-25T20:07:00+01:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
@@ -3329,8 +3332,8 @@
     "workflow": "pc.yml",
     "stato_workflow": "active",
     "ultima_uscita": "2026-11-25T10:07:31+00:00",
-    "esito": "nessuna_novita",
-    "slot": "2026-11-24T20:37:00+01:00",
+    "esito": "attesa",
+    "slot": "2026-11-25T20:37:00+01:00",
     "condizionale": true,
     "manuale": null,
     "run_in_corso": 0,
@@ -3359,7 +3362,8 @@
      "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/runs/45494333461",
      "passo": "Genera e invia"
     },
-    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/istat.yml"
+    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/istat.yml",
+    "forzato": "2026-11-25T19:38:15.327792+00:00"
    },
    "macro-wrap-bot/macro_wrap.yaml": {
     "nomi": [
@@ -3571,7 +3575,8 @@
     "manuale": null,
     "run_in_corso": 0,
     "ultimo_fallimento": null,
-    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/dts.yml"
+    "url": "https://github.com/guado77/imf-spglobal-wrap_/actions/workflows/dts.yml",
+    "forzato": "2026-11-25T19:38:15.327792+00:00"
    },
    "imf-spglobal-wrap_/cbo.yml": {
     "nomi": [
@@ -3675,13 +3680,18 @@
    "wrap": [],
    "dal": null
   },
-  "forzati": []
+  "forzati": [
+   "hicp-wrap/aggiorna.yml",
+   "imf-spglobal-wrap_/dts.yml",
+   "imf-spglobal-wrap_/istat.yml",
+   "imf-spglobal-wrap_/zh.yml"
+  ]
  },
  "edizione": {
   "nome": "sera",
-  "giorno": "2026-11-24",
-  "quando": "2026-11-24T21:16:18Z",
-  "aggiornati": 21,
+  "giorno": "2026-11-25",
+  "quando": "2026-11-25T21:15:02Z",
+  "aggiornati": 25,
   "mancanti": 0,
   "completa": false
  }
