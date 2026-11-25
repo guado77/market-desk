@@ -1,6 +1,6 @@
 {
  "titolo": "La saga del colonnello Tapini e delle maglie tarocche",
- "nota": "Filmati amatoriali fatti per gioco con l'IA. Personaggi e fatti inventati: ogni riferimento a maglie, divise o persone reali è puramente casuale.",
+ "nota": "Filmati amatoriali fatti per gioco con l'IA: è una parodia. Personaggi e fatti inventati, ogni riferimento a maglie, divise o persone reali è puramente casuale. Nessuno si senta toccato o offeso; chi si offende lo stesso, al bar paga il giro.",
  "video": [
   {
    "file": "01_maglie_tarocche_il_film.mp4",
@@ -27,5 +27,6 @@
    "verticale": false
   }
  ],
- "intro": "L'intelligenza artificiale non è solo numeri, curve dei tassi, righe di codice e sistemi che girano di notte. A volte è un colonnello della Finanza che non esiste, una maglia LAMBRO 77 mai cucita e un film girato tra Torrevecchia, Pechino e Regina Coeli con budget zero. Qui si spegne il terminale e si apre il bar: niente dati, niente wrap, solo la saga delle maglie tarocche. Ordinate un caffè: il resto lo offre la casa (finché ci sono crediti)."
+ "intro": "L'intelligenza artificiale non è solo numeri, curve dei tassi, righe di codice e sistemi che girano di notte. A volte è un colonnello della Finanza che non esiste, una maglia LAMBRO 77 mai cucita e un film girato tra Torrevecchia, Pechino e Regina Coeli con budget zero. Qui si spegne il terminale e si apre il bar: niente dati, niente wrap, solo la saga delle maglie tarocche. Ordinate un caffè: il resto lo offre la casa (finché ci sono crediti).",
+ "avviso": "PARODIA. Nessuno si senta toccato: chi si offende lo stesso, al bar paga il giro."
 }
