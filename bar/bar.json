@@ -1,0 +1,15 @@
+{
+ "titolo": "La saga del colonnello Tapini e delle maglie tarocche",
+ "nota": "Fuori listino: filmati amatoriali fatti per gioco. Nessun dato di mercato, nessuna pretesa.",
+ "video": [
+  {"file": "01_maglie_tarocche_il_film.mp4", "poster": "01_maglie_tarocche_il_film.jpg",
+   "titolo": "Maglie tarocche – il film", "sottotitolo": "Miglior film straniero 2026. Girato tra Torrevecchia, Pechino e Regina Coeli. Budget: zero euro.",
+   "durata": "3:43", "verticale": true},
+  {"file": "02_la_sala_delle_maglie.mp4", "poster": "02_la_sala_delle_maglie.jpg",
+   "titolo": "La sala delle maglie", "sottotitolo": "La trattativa davanti alla parete delle numero 10.",
+   "durata": "0:10", "verticale": true},
+  {"file": "03_colonnello_tapini_lambro_77.mp4", "poster": "03_colonnello_tapini_lambro_77.jpg",
+   "titolo": "Il colonnello Tapini e la maglia LAMBRO 77", "sottotitolo": "Il reperto viene mostrato alla stampa.",
+   "durata": "0:08", "verticale": false}
+ ]
+}
