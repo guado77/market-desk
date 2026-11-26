@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T19:54:36Z",
+ "generated_at": "2026-11-26T21:22:18Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -1056,7 +1056,7 @@
      "date": "2026-11-26T13:07:13Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/All_of_Canadas_Big_Six_Banks_Now_See_December_Rate_Hike_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=All%20of%20Canada%E2%80%99s%20Big%20Six%20Banks%20Now%20See%20December%20Rate%20Hike"
     },
     {
@@ -1064,7 +1064,7 @@
      "date": "2026-11-26T13:07:13Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Diesels_Slump_Offers_Brief_Respite_From_Global_Energy_Turmoil_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=Diesel%E2%80%99s%20Slump%20Offers%20Brief%20Respite%20From%20Global%20Energy%20Turmoil"
     },
     {
@@ -1072,7 +1072,7 @@
      "date": "2026-11-26T13:07:13Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/German_Bond_Haven_Trade_Shifts_as_Investors_Turn_to_Asset_Swaps_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=German%20Bond%20Haven%20Trade%20Shifts%20as%20Investors%20Turn%20to%20Asset%20Swaps"
     },
     {
@@ -1080,7 +1080,7 @@
      "date": "2026-11-26T13:07:13Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Hormuz_Tanker_Traffic_Rises_This_Month_Even_as_Attacks_Increase_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=Hormuz%20Tanker%20Traffic%20Rises%20This%20Month%20Even%20as%20Attacks%20Increase"
     },
     {
@@ -1088,7 +1088,7 @@
      "date": "2026-11-26T13:07:13Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Japans_Insurers_Have_Given_Up_on_Yen_With_Record-Low_Hedging_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=Japan%E2%80%99s%20Insurers%20Have%20%E2%80%98Given%20Up%E2%80%99%20on%20Yen%20With%20Record-Low%20Hedging"
     },
     {
@@ -1096,7 +1096,7 @@
      "date": "2026-11-26T13:07:13Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/OPEC_Considers_Sticking_With_Current_Quotas_Delegates_Say_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=OPEC%2B%20Considers%20Sticking%20With%20Current%20Quotas%2C%20Delegates%20Say"
     },
     {
@@ -1104,7 +1104,7 @@
      "date": "2026-11-26T13:07:13Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Oil_Futures_Swing_as_Traders_Weigh_Middle_East_Flare-Ups_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=Oil%20Futures%20Swing%20as%20Traders%20Weigh%20Middle%20East%20Flare-Ups"
     },
     {
@@ -1112,7 +1112,7 @@
      "date": "2026-11-26T13:07:13Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Qatar_Is_Boosting_LNG_Exports_Just_as_Winter_Demand_Nears_Its_Peak_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=Qatar%20Is%20Boosting%20LNG%20Exports%20Just%20as%20Winter%20Demand%20Nears%20Its%20Peak"
     },
     {
@@ -1120,7 +1120,7 @@
      "date": "2026-11-26T13:07:13Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Rupee_Options_Signal_Bullish_Shift_for_First_Time_Since_February_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=Rupee%20Options%20Signal%20Bullish%20Shift%20for%20First%20Time%20Since%20February"
     },
     {
@@ -1128,7 +1128,7 @@
      "date": "2026-11-26T13:07:13Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/UK_Faces_Third_Day_of_Strained_Electricity_Supplies_on_Cold_Snap_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=UK%20Faces%20Third%20Day%20of%20Strained%20Electricity%20Supplies%20on%20Cold%20Snap"
     },
     {
@@ -1674,11 +1674,11 @@
      "name_orig": "serale-2026-11-25.pdf",
      "path": "assets/istat/serale-2026-11-25.pdf",
      "type": "pdf",
-     "date": "2026-11-26T19:34:35Z",
+     "date": "2026-11-26T20:44:55Z",
      "size": 294393,
      "sha": "3c234f84df39b8e2edf422b88b04cd6e30afe409",
      "source": "artifact:istat-wrap/serale/serale-2026-11-25.pdf",
-     "artifact": 15148179456
+     "artifact": 15151968064
     },
     {
      "name": "serale-2026-11-24.pdf",
@@ -1692,22 +1692,22 @@
      "artifact": 15062975170
     },
     {
-     "name": "istat-2026-11-25.pdf",
-     "name_orig": "istat-2026-11-25.pdf",
-     "path": "assets/istat/istat-2026-11-25.pdf",
+     "name": "serale-2026-11-23.pdf",
+     "name_orig": "serale-2026-11-23.pdf",
+     "path": "assets/istat/serale-2026-11-23.pdf",
      "type": "pdf",
-     "date": "2026-11-25T10:05:12Z",
-     "size": 23754,
-     "sha": "7d3dddcb9d3b01654f948aa64b36e44804b9e458",
-     "source": "artifact:istat-wrap/istat-2026-11-25.pdf",
-     "artifact": 15011247076
+     "date": "2026-11-23T11:00:00Z",
+     "size": 281229,
+     "sha": "03e04686c1d65c3f9b4023931bf68047941ab167",
+     "source": "artifact:istat-wrap/serale/serale-2026-11-23.pdf",
+     "artifact": 15151968064
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-26T19:34:35Z"
+   "updated": "2026-11-26T20:44:55Z"
   },
   {
    "id": "press-corner",
@@ -2980,13 +2980,16 @@
    14988341076,
    14993025082,
    14995879891,
+   15011051964,
+   15011247076,
    15027503959,
    15037504921,
    15057609557,
    15070500713,
    15076684997,
    15084674466,
-   15132029033
+   15132029033,
+   15150577278
   ]
  },
  "monitor": {
@@ -3703,9 +3706,9 @@
  },
  "edizione": {
   "nome": "sera",
-  "giorno": "2026-11-25",
-  "quando": "2026-11-25T21:15:02Z",
-  "aggiornati": 25,
+  "giorno": "2026-11-26",
+  "quando": "2026-11-26T21:22:18Z",
+  "aggiornati": 23,
   "mancanti": 0,
   "completa": false
  }
