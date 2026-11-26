@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T19:46:56Z",
+ "generated_at": "2026-11-26T19:54:36Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -940,29 +940,29 @@
      "name_orig": "inflazione-2026-10.pdf",
      "path": "assets/hicp-wrap/inflazione-2026-10.pdf",
      "type": "pdf",
-     "date": "2026-11-25T19:48:36Z",
-     "size": 5988086,
-     "sha": "9b864a4c3f134d658030ea2760487df40ba43444",
+     "date": "2026-11-26T19:50:23Z",
+     "size": 5988477,
+     "sha": "b3b484339b623db387c1e0c5fb58022cdbaafb0a",
      "source": "artifact:uscita/uscita/inflazione-2026-10.pdf",
-     "artifact": 15057417829
+     "artifact": 15149865862
     },
     {
      "name": "inflazione-2026-10.xlsx",
      "name_orig": "inflazione-2026-10.xlsx",
      "path": "assets/hicp-wrap/inflazione-2026-10.xlsx",
      "type": "xlsx",
-     "date": "2026-11-25T19:48:36Z",
-     "size": 541904,
-     "sha": "c6a039e0584ed71a65ce8da2aef792c859f47fcc",
+     "date": "2026-11-26T19:50:23Z",
+     "size": 541950,
+     "sha": "e3a186a6dae3a7dcfa9f133527f6b6953e36a750",
      "source": "artifact:uscita/uscita/inflazione-2026-10.xlsx",
-     "artifact": 15057417829
+     "artifact": 15149865862
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-25T19:48:36Z"
+   "updated": "2026-11-26T19:50:23Z"
   },
   {
    "id": "blas-weekly",
@@ -2903,6 +2903,7 @@
    14660584546,
    14660740241,
    14661583622,
+   14661812848,
    14662550452,
    14670817189,
    14678096682,
@@ -2966,6 +2967,7 @@
    14895750809,
    14895775264,
    14938173244,
+   14957398896,
    14958371497,
    14958925024,
    14963348590,
