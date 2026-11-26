@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T21:15:02Z",
+ "generated_at": "2026-11-26T01:59:32Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -277,6 +277,17 @@
    "credit": null,
    "files": [
     {
+     "name": "eurex_card.png",
+     "name_orig": "eurex_card.png",
+     "path": "assets/tvol-wrap/eurex_card.png",
+     "type": "png",
+     "date": "2026-11-26T01:13:30Z",
+     "size": 107080,
+     "sha": "f52e8a163c4a3b08d04d6424b8754f00d016d713",
+     "source": "data/eurex_card.png",
+     "artifact": null
+    },
+    {
      "name": "smile_CL.png",
      "name_orig": "smile_CL.png",
      "path": "assets/tvol-wrap/smile_CL.png",
@@ -318,17 +329,6 @@
      "size": 144750,
      "sha": "872cee5e72148203e57711bd9f45ba3f30a11270",
      "source": "data/smile_ZN.png",
-     "artifact": null
-    },
-    {
-     "name": "eurex_card.png",
-     "name_orig": "eurex_card.png",
-     "path": "assets/tvol-wrap/eurex_card.png",
-     "type": "png",
-     "date": "2026-11-25T17:47:27Z",
-     "size": 106944,
-     "sha": "b6e1c14f838132ddbc09fc1b0994accf47249bed",
-     "source": "data/eurex_card.png",
      "artifact": null
     },
     {
@@ -392,7 +392,7 @@
    "headlines": [],
    "error": null,
    "hero": "assets/tvol-wrap/last_card.png",
-   "updated": "2026-11-25T18:24:06Z"
+   "updated": "2026-11-26T01:13:30Z"
   },
   {
    "id": "fi-wrap",
@@ -1622,6 +1622,17 @@
    "credit": null,
    "files": [
     {
+     "name": "serale-2026-11-25.pdf",
+     "name_orig": "serale-2026-11-25.pdf",
+     "path": "assets/eurostat/serale-2026-11-25.pdf",
+     "type": "pdf",
+     "date": "2026-11-26T01:44:55Z",
+     "size": 294393,
+     "sha": "3c234f84df39b8e2edf422b88b04cd6e30afe409",
+     "source": "artifact:estat-wrap/serale/serale-2026-11-25.pdf",
+     "artifact": 15079348747
+    },
+    {
      "name": "serale-2026-11-24.pdf",
      "name_orig": "serale-2026-11-24.pdf",
      "path": "assets/eurostat/serale-2026-11-24.pdf",
@@ -1642,24 +1653,13 @@
      "sha": "03e04686c1d65c3f9b4023931bf68047941ab167",
      "source": "artifact:estat-wrap/serale/serale-2026-11-23.pdf",
      "artifact": 14889042698
-    },
-    {
-     "name": "serale-2026-11-22.pdf",
-     "name_orig": "serale-2026-11-22.pdf",
-     "path": "assets/eurostat/serale-2026-11-22.pdf",
-     "type": "pdf",
-     "date": "2026-11-22T11:00:00Z",
-     "size": 275747,
-     "sha": "5445824715f8740a2e4ad0a1191632a529bc5409",
-     "source": "artifact:estat-wrap/serale/serale-2026-11-22.pdf",
-     "artifact": 14986773580
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-25T03:01:03Z"
+   "updated": "2026-11-26T01:44:55Z"
   },
   {
    "id": "istat",
@@ -1718,15 +1718,15 @@
    "credit": null,
    "files": [
     {
-     "name": "presscorner-2026-11-25.pdf",
-     "name_orig": "presscorner-2026-11-25.pdf",
-     "path": "assets/press-corner/presscorner-2026-11-25.pdf",
+     "name": "serale-2026-11-25.pdf",
+     "name_orig": "serale-2026-11-25.pdf",
+     "path": "assets/press-corner/serale-2026-11-25.pdf",
      "type": "pdf",
-     "date": "2026-11-25T10:07:35Z",
-     "size": 69440,
-     "sha": "1b4be5a1627829fc3a6b0590f09e7ac6061979a7",
-     "source": "artifact:pc-wrap/presscorner-2026-11-25.pdf",
-     "artifact": 15010404272
+     "date": "2026-11-26T01:56:41Z",
+     "size": 294393,
+     "sha": "3c234f84df39b8e2edf422b88b04cd6e30afe409",
+     "source": "artifact:pc-wrap/serale/serale-2026-11-25.pdf",
+     "artifact": 15080222026
     },
     {
      "name": "serale-2026-11-24.pdf",
@@ -1740,22 +1740,22 @@
      "artifact": 15010404272
     },
     {
-     "name": "serale-2026-11-23.pdf",
-     "name_orig": "serale-2026-11-23.pdf",
-     "path": "assets/press-corner/serale-2026-11-23.pdf",
+     "name": "presscorner-2026-11-25.pdf",
+     "name_orig": "presscorner-2026-11-25.pdf",
+     "path": "assets/press-corner/presscorner-2026-11-25.pdf",
      "type": "pdf",
-     "date": "2026-11-24T06:14:00Z",
-     "size": 281229,
-     "sha": "03e04686c1d65c3f9b4023931bf68047941ab167",
-     "source": "artifact:pc-wrap/serale/serale-2026-11-23.pdf",
-     "artifact": 14895656354
+     "date": "2026-11-25T10:07:35Z",
+     "size": 69440,
+     "sha": "1b4be5a1627829fc3a6b0590f09e7ac6061979a7",
+     "source": "artifact:pc-wrap/presscorner-2026-11-25.pdf",
+     "artifact": 15010404272
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-25T10:07:35Z"
+   "updated": "2026-11-26T01:56:41Z"
   },
   {
    "id": "zerohedge",
@@ -1852,6 +1852,132 @@
      "sha": "46d717d5c3b6b85a514692ebedef8ec8bd9046c9",
      "source": "dati/pdf/elaborati/Liberty Street Economics As Corporate Bond Markets Grow, Is Bank Lending Shrinking.pdf",
      "name_orig": "Liberty Street Economics As Corporate Bond Markets Grow, Is Bank Lending Shrinking.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "atlantafed survey business uncertainty november",
+     "path": "assets/fed/2026-11-25-atlantafed-survey-business-uncertainty-november.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-25T11:00:00Z",
+     "size": 1239921,
+     "sha": "816032eb9bde4a8085ee5b5f348d18c3ff77b07e",
+     "source": "dati/pdf/ingresso/2026-11-25-atlantafed-survey-business-uncertainty-november.pdf",
+     "name_orig": "2026-11-25-atlantafed-survey-business-uncertainty-november.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "fed agencies hpml appraisal exemption threshold",
+     "path": "assets/fed/2026-11-25-fed-agencies-hpml-appraisal-exemption-threshold.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-25T11:00:00Z",
+     "size": 55763,
+     "sha": "9e794d1cb94a765e377db841aba5166c26a9aa64",
+     "source": "dati/pdf/ingresso/2026-11-25-fed-agencies-hpml-appraisal-exemption-threshold.pdf",
+     "name_orig": "2026-11-25-fed-agencies-hpml-appraisal-exemption-threshold.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "fed agencies tila cla dollar thresholds",
+     "path": "assets/fed/2026-11-25-fed-agencies-tila-cla-dollar-thresholds.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-25T11:00:00Z",
+     "size": 55743,
+     "sha": "449a2f1091f4fcae9891c2f7e60635bbbf33faa9",
+     "source": "dati/pdf/ingresso/2026-11-25-fed-agencies-tila-cla-dollar-thresholds.pdf",
+     "name_orig": "2026-11-25-fed-agencies-tila-cla-dollar-thresholds.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "fed beige book november 2026",
+     "path": "assets/fed/2026-11-25-fed-beige-book-november-2026.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-25T11:00:00Z",
+     "size": 1081797,
+     "sha": "337077572f1d857a7205b4238933c3a567f17dc4",
+     "source": "dati/pdf/ingresso/2026-11-25-fed-beige-book-november-2026.pdf",
+     "name_orig": "2026-11-25-fed-beige-book-november-2026.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "fed bowman modernizing banking supervision shared agenda americas",
+     "path": "assets/fed/2026-11-25-fed-bowman-modernizing-banking-supervision-shared-agenda-americas.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-25T11:00:00Z",
+     "size": 184387,
+     "sha": "c25a982c7c349b06afa81cb75f74de1e256ef772",
+     "source": "dati/pdf/ingresso/2026-11-25-fed-bowman-modernizing-banking-supervision-shared-agenda-americas.pdf",
+     "name_orig": "2026-11-25-fed-bowman-modernizing-banking-supervision-shared-agenda-americas.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "fed fr notice appraisals hpml exemption threshold",
+     "path": "assets/fed/2026-11-25-fed-fr-notice-appraisals-hpml-exemption-threshold.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-25T11:00:00Z",
+     "size": 201346,
+     "sha": "659421b55820f8b128edf9e0511e16102c729158",
+     "source": "dati/pdf/ingresso/2026-11-25-fed-fr-notice-appraisals-hpml-exemption-threshold.pdf",
+     "name_orig": "2026-11-25-fed-fr-notice-appraisals-hpml-exemption-threshold.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "fed fr notice consumer leasing regulation m",
+     "path": "assets/fed/2026-11-25-fed-fr-notice-consumer-leasing-regulation-m.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-25T11:00:00Z",
+     "size": 209318,
+     "sha": "6c48417fef427b8ffe03917cbfcb004a06ca2554",
+     "source": "dati/pdf/ingresso/2026-11-25-fed-fr-notice-consumer-leasing-regulation-m.pdf",
+     "name_orig": "2026-11-25-fed-fr-notice-consumer-leasing-regulation-m.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "fed fr notice truth in lending regulation z",
+     "path": "assets/fed/2026-11-25-fed-fr-notice-truth-in-lending-regulation-z.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-25T11:00:00Z",
+     "size": 243230,
+     "sha": "72bf622be542f0f88e86c5799a8f7bc8dc0b96e0",
+     "source": "dati/pdf/ingresso/2026-11-25-fed-fr-notice-truth-in-lending-regulation-z.pdf",
+     "name_orig": "2026-11-25-fed-fr-notice-truth-in-lending-regulation-z.pdf",
+     "credit": "Federal Reserve"
+    },
+    {
+     "title": "stlouisfed ote consumer confidence ability to predict spending",
+     "path": "assets/fed/2026-11-25-stlouisfed-ote-consumer-confidence-ability-to-predict-spending.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-25T11:00:00Z",
+     "size": 357946,
+     "sha": "ece3d8a1f91fcfcb5b109bafca71e8532192c6d8",
+     "source": "dati/pdf/ingresso/2026-11-25-stlouisfed-ote-consumer-confidence-ability-to-predict-spending.pdf",
+     "name_orig": "2026-11-25-stlouisfed-ote-consumer-confidence-ability-to-predict-spending.pdf",
      "credit": "Federal Reserve"
     },
     {
@@ -1978,132 +2104,6 @@
      "sha": "8aec6d75a784e88afaef563fb5010aa356621798",
      "source": "dati/pdf/elaborati/2026-10-06-fed-bowman-modernizing-regulatory-supervisory-landscape.pdf",
      "name_orig": "2026-10-06-fed-bowman-modernizing-regulatory-supervisory-landscape.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "Global Supply Chain Pressure Index (GSCPI) - FEDERAL RESERVE BANK of NEW YORK",
-     "path": "assets/fed/2026-10-06-nyfed-global-supply-chain-pressure-index-september-2026.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-07",
-     "date": "2026-10-07T10:00:00Z",
-     "size": 1227676,
-     "sha": "7f404a87131d634b4e89e69c8ecbf2924b7289aa",
-     "source": "dati/pdf/elaborati/2026-10-06-nyfed-global-supply-chain-pressure-index-september-2026.pdf",
-     "name_orig": "2026-10-06-nyfed-global-supply-chain-pressure-index-september-2026.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "How Fast Do Tariffs Pass Through into Consumer Prices? - Liberty Street Economics",
-     "path": "assets/fed/2026-10-06-nyfed-lse-how-fast-tariffs-pass-through-consumer-prices.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-07",
-     "date": "2026-10-07T10:00:00Z",
-     "size": 2023367,
-     "sha": "75e80b7fc797ac55dba9d56dbe2863ceb2c1a021",
-     "source": "dati/pdf/elaborati/2026-10-06-nyfed-lse-how-fast-tariffs-pass-through-consumer-prices.pdf",
-     "name_orig": "2026-10-06-nyfed-lse-how-fast-tariffs-pass-through-consumer-prices.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "Silos, Storefronts, and Skills: A Two-Day Look at North Central Pennsylvania's Economy",
-     "path": "assets/fed/2026-10-06-philadelphiafed-north-central-pennsylvania-economy-tour.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-07",
-     "date": "2026-10-07T10:00:00Z",
-     "size": 2134524,
-     "sha": "f891eedcad6ba4489d42c6f69c2ff16ca37a59de",
-     "source": "dati/pdf/elaborati/2026-10-06-philadelphiafed-north-central-pennsylvania-economy-tour.pdf",
-     "name_orig": "2026-10-06-philadelphiafed-north-central-pennsylvania-economy-tour.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "Eighth District Firms Expect Steady Inflation in Upcoming Months | St. Louis Fed",
-     "path": "assets/fed/2026-10-06-stlouisfed-eighth-district-firms-steady-inflation.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-07",
-     "date": "2026-10-07T10:00:00Z",
-     "size": 337257,
-     "sha": "5a32068fb85e283d752dbe6f9c946ba8aa242797",
-     "source": "dati/pdf/elaborati/2026-10-06-stlouisfed-eighth-district-firms-steady-inflation.pdf",
-     "name_orig": "2026-10-06-stlouisfed-eighth-district-firms-steady-inflation.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "Order Approving the Acquisition of a Bank Holding Company, the Merger of Banks, and the Establishment of Branches",
-     "path": "assets/fed/2026-10-05-fed-isabella-bank-corporation-approval.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "Federal Reserve Board",
-     "pubdate": "2026-10-06",
-     "date": "2026-10-06T10:00:00Z",
-     "size": 228017,
-     "sha": "1af624d2d933361896ca5bd23c0eff93fac36d93",
-     "source": "dati/pdf/elaborati/2026-10-05-fed-isabella-bank-corporation-approval.pdf",
-     "name_orig": "2026-10-05-fed-isabella-bank-corporation-approval.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "Federal Reserve Board - Federal Reserve Board announces approval of application by Isabella Bank Corporation",
-     "path": "assets/fed/2026-10-05-fed-isabella-bank-corporation-press-release.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-06",
-     "date": "2026-10-06T10:00:00Z",
-     "size": 107783,
-     "sha": "9874aa390b886f624f7d2498cfc36e2a8c661442",
-     "source": "dati/pdf/elaborati/2026-10-05-fed-isabella-bank-corporation-press-release.pdf",
-     "name_orig": "2026-10-05-fed-isabella-bank-corporation-press-release.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "Insured, but Still on the Hook: Who Bears the Most Risk in Homeowner's Insurance? - Liberty Street Economics",
-     "path": "assets/fed/2026-10-05-nyfed-lse-insured-but-still-on-the-hook-homeowners-insurance.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-06",
-     "date": "2026-10-06T10:00:00Z",
-     "size": 1106219,
-     "sha": "3c321406fb4c09528485092bc248ac47024d5515",
-     "source": "dati/pdf/elaborati/2026-10-05-nyfed-lse-insured-but-still-on-the-hook-homeowners-insurance.pdf",
-     "name_orig": "2026-10-05-nyfed-lse-insured-but-still-on-the-hook-homeowners-insurance.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "Consumption, Savings, and Earnings Responses to Financial Windfalls",
-     "path": "assets/fed/2026-10-05-nyfed-sr1208-financial-windfalls-consumption-savings.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "Rajashri Chakrabarti",
-     "pubdate": "2026-10-06",
-     "date": "2026-10-06T10:00:00Z",
-     "size": 1957898,
-     "sha": "06bfe50764a0a660f6d8db80f81c047ad0a44719",
-     "source": "dati/pdf/elaborati/2026-10-05-nyfed-sr1208-financial-windfalls-consumption-savings.pdf",
-     "name_orig": "2026-10-05-nyfed-sr1208-financial-windfalls-consumption-savings.pdf",
-     "credit": "Federal Reserve"
-    },
-    {
-     "title": "From Moore's Law to Eroom's Law: Power Constraints and Economic Growth",
-     "path": "assets/fed/2026-10-05-nyfed-sr1209-moores-law-to-erooms-law-power-constraints.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "Pablo D. Azar",
-     "pubdate": "2026-10-06",
-     "date": "2026-10-06T10:00:00Z",
-     "size": 1094798,
-     "sha": "8c45ce21f52e7252f89988be9d7cbdb0ec2b76e1",
-     "source": "dati/pdf/elaborati/2026-10-05-nyfed-sr1209-moores-law-to-erooms-law-power-constraints.pdf",
-     "name_orig": "2026-10-05-nyfed-sr1209-moores-law-to-erooms-law-power-constraints.pdf",
      "credit": "Federal Reserve"
     }
    ],
@@ -2748,12 +2748,6 @@
    13790763669,
    13802126107,
    13880411976,
-   13905067891,
-   13906288464,
-   13906826789,
-   13906978193,
-   13907429574,
-   13907462298,
    13908930463,
    13909595359,
    13909710958,
@@ -2934,6 +2928,7 @@
    14680419540,
    14680926284,
    14682124494,
+   14682248574,
    14682254986,
    14682754691,
    14685230853,
@@ -2980,6 +2975,7 @@
    14889486621,
    14891070842,
    14893545515,
+   14895656354,
    14895775264,
    14938173244,
    14958371497,
@@ -2991,7 +2987,9 @@
    14982810765,
    14993025082,
    15037504921,
-   15057609557
+   15057609557,
+   15070500713,
+   15076684997
   ]
  },
  "monitor": {
