@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T20:04:52Z",
+ "generated_at": "2026-11-27T21:09:36Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -1079,7 +1079,7 @@
      "date": "2026-11-27T13:08:26Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/AI_Risk_Puts_Dollar_on_Track_for_Longest_Winning_Run_Since_2024_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=AI%20Risk%20Puts%20Dollar%20on%20Track%20for%20Longest%20Winning%20Run%20Since%202024"
     },
     {
@@ -1087,7 +1087,7 @@
      "date": "2026-11-27T13:08:26Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/European_Workers_AI_Use_on_Par_With_That_of_US_Peers_ECB_Says_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=European%20Workers%E2%80%99%20AI%20Use%20on%20Par%20With%20That%20of%20US%20Peers%20ECB%20Says"
     },
     {
@@ -1095,7 +1095,7 @@
      "date": "2026-11-27T13:08:26Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Frances_Economy_Slows_More_Than_Previously_Estimated_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=France%E2%80%99s%20Economy%20Slows%20More%20Than%20Previously%20Estimated"
     },
     {
@@ -1103,7 +1103,7 @@
      "date": "2026-11-27T13:08:26Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/French_Inflation_Slows_Much_More_Than_Expected_as_Energy_Eases_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=French%20Inflation%20Slows%20Much%20More%20Than%20Expected%20as%20Energy%20Eases"
     },
     {
@@ -1111,7 +1111,7 @@
      "date": "2026-11-27T13:08:26Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/ICE_Maintains_Flagship_Gilt_Futures_Design_After_Market_Feedback_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=ICE%20Maintains%20Flagship%20Gilt%20Futures%20Design%20After%20Market%20Feedback"
     },
     {
@@ -1119,7 +1119,7 @@
      "date": "2026-11-27T13:08:26Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Indias_RBI_to_Help_Small_Firms_Grow_Globally_Malhotra_Says_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=India%E2%80%99s%20RBI%20to%20Help%20Small%20Firms%20Grow%20Globally%20Malhotra%20Says"
     },
     {
@@ -1127,7 +1127,7 @@
      "date": "2026-11-27T13:08:26Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Iraqi_Oil_Loadings_Get_Pushed_Back_as_Buyers_Weigh_Alternatives_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=Iraqi%20Oil%20Loadings%20Get%20Pushed%20Back%20as%20Buyers%20Weigh%20Alternatives"
     },
     {
@@ -1135,7 +1135,7 @@
      "date": "2026-11-27T13:08:26Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Oil_Stockpiling_to_Influence_Market_in_2027_Energy_Aspects_Says_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=Oil%20Stockpiling%20to%20Influence%20Market%20in%202027%20Energy%20Aspects%20Says"
     },
     {
@@ -1143,7 +1143,7 @@
      "date": "2026-11-27T13:08:26Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/Qatars_LNG_Export_Push_Provides_Lifeline_to_South_Asian_Buyers_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=Qatar%E2%80%99s%20LNG%20Export%20Push%20Provides%20Lifeline%20to%20South%20Asian%20Buyers"
     },
     {
@@ -1151,7 +1151,7 @@
      "date": "2026-11-27T13:08:26Z",
      "url": null,
      "credit": "Bloomberg",
-     "private": null,
+     "private": "https://github.com/guado77/market-desk-private/blob/main/bloomberg/The_Rate_Bets_That_Backfired_on_Hedge_Funds_In_Europe_This_Year_-_Bloomberg.pdf",
      "search": "https://www.bloomberg.com/search?query=The%20Rate%20Bets%20That%20Backfired%20on%20Hedge%20Funds%20In%20Europe%20This%20Year"
     },
     {
@@ -1697,11 +1697,11 @@
      "name_orig": "serale-2026-11-26.pdf",
      "path": "assets/istat/serale-2026-11-26.pdf",
      "type": "pdf",
-     "date": "2026-11-27T19:53:07Z",
+     "date": "2026-11-27T20:30:38Z",
      "size": 300184,
      "sha": "a38e740575cde316737e20e4e86d08d4b765f1da",
      "source": "artifact:istat-wrap/serale/serale-2026-11-26.pdf",
-     "artifact": 15228237184
+     "artifact": 15230630688
     },
     {
      "name": "serale-2026-11-25.pdf",
@@ -1719,18 +1719,18 @@
      "name_orig": "serale-2026-11-24.pdf",
      "path": "assets/istat/serale-2026-11-24.pdf",
      "type": "pdf",
-     "date": "2026-11-25T20:53:34Z",
+     "date": "2026-11-24T11:00:00Z",
      "size": 286460,
      "sha": "fa7d000f546bf9cce45b7965a66bcb18df8f3b32",
      "source": "artifact:istat-wrap/serale/serale-2026-11-24.pdf",
-     "artifact": 15062975170
+     "artifact": 15230630688
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-27T19:53:07Z"
+   "updated": "2026-11-27T20:30:38Z"
   },
   {
    "id": "press-corner",
@@ -2770,7 +2770,6 @@
    13973854034,
    13983183926,
    14062909279,
-   14073799450,
    14074553096,
    14085949442,
    14086390676,
@@ -3001,6 +3000,7 @@
    15057417829,
    15057609557,
    15060216292,
+   15062975170,
    15070500713,
    15076684997,
    15084674466,
@@ -3727,8 +3727,8 @@
  },
  "edizione": {
   "nome": "sera",
-  "giorno": "2026-11-26",
-  "quando": "2026-11-26T21:22:18Z",
+  "giorno": "2026-11-27",
+  "quando": "2026-11-27T21:09:36Z",
   "aggiornati": 23,
   "mancanti": 0,
   "completa": false
