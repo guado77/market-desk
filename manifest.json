@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T21:22:18Z",
+ "generated_at": "2026-11-27T02:26:47Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -1526,6 +1526,17 @@
    "credit": null,
    "files": [
     {
+     "name": "serale-2026-11-26.pdf",
+     "name_orig": "serale-2026-11-26.pdf",
+     "path": "assets/ecb/serale-2026-11-26.pdf",
+     "type": "pdf",
+     "date": "2026-11-27T02:08:14Z",
+     "size": 300184,
+     "sha": "a38e740575cde316737e20e4e86d08d4b765f1da",
+     "source": "artifact:ecb-wrap/serale/serale-2026-11-26.pdf",
+     "artifact": 15166826161
+    },
+    {
      "name": "serale-2026-11-25.pdf",
      "name_orig": "serale-2026-11-25.pdf",
      "path": "assets/ecb/serale-2026-11-25.pdf",
@@ -1546,24 +1557,13 @@
      "sha": "fa7d000f546bf9cce45b7965a66bcb18df8f3b32",
      "source": "artifact:ecb-wrap/serale/serale-2026-11-24.pdf",
      "artifact": 15009794158
-    },
-    {
-     "name": "serale-2026-11-23.pdf",
-     "name_orig": "serale-2026-11-23.pdf",
-     "path": "assets/ecb/serale-2026-11-23.pdf",
-     "type": "pdf",
-     "date": "2026-11-23T11:00:00Z",
-     "size": 281229,
-     "sha": "03e04686c1d65c3f9b4023931bf68047941ab167",
-     "source": "artifact:ecb-wrap/serale/serale-2026-11-23.pdf",
-     "artifact": 15082248542
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-26T02:46:46Z"
+   "updated": "2026-11-27T02:08:14Z"
   },
   {
    "id": "ep-think-tank",
@@ -1573,6 +1573,17 @@
    "desc": "Pubblicazioni del Think Tank del Parlamento europeo.",
    "credit": null,
    "files": [
+    {
+     "name": "serale-2026-11-26.pdf",
+     "name_orig": "serale-2026-11-26.pdf",
+     "path": "assets/ep-think-tank/serale-2026-11-26.pdf",
+     "type": "pdf",
+     "date": "2026-11-27T02:24:30Z",
+     "size": 300184,
+     "sha": "a38e740575cde316737e20e4e86d08d4b765f1da",
+     "source": "artifact:ep-wrap/serale/serale-2026-11-26.pdf",
+     "artifact": 15167401886
+    },
     {
      "name": "serale-2026-11-25.pdf",
      "name_orig": "serale-2026-11-25.pdf",
@@ -1594,24 +1605,13 @@
      "sha": "fa7d000f546bf9cce45b7965a66bcb18df8f3b32",
      "source": "artifact:ep-wrap/serale/serale-2026-11-24.pdf",
      "artifact": 15010049238
-    },
-    {
-     "name": "serale-2026-11-23.pdf",
-     "name_orig": "serale-2026-11-23.pdf",
-     "path": "assets/ep-think-tank/serale-2026-11-23.pdf",
-     "type": "pdf",
-     "date": "2026-11-23T11:00:00Z",
-     "size": 281229,
-     "sha": "03e04686c1d65c3f9b4023931bf68047941ab167",
-     "source": "artifact:ep-wrap/serale/serale-2026-11-23.pdf",
-     "artifact": 15083248445
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-26T03:02:00Z"
+   "updated": "2026-11-27T02:24:30Z"
   },
   {
    "id": "eurostat",
@@ -1621,6 +1621,17 @@
    "desc": "Uscite Eurostat.",
    "credit": null,
    "files": [
+    {
+     "name": "serale-2026-11-26.pdf",
+     "name_orig": "serale-2026-11-26.pdf",
+     "path": "assets/eurostat/serale-2026-11-26.pdf",
+     "type": "pdf",
+     "date": "2026-11-27T02:08:30Z",
+     "size": 300184,
+     "sha": "a38e740575cde316737e20e4e86d08d4b765f1da",
+     "source": "artifact:estat-wrap/serale/serale-2026-11-26.pdf",
+     "artifact": 15166143852
+    },
     {
      "name": "serale-2026-11-25.pdf",
      "name_orig": "serale-2026-11-25.pdf",
@@ -1642,24 +1653,13 @@
      "sha": "fa7d000f546bf9cce45b7965a66bcb18df8f3b32",
      "source": "artifact:estat-wrap/serale/serale-2026-11-24.pdf",
      "artifact": 14986773580
-    },
-    {
-     "name": "serale-2026-11-23.pdf",
-     "name_orig": "serale-2026-11-23.pdf",
-     "path": "assets/eurostat/serale-2026-11-23.pdf",
-     "type": "pdf",
-     "date": "2026-11-24T04:16:39Z",
-     "size": 281229,
-     "sha": "03e04686c1d65c3f9b4023931bf68047941ab167",
-     "source": "artifact:estat-wrap/serale/serale-2026-11-23.pdf",
-     "artifact": 14889042698
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-26T02:08:54Z"
+   "updated": "2026-11-27T02:08:30Z"
   },
   {
    "id": "istat",
@@ -1718,6 +1718,17 @@
    "credit": null,
    "files": [
     {
+     "name": "serale-2026-11-26.pdf",
+     "name_orig": "serale-2026-11-26.pdf",
+     "path": "assets/press-corner/serale-2026-11-26.pdf",
+     "type": "pdf",
+     "date": "2026-11-27T02:22:37Z",
+     "size": 300184,
+     "sha": "a38e740575cde316737e20e4e86d08d4b765f1da",
+     "source": "artifact:pc-wrap/serale/serale-2026-11-26.pdf",
+     "artifact": 15167018413
+    },
+    {
      "name": "serale-2026-11-25.pdf",
      "name_orig": "serale-2026-11-25.pdf",
      "path": "assets/press-corner/serale-2026-11-25.pdf",
@@ -1738,24 +1749,13 @@
      "sha": "fa7d000f546bf9cce45b7965a66bcb18df8f3b32",
      "source": "artifact:pc-wrap/serale/serale-2026-11-24.pdf",
      "artifact": 15010404272
-    },
-    {
-     "name": "presscorner-2026-11-25.pdf",
-     "name_orig": "presscorner-2026-11-25.pdf",
-     "path": "assets/press-corner/presscorner-2026-11-25.pdf",
-     "type": "pdf",
-     "date": "2026-11-25T10:07:35Z",
-     "size": 69440,
-     "sha": "1b4be5a1627829fc3a6b0590f09e7ac6061979a7",
-     "source": "artifact:pc-wrap/presscorner-2026-11-25.pdf",
-     "artifact": 15010404272
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-26T02:23:59Z"
+   "updated": "2026-11-27T02:22:37Z"
   },
   {
    "id": "zerohedge",
@@ -2134,6 +2134,174 @@
    ],
    "papers": [
     {
+     "title": "speech bi nicoletti altimari what does monetary policy need know now",
+     "path": "assets/bis/2026-11-26-speech-bi-nicoletti-altimari-what-does-monetary-policy-need-know-now.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-26T11:00:00Z",
+     "size": 185475,
+     "sha": "3b05ec4dd775bf98df3a62d909344ef4f91411ab",
+     "source": "dati/pdf/ingresso/2026-11-26-speech-bi-nicoletti-altimari-what-does-monetary-policy-need-know-now.pdf",
+     "name_orig": "2026-11-26-speech-bi-nicoletti-altimari-what-does-monetary-policy-need-know-now.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "speech boc gravelle setting scenario monetary policy communications uncertain times",
+     "path": "assets/bis/2026-11-26-speech-boc-gravelle-setting-scenario-monetary-policy-communications-uncertain-times.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-26T11:00:00Z",
+     "size": 278138,
+     "sha": "cbf12a6f150800dfea7a0317b59086365d33a1a4",
+     "source": "dati/pdf/ingresso/2026-11-26-speech-boc-gravelle-setting-scenario-monetary-policy-communications-uncertain-times.pdf",
+     "name_orig": "2026-11-26-speech-boc-gravelle-setting-scenario-monetary-policy-communications-uncertain-times.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "speech boe bailey united kingdoms regional growth unlocking economys full potential",
+     "path": "assets/bis/2026-11-26-speech-boe-bailey-united-kingdoms-regional-growth-unlocking-economys-full-potential.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-26T11:00:00Z",
+     "size": 486075,
+     "sha": "8b78908aa766e5df788165288a2987bf611088bc",
+     "source": "dati/pdf/ingresso/2026-11-26-speech-boe-bailey-united-kingdoms-regional-growth-unlocking-economys-full-potential.pdf",
+     "name_orig": "2026-11-26-speech-boe-bailey-united-kingdoms-regional-growth-unlocking-economys-full-potential.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "speech boj ueda semiannual report currency and monetary control",
+     "path": "assets/bis/2026-11-26-speech-boj-ueda-semiannual-report-currency-and-monetary-control.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-26T11:00:00Z",
+     "size": 400537,
+     "sha": "43268151881fdc0317b12251676feeaa9c9fa74d",
+     "source": "dati/pdf/ingresso/2026-11-26-speech-boj-ueda-semiannual-report-currency-and-monetary-control.pdf",
+     "name_orig": "2026-11-26-speech-boj-ueda-semiannual-report-currency-and-monetary-control.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "speech bundesbank mauderer europe and china changing relationship changing world",
+     "path": "assets/bis/2026-11-26-speech-bundesbank-mauderer-europe-and-china-changing-relationship-changing-world.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-26T11:00:00Z",
+     "size": 394618,
+     "sha": "5d70285d31f28180fa8d826ba4b9b95e7b008711",
+     "source": "dati/pdf/ingresso/2026-11-26-speech-bundesbank-mauderer-europe-and-china-changing-relationship-changing-world.pdf",
+     "name_orig": "2026-11-26-speech-bundesbank-mauderer-europe-and-china-changing-relationship-changing-world.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "speech ecb lagarde acting in time",
+     "path": "assets/bis/2026-11-26-speech-ecb-lagarde-acting-in-time.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-26T11:00:00Z",
+     "size": 408842,
+     "sha": "cf42ef2b1d15c433df17af0f450a0377adbc31f9",
+     "source": "dati/pdf/ingresso/2026-11-26-speech-ecb-lagarde-acting-in-time.pdf",
+     "name_orig": "2026-11-26-speech-ecb-lagarde-acting-in-time.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "speech fed barr investing americas underserved communities",
+     "path": "assets/bis/2026-11-26-speech-fed-barr-investing-americas-underserved-communities.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-26T11:00:00Z",
+     "size": 376806,
+     "sha": "475b97344013bbd38b1ca92412bee57549333018",
+     "source": "dati/pdf/ingresso/2026-11-26-speech-fed-barr-investing-americas-underserved-communities.pdf",
+     "name_orig": "2026-11-26-speech-fed-barr-investing-americas-underserved-communities.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "speech fed jefferson monetary policy amid frequent complex shocks",
+     "path": "assets/bis/2026-11-26-speech-fed-jefferson-monetary-policy-amid-frequent-complex-shocks.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-26T11:00:00Z",
+     "size": 351441,
+     "sha": "a8cc9abf46c28b8ca5b234dfc61f394642bcfd1e",
+     "source": "dati/pdf/ingresso/2026-11-26-speech-fed-jefferson-monetary-policy-amid-frequent-complex-shocks.pdf",
+     "name_orig": "2026-11-26-speech-fed-jefferson-monetary-policy-amid-frequent-complex-shocks.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "speech fed waller considerations intersection payments tokenized markets",
+     "path": "assets/bis/2026-11-26-speech-fed-waller-considerations-intersection-payments-tokenized-markets.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-26T11:00:00Z",
+     "size": 455499,
+     "sha": "85b98e0745622ca2e32f81afd3d2f480abf1ed2d",
+     "source": "dati/pdf/ingresso/2026-11-26-speech-fed-waller-considerations-intersection-payments-tokenized-markets.pdf",
+     "name_orig": "2026-11-26-speech-fed-waller-considerations-intersection-payments-tokenized-markets.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "speech fed warsh opening remarks productivity jobs task force conference",
+     "path": "assets/bis/2026-11-26-speech-fed-warsh-opening-remarks-productivity-jobs-task-force-conference.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-26T11:00:00Z",
+     "size": 377848,
+     "sha": "449bb7703214a1135563e66f0da0f51229145ab0",
+     "source": "dati/pdf/ingresso/2026-11-26-speech-fed-warsh-opening-remarks-productivity-jobs-task-force-conference.pdf",
+     "name_orig": "2026-11-26-speech-fed-warsh-opening-remarks-productivity-jobs-task-force-conference.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "speech mas chia advancing future finance foundation scale",
+     "path": "assets/bis/2026-11-26-speech-mas-chia-advancing-future-finance-foundation-scale.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-26T11:00:00Z",
+     "size": 446302,
+     "sha": "0740e87079c754d450fad798755af649ecece960",
+     "source": "dati/pdf/ingresso/2026-11-26-speech-mas-chia-advancing-future-finance-foundation-scale.pdf",
+     "name_orig": "2026-11-26-speech-mas-chia-advancing-future-finance-foundation-scale.pdf",
+     "credit": "BIS"
+    },
+    {
+     "title": "press basel committee publishes more details 2026 assessment gsibs",
+     "path": "assets/bis/2026-11-25-press-basel-committee-publishes-more-details-2026-assessment-gsibs.pdf",
+     "url": null,
+     "fonte": null,
+     "authors": null,
+     "pubdate": null,
+     "date": "2026-11-25T11:00:00Z",
+     "size": 339641,
+     "sha": "e61b2c2ae5335131998852409e9e9182443974b9",
+     "source": "dati/pdf/ingresso/2026-11-25-press-basel-committee-publishes-more-details-2026-assessment-gsibs.pdf",
+     "name_orig": "2026-11-25-press-basel-committee-publishes-more-details-2026-assessment-gsibs.pdf",
+     "credit": "BIS"
+    },
+    {
      "title": "Economic activity, prices, and monetary policy in Japan",
      "path": "assets/bis/2026-11-19-speech-boj-asada-economic-activity-prices-monetary-policy-japan.pdf",
      "url": "https://www.bis.org/speeches/20260916-economic-activity-prices-and-monetary-policy-japan",
@@ -2244,180 +2412,12 @@
      "source": "dati/pdf/elaborati/2026-10-19-speech-bundesbank-nagel-paths-prosperity-europe-asia.pdf",
      "name_orig": "2026-10-19-speech-bundesbank-nagel-paths-prosperity-europe-asia.pdf",
      "credit": "BIS"
-    },
-    {
-     "title": "The AI opportunity for Europe | Bank for International Settlements",
-     "path": "assets/bis/2026-10-19-speech-ecb-lane-ai-opportunity-europe.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-20",
-     "date": "2026-10-20T10:00:00Z",
-     "size": 365365,
-     "sha": "eb054b34906fc376816759aec266ed1016c60c66",
-     "source": "dati/pdf/elaborati/2026-10-19-speech-ecb-lane-ai-opportunity-europe.pdf",
-     "name_orig": "2026-10-19-speech-ecb-lane-ai-opportunity-europe.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Supervisory modernisation after Silicon Valley Bank | Bank for International Settlements",
-     "path": "assets/bis/2026-10-19-speech-fed-bowman-supervisory-modernisation-after-svb.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-20",
-     "date": "2026-10-20T10:00:00Z",
-     "size": 427207,
-     "sha": "2d2fbcd89adc557fdccc010dd55db19c8f2f7c30",
-     "source": "dati/pdf/elaborati/2026-10-19-speech-fed-bowman-supervisory-modernisation-after-svb.pdf",
-     "name_orig": "2026-10-19-speech-fed-bowman-supervisory-modernisation-after-svb.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Opening remarks - “Beyond the cycle: growth, innovation and resilience of the Chinese economy” Conference",
-     "path": "assets/bis/2026-10-19-speech-hkma-yue-opening-remarks-beyond-cycle-chinese-economy.pdf",
-     "url": "https://www.bis.org/speeches/20261019-opening-remarks-beyond-cycle-growth-innovation-and-resilience-chinese-economy-conference",
-     "fonte": "BIS - Discorsi dei banchieri centrali",
-     "authors": "Eddie Yue",
-     "pubdate": "2026-10-19",
-     "date": "2026-10-20T10:00:00Z",
-     "size": 429610,
-     "sha": "2df02cc0e13595f8a8433aa860f479e2efdf1fc9",
-     "source": "dati/pdf/elaborati/2026-10-19-speech-hkma-yue-opening-remarks-beyond-cycle-chinese-economy.pdf",
-     "name_orig": "2026-10-19-speech-hkma-yue-opening-remarks-beyond-cycle-chinese-economy.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Building trusted foundations for digital finance | Bank for International Settlements",
-     "path": "assets/bis/2026-10-19-speech-mas-chia-building-trusted-foundations-digital-finance.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-20",
-     "date": "2026-10-20T10:00:00Z",
-     "size": 457384,
-     "sha": "7c413ea5eff2923b0d989142569b92bbe5bc20fb",
-     "source": "dati/pdf/elaborati/2026-10-19-speech-mas-chia-building-trusted-foundations-digital-finance.pdf",
-     "name_orig": "2026-10-19-speech-mas-chia-building-trusted-foundations-digital-finance.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Are stablecoins and bank deposits substitutes?",
-     "path": "assets/bis/2026-10-13-wp1382-stablecoins-bank-deposits-substitutes.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "Rashad Ahmed and Inaki Aldasoro",
-     "pubdate": "2026-10-19",
-     "date": "2026-10-19T10:00:00Z",
-     "size": 371187,
-     "sha": "740c4010a37f058d994d22ff8e27727c6c4fc91a",
-     "source": "dati/pdf/elaborati/2026-10-13-wp1382-stablecoins-bank-deposits-substitutes.pdf",
-     "name_orig": "2026-10-13-wp1382-stablecoins-bank-deposits-substitutes.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Money and the architecture of trust",
-     "path": "assets/bis/2026-10-14-paper-175-money-architecture-trust.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "I�aki Aldasoro",
-     "pubdate": "2026-10-19",
-     "date": "2026-10-19T10:00:00Z",
-     "size": 837337,
-     "sha": "c61a356402853edb0bea4052b0488ef422d67e6a",
-     "source": "dati/pdf/elaborati/2026-10-14-paper-175-money-architecture-trust.pdf",
-     "name_orig": "2026-10-14-paper-175-money-architecture-trust.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Offshore forwards and exchange rate transmission in emerging markets",
-     "path": "assets/bis/2026-10-16-wp1383-offshore-forwards-exchange-rate-transmission-emerging-markets.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "Gerardo Ferrara, Andreas Schrimpf, Ganesh Viswanath-Natraj and Zijie Wang",
-     "pubdate": "2026-10-19",
-     "date": "2026-10-19T10:00:00Z",
-     "size": 1114266,
-     "sha": "9fb005743be05ccd53fcbecb1642b60eabfaf790",
-     "source": "dati/pdf/elaborati/2026-10-16-wp1383-offshore-forwards-exchange-rate-transmission-emerging-markets.pdf",
-     "name_orig": "2026-10-16-wp1383-offshore-forwards-exchange-rate-transmission-emerging-markets.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Basel Committee finalises measures to address window-dressing in the G-SIB framework and consults on G-SIB methodology review | Bank for International Settlements",
-     "path": "assets/bis/Basel_Committee_finalises_measures_to_address_window-dressing_in_the_G-SIB_framework_and_consults_on_G-SIB_met_xafhp2iapff.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-19",
-     "date": "2026-10-19T10:00:00Z",
-     "size": 345510,
-     "sha": "40f7603f76d074a8b1d3f000951cd4f1da6567b4",
-     "source": "dati/pdf/elaborati/Basel Committee finalises measures to address window-dressing in the G-SIB framework and consults on G-SIB met (xafhp2iapff).pdf",
-     "name_orig": "Basel Committee finalises measures to address window-dressing in the G-SIB framework and consults on G-SIB met (xafhp2iapff).pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Cross-border payments as a necessity for Africa's resilience and economic transformation | Bank for International Settlements",
-     "path": "assets/bis/Cross-border_payments_as_a_necessity_for_Africa_s_resilience_and_economic_transformation.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-19",
-     "date": "2026-10-19T10:00:00Z",
-     "size": 473128,
-     "sha": "fbe82fd07034593aa5251ae649c24716f45c553d",
-     "source": "dati/pdf/elaborati/Cross-border payments as a necessity for Africa's resilience and economic transformation.pdf",
-     "name_orig": "Cross-border payments as a necessity for Africa's resilience and economic transformation.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Global standard-setting bodies publish final report on guidance for FMIs on general business risks and general business losses | Bank for International Settlements",
-     "path": "assets/bis/Global_standard-setting_bodies_publish_final_report_on_guidance_for_FMIs_on_general_business_risks_and_general_business_losses.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-19",
-     "date": "2026-10-19T10:00:00Z",
-     "size": 365404,
-     "sha": "86b4703494c9726d9236a284a73089835e215d00",
-     "source": "dati/pdf/elaborati/Global standard-setting bodies publish final report on guidance for FMIs on general business risks and general business losses.pdf",
-     "name_orig": "Global standard-setting bodies publish final report on guidance for FMIs on general business risks and general business losses.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Intelligence-led financial crime prevention: the power of data, insights and collaboration | Bank for International Settlements",
-     "path": "assets/bis/Intelligence-led_financial_crime_prevention_the_power_of_data_insights_and_collaboration.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-19",
-     "date": "2026-10-19T10:00:00Z",
-     "size": 467240,
-     "sha": "49de30550ecfe73cb3cba8d357a0a0d4e4d60279",
-     "source": "dati/pdf/elaborati/Intelligence-led financial crime prevention the power of data, insights and collaboration.pdf",
-     "name_orig": "Intelligence-led financial crime prevention the power of data, insights and collaboration.pdf",
-     "credit": "BIS"
-    },
-    {
-     "title": "Leveraging the Mauritius IFC as a payment system hub | Bank for International Settlements",
-     "path": "assets/bis/Leveraging_the_Mauritius_IFC_as_a_payment_system_hub.pdf",
-     "url": null,
-     "fonte": null,
-     "authors": "",
-     "pubdate": "2026-10-19",
-     "date": "2026-10-19T10:00:00Z",
-     "size": 439364,
-     "sha": "bf917e1baf47ff0a38db993ebdffc7c2d62d95b1",
-     "source": "dati/pdf/elaborati/Leveraging the Mauritius IFC as a payment system hub.pdf",
-     "name_orig": "Leveraging the Mauritius IFC as a payment system hub.pdf",
-     "credit": "BIS"
     }
    ],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-25T10:37:51Z"
+   "updated": "2026-11-26T11:00:00Z"
   },
   {
    "id": "imf",
@@ -2748,16 +2748,6 @@
    13880411976,
    13973854034,
    13983183926,
-   13992355118,
-   13993174201,
-   13995736952,
-   13996937740,
-   13997300103,
-   13997993848,
-   13998122649,
-   13999277694,
-   14001168780,
-   14001880242,
    14003888717,
    14014757474,
    14015260763,
@@ -2888,9 +2878,7 @@
    14592359450,
    14592610452,
    14592913001,
-   14593896663,
    14594492395,
-   14594796855,
    14596261825,
    14597755574,
    14605869141,
@@ -2956,7 +2944,9 @@
    14871891345,
    14879881305,
    14886792514,
+   14887624119,
    14888929959,
+   14889042698,
    14889055591,
    14889388042,
    14889486621,
@@ -2978,7 +2968,11 @@
    14986704344,
    14986802205,
    14988341076,
+   14988365843,
+   14988399584,
+   14988754455,
    14993025082,
+   14995519327,
    14995879891,
    15011051964,
    15011247076,
@@ -2989,7 +2983,9 @@
    15076684997,
    15084674466,
    15132029033,
-   15150577278
+   15150577278,
+   15157272786,
+   15163369644
   ]
  },
  "monitor": {
