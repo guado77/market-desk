@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T02:30:32Z",
+ "generated_at": "2026-11-28T02:39:03Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -1553,11 +1553,11 @@
      "name_orig": "serale-2026-11-27.pdf",
      "path": "assets/ecb/serale-2026-11-27.pdf",
      "type": "pdf",
-     "date": "2026-11-28T01:53:08Z",
+     "date": "2026-11-28T02:38:11Z",
      "size": 306584,
      "sha": "0138acb853dd34939d8a351fdd6241898521c3fc",
      "source": "artifact:ecb-wrap/serale/serale-2026-11-27.pdf",
-     "artifact": 15243455787
+     "artifact": 15244014785
     },
     {
      "name": "serale-2026-11-26.pdf",
@@ -1586,7 +1586,7 @@
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-28T01:53:08Z"
+   "updated": "2026-11-28T02:38:11Z"
   },
   {
    "id": "ep-think-tank",
@@ -2996,6 +2996,7 @@
    15070500713,
    15076684997,
    15080222026,
+   15081060758,
    15084674466,
    15132029033,
    15143057739,
