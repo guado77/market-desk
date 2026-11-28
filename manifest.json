@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T21:09:36Z",
+ "generated_at": "2026-11-28T02:30:32Z",
  "owner": "guado77",
  "timezone": "Europe/Rome",
  "sections": [
@@ -277,6 +277,50 @@
    "credit": null,
    "files": [
     {
+     "name": "smile_CL.png",
+     "name_orig": "smile_CL.png",
+     "path": "assets/tvol-wrap/smile_CL.png",
+     "type": "png",
+     "date": "2026-11-28T00:44:05Z",
+     "size": 144549,
+     "sha": "bdf9a79aba768c0a7706a7c44c462dc552ec53be",
+     "source": "data/smile_CL.png",
+     "artifact": null
+    },
+    {
+     "name": "smile_ES.png",
+     "name_orig": "smile_ES.png",
+     "path": "assets/tvol-wrap/smile_ES.png",
+     "type": "png",
+     "date": "2026-11-28T00:44:05Z",
+     "size": 147436,
+     "sha": "d5805a3aea0586d0eeb957448405c70e0a05ac62",
+     "source": "data/smile_ES.png",
+     "artifact": null
+    },
+    {
+     "name": "smile_ZB.png",
+     "name_orig": "smile_ZB.png",
+     "path": "assets/tvol-wrap/smile_ZB.png",
+     "type": "png",
+     "date": "2026-11-28T00:44:05Z",
+     "size": 148414,
+     "sha": "30d75eb09da0afe8fd34c432a39341ebd15d4c9f",
+     "source": "data/smile_ZB.png",
+     "artifact": null
+    },
+    {
+     "name": "smile_ZN.png",
+     "name_orig": "smile_ZN.png",
+     "path": "assets/tvol-wrap/smile_ZN.png",
+     "type": "png",
+     "date": "2026-11-28T00:44:05Z",
+     "size": 140926,
+     "sha": "ac0cf1eb21636b591aaff567fb30a0880caa5a37",
+     "source": "data/smile_ZN.png",
+     "artifact": null
+    },
+    {
      "name": "eurex_card.png",
      "name_orig": "eurex_card.png",
      "path": "assets/tvol-wrap/eurex_card.png",
@@ -332,50 +376,6 @@
      "artifact": null
     },
     {
-     "name": "smile_CL.png",
-     "name_orig": "smile_CL.png",
-     "path": "assets/tvol-wrap/smile_CL.png",
-     "type": "png",
-     "date": "2026-11-27T19:45:42Z",
-     "size": 168113,
-     "sha": "a2d6014ed85ace8bbcd328c210a6cf008b6c5a29",
-     "source": "data/smile_CL.png",
-     "artifact": null
-    },
-    {
-     "name": "smile_ES.png",
-     "name_orig": "smile_ES.png",
-     "path": "assets/tvol-wrap/smile_ES.png",
-     "type": "png",
-     "date": "2026-11-27T19:45:42Z",
-     "size": 176697,
-     "sha": "09cbf8aa5dd5e467096a214e019dad647539addf",
-     "source": "data/smile_ES.png",
-     "artifact": null
-    },
-    {
-     "name": "smile_ZB.png",
-     "name_orig": "smile_ZB.png",
-     "path": "assets/tvol-wrap/smile_ZB.png",
-     "type": "png",
-     "date": "2026-11-27T19:45:42Z",
-     "size": 175914,
-     "sha": "4aab2a917d60fd771cc51b0a0a80780363e4aaf9",
-     "source": "data/smile_ZB.png",
-     "artifact": null
-    },
-    {
-     "name": "smile_ZN.png",
-     "name_orig": "smile_ZN.png",
-     "path": "assets/tvol-wrap/smile_ZN.png",
-     "type": "png",
-     "date": "2026-11-27T19:45:42Z",
-     "size": 172024,
-     "sha": "d3d9123d692eadf88684696a1a4667c7771539e6",
-     "source": "data/smile_ZN.png",
-     "artifact": null
-    },
-    {
      "name": "tvol_card.png",
      "name_orig": "tvol_card.png",
      "path": "assets/tvol-wrap/tvol_card.png",
@@ -392,7 +392,7 @@
    "headlines": [],
    "error": null,
    "hero": "assets/tvol-wrap/last_card.png",
-   "updated": "2026-11-27T19:45:42Z"
+   "updated": "2026-11-28T00:44:05Z"
   },
   {
    "id": "fi-wrap",
@@ -1549,6 +1549,17 @@
    "credit": null,
    "files": [
     {
+     "name": "serale-2026-11-27.pdf",
+     "name_orig": "serale-2026-11-27.pdf",
+     "path": "assets/ecb/serale-2026-11-27.pdf",
+     "type": "pdf",
+     "date": "2026-11-28T01:53:08Z",
+     "size": 306584,
+     "sha": "0138acb853dd34939d8a351fdd6241898521c3fc",
+     "source": "artifact:ecb-wrap/serale/serale-2026-11-27.pdf",
+     "artifact": 15243455787
+    },
+    {
      "name": "serale-2026-11-26.pdf",
      "name_orig": "serale-2026-11-26.pdf",
      "path": "assets/ecb/serale-2026-11-26.pdf",
@@ -1569,24 +1580,13 @@
      "sha": "3c234f84df39b8e2edf422b88b04cd6e30afe409",
      "source": "artifact:ecb-wrap/serale/serale-2026-11-25.pdf",
      "artifact": 15082248542
-    },
-    {
-     "name": "serale-2026-11-24.pdf",
-     "name_orig": "serale-2026-11-24.pdf",
-     "path": "assets/ecb/serale-2026-11-24.pdf",
-     "type": "pdf",
-     "date": "2026-11-25T10:04:11Z",
-     "size": 286460,
-     "sha": "fa7d000f546bf9cce45b7965a66bcb18df8f3b32",
-     "source": "artifact:ecb-wrap/serale/serale-2026-11-24.pdf",
-     "artifact": 15009794158
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-27T06:05:15Z"
+   "updated": "2026-11-28T01:53:08Z"
   },
   {
    "id": "ep-think-tank",
@@ -1596,6 +1596,17 @@
    "desc": "Pubblicazioni del Think Tank del Parlamento europeo.",
    "credit": null,
    "files": [
+    {
+     "name": "serale-2026-11-27.pdf",
+     "name_orig": "serale-2026-11-27.pdf",
+     "path": "assets/ep-think-tank/serale-2026-11-27.pdf",
+     "type": "pdf",
+     "date": "2026-11-28T02:09:34Z",
+     "size": 306584,
+     "sha": "0138acb853dd34939d8a351fdd6241898521c3fc",
+     "source": "artifact:ep-wrap/serale/serale-2026-11-27.pdf",
+     "artifact": 15243033454
+    },
     {
      "name": "serale-2026-11-26.pdf",
      "name_orig": "serale-2026-11-26.pdf",
@@ -1617,24 +1628,13 @@
      "sha": "3c234f84df39b8e2edf422b88b04cd6e30afe409",
      "source": "artifact:ep-wrap/serale/serale-2026-11-25.pdf",
      "artifact": 15083248445
-    },
-    {
-     "name": "serale-2026-11-24.pdf",
-     "name_orig": "serale-2026-11-24.pdf",
-     "path": "assets/ep-think-tank/serale-2026-11-24.pdf",
-     "type": "pdf",
-     "date": "2026-11-25T10:04:36Z",
-     "size": 286460,
-     "sha": "fa7d000f546bf9cce45b7965a66bcb18df8f3b32",
-     "source": "artifact:ep-wrap/serale/serale-2026-11-24.pdf",
-     "artifact": 15010049238
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-27T06:05:18Z"
+   "updated": "2026-11-28T02:09:34Z"
   },
   {
    "id": "eurostat",
@@ -1644,6 +1644,17 @@
    "desc": "Uscite Eurostat.",
    "credit": null,
    "files": [
+    {
+     "name": "serale-2026-11-27.pdf",
+     "name_orig": "serale-2026-11-27.pdf",
+     "path": "assets/eurostat/serale-2026-11-27.pdf",
+     "type": "pdf",
+     "date": "2026-11-28T01:54:57Z",
+     "size": 306584,
+     "sha": "0138acb853dd34939d8a351fdd6241898521c3fc",
+     "source": "artifact:estat-wrap/serale/serale-2026-11-27.pdf",
+     "artifact": 15242763403
+    },
     {
      "name": "serale-2026-11-26.pdf",
      "name_orig": "serale-2026-11-26.pdf",
@@ -1665,24 +1676,13 @@
      "sha": "3c234f84df39b8e2edf422b88b04cd6e30afe409",
      "source": "artifact:estat-wrap/serale/serale-2026-11-25.pdf",
      "artifact": 15080024339
-    },
-    {
-     "name": "serale-2026-11-24.pdf",
-     "name_orig": "serale-2026-11-24.pdf",
-     "path": "assets/eurostat/serale-2026-11-24.pdf",
-     "type": "pdf",
-     "date": "2026-11-25T03:01:03Z",
-     "size": 286460,
-     "sha": "fa7d000f546bf9cce45b7965a66bcb18df8f3b32",
-     "source": "artifact:estat-wrap/serale/serale-2026-11-24.pdf",
-     "artifact": 14986773580
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-27T02:08:30Z"
+   "updated": "2026-11-28T01:54:57Z"
   },
   {
    "id": "istat",
@@ -1741,6 +1741,17 @@
    "credit": null,
    "files": [
     {
+     "name": "serale-2026-11-27.pdf",
+     "name_orig": "serale-2026-11-27.pdf",
+     "path": "assets/press-corner/serale-2026-11-27.pdf",
+     "type": "pdf",
+     "date": "2026-11-28T02:07:33Z",
+     "size": 306584,
+     "sha": "0138acb853dd34939d8a351fdd6241898521c3fc",
+     "source": "artifact:pc-wrap/serale/serale-2026-11-27.pdf",
+     "artifact": 15242984924
+    },
+    {
      "name": "serale-2026-11-26.pdf",
      "name_orig": "serale-2026-11-26.pdf",
      "path": "assets/press-corner/serale-2026-11-26.pdf",
@@ -1761,24 +1772,13 @@
      "sha": "3c234f84df39b8e2edf422b88b04cd6e30afe409",
      "source": "artifact:pc-wrap/serale/serale-2026-11-25.pdf",
      "artifact": 15080689171
-    },
-    {
-     "name": "serale-2026-11-24.pdf",
-     "name_orig": "serale-2026-11-24.pdf",
-     "path": "assets/press-corner/serale-2026-11-24.pdf",
-     "type": "pdf",
-     "date": "2026-11-25T10:07:35Z",
-     "size": 286460,
-     "sha": "fa7d000f546bf9cce45b7965a66bcb18df8f3b32",
-     "source": "artifact:pc-wrap/serale/serale-2026-11-24.pdf",
-     "artifact": 15010404272
     }
    ],
    "papers": [],
    "headlines": [],
    "error": null,
    "hero": null,
-   "updated": "2026-11-27T06:05:19Z"
+   "updated": "2026-11-28T02:07:33Z"
   },
   {
    "id": "zerohedge",
@@ -2771,17 +2771,6 @@
    13983183926,
    14062909279,
    14074553096,
-   14085949442,
-   14086390676,
-   14087972569,
-   14088187045,
-   14088402616,
-   14088577833,
-   14090046988,
-   14090816988,
-   14091053810,
-   14091917115,
-   14093830688,
    14101014547,
    14101144464,
    14101504014,
@@ -2909,10 +2898,8 @@
    14682254986,
    14682754691,
    14685230853,
-   14685304513,
    14685969671,
    14686225387,
-   14686682171,
    14688580457,
    14689226312,
    14694424374,
@@ -2978,7 +2965,9 @@
    14966338728,
    14974307555,
    14982810765,
+   14984976848,
    14986704344,
+   14986773580,
    14986802205,
    14988341076,
    14988365843,
@@ -2989,6 +2978,9 @@
    14995879891,
    14996153242,
    14996396921,
+   15009794158,
+   15010049238,
+   15010404272,
    15011051964,
    15011231345,
    15011247076,
@@ -3003,6 +2995,7 @@
    15062975170,
    15070500713,
    15076684997,
+   15080222026,
    15084674466,
    15132029033,
    15143057739,
@@ -3010,7 +3003,9 @@
    15157272786,
    15163369644,
    15170482345,
-   15210600438
+   15210600438,
+   15234269773,
+   15239937506
   ]
  },
  "monitor": {
